@@ -13,10 +13,10 @@
 | [On the Information Loss of Multi-Token Prediction: Origin and Solution](NeurIPS2026-MTPInformationLoss/README.md) | 待补 | 沿用已有分类、摘要与阅读记录，以主要贡献确定唯一物理目录。 |
 | [Speculative Self-Distillation enables Efficient Knowledge Internalization](NeurIPS2026-SpeculativeSelfDistillation/README.md) | 待补 | 沿用已有分类、摘要与阅读记录，以主要贡献确定唯一物理目录。 |
 | [Qwen3.5: Towards Native Multimodal Agents](Blog2026-Qwen3.5/README.md) | 博客 | 既有记录将该博客作为原生 MTP 背景；保持博客身份，不计入论文数量。 |
-| [OmniOPD:  Logit-Free On-Policy Distillation via Speculative Verification](ICLR2027-OmniOPD/README.md) | 待补 | 相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。 |
-| [SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation](ICLR2027-SAKI/README.md) | 待补 | 相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。 |
+| [OmniOPD:  Logit-Free On-Policy Distillation via Speculative Verification](ICLR2027-OmniOPD/README.md) | [PDF](ICLR2027-OmniOPD/OmniOPD.pdf) | 相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。 |
+| [SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation](ICLR2027-SAKI/README.md) | [PDF](ICLR2027-SAKI/SAKI.pdf) | 相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。 |
 | [FlashMTP: Flash Multi-Token Prediction](ICLR2027-FlashMTP/README.md) | 待补 | 相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。 |
 | [Speculative Rollback Correction: Counterfactual Credit Assignment for GUI Agent Imitation](ICLR2027-SpeculativeRollbackCorrection/README.md) | 待补 | 相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。 |
-| [LightMTP: Lightweight Latent Multi-Token Prediction](ICLR2027-LightMTP/README.md) | 待补 | 相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。 |
+| [LightMTP: Lightweight Latent Multi-Token Prediction](ICLR2027-LightMTP/README.md) | [PDF](ICLR2027-LightMTP/LightMTP.pdf) | 相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。 |
 | [Multi-Token Prediction and Alternative Tokenization Improve Learning Latent Multi-Hop Graph Search at Scale](ICLR2027-MultiTokenPredictionandAlternativeTokenization/README.md) | 待补 | 相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。 |
 | [Speculative Fine-Tuning: Accelerated Supervised Fine-Tuning with Speculative Heads](ICLR2027-SpeculativeFine-Tuning/README.md) | 待补 | 相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。 |

@@ -12,7 +12,7 @@
 | [XSpecMesh: Quality-Preserving Auto-Regressive Mesh Generation Acceleration via Multi-Head Speculative Decoding](ICML2026-XSpecMesh/README.md) | [PDF](ICML2026-XSpecMesh/XSpecMesh.pdf) | 沿用已有分类、摘要与阅读记录，以主要贡献确定唯一物理目录。 |
 | [SSD: Spatially Speculative Decoding Accelerates Autoregressive Image Generation](ICLR2027-SSD/README.md) | [PDF](ICLR2027-SSD/SSD.pdf) | 用于图像／视频生成的推测解码。 |
 | [SJD-VP: Speculative Jacobi Decoding with Verification Prediction for Autoregressive Image Generation](ICLR2027-SJD-VP/README.md) | [PDF](ICLR2027-SJD-VP/SJD-VP.pdf) | 用于图像／视频生成的推测解码。 |
-| [Speculative Forcing for Efficient Autoregressive Video Generation](ICLR2027-SpeculativeForcingforEfficientAutoregressiveVideo/README.md) | 待补 | 用于图像／视频生成的推测解码。 |
+| [Speculative Forcing for Efficient Autoregressive Video Generation](ICLR2027-SpeculativeForcingforEfficientAutoregressiveVideo/README.md) | [PDF](ICLR2027-SpeculativeForcingforEfficientAutoregressiveVideo/SpeculativeForcingforEfficientAutoregressiveVideo.pdf) | 用于图像／视频生成的推测解码。 |
 | [Speculative Decoding for Autoregressive Video Generation](ICLR2027-SpeculativeDecodingforAutoregressiveVideoGeneration/README.md) | [PDF](ICLR2027-SpeculativeDecodingforAutoregressiveVideoGeneration/SpeculativeDecodingforAutoregressiveVideoGeneration.pdf) | 用于图像／视频生成的推测解码。 |
 | [Predictive Speculative Coupling: Distribution-Preserving Acceleration of Autoregressive Visual Generation](ICLR2027-PredictiveSpeculativeCoupling/README.md) | 待补 | 用于图像／视频生成的推测解码。 |
 | [The Shape of Speculation: Efficient Draft Topology for Speculative Jacobi Decoding in Autoregressive Image Generation](ICLR2027-TheShapeofSpeculation/README.md) | 待补 | 用于图像／视频生成的推测解码。 |

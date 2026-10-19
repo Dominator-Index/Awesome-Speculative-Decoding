@@ -15,7 +15,7 @@
 | [Why Speculative Decoding Works Better Than Predicted on Sparse MoE Models](NeurIPS2026-MoESDSpeedup/README.md) | 待补 | 沿用已有分类、摘要与阅读记录，以主要贡献确定唯一物理目录。 |
 | [JetSpec: Breaking the Scaling Ceiling of Speculative Decoding with Parallel Tree Drafting](ICLR2027-JetSpec/README.md) | [PDF](ICLR2027-JetSpec/JetSpec.pdf) | 主要贡献是理论、误差分析、基准或性能机理。 |
 | [Beyond Acceptance Prediction: When Adaptivity Pays Off in Speculative Decoding](ICLR2027-BeyondAcceptancePrediction/README.md) | 待补 | 主要贡献是理论、误差分析、基准或性能机理。 |
-| [Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting](ICLR2027-BeyondParallelBlindness/README.md) | 待补 | 主要贡献是理论、误差分析、基准或性能机理。 |
+| [Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting](ICLR2027-BeyondParallelBlindness/README.md) | [PDF](ICLR2027-BeyondParallelBlindness/BeyondParallelBlindness.pdf) | 主要贡献是理论、误差分析、基准或性能机理。 |
 | [Lossless, Yet Not Identical: Execution-Level Numerical Bifurcations in Speculative Decoding](ICLR2027-LosslessYetNotIdentical/README.md) | 待补 | 主要贡献是理论、误差分析、基准或性能机理。 |
 | [Revisiting Lossy Verification in Speculative Decoding: Mechanisms, Trade-offs, and Failure Modes](ICLR2027-RevisitingLossyVerificationinSpeculativeDecoding/README.md) | [PDF](ICLR2027-RevisitingLossyVerificationinSpeculativeDecoding/RevisitingLossyVerificationinSpeculativeDecoding.pdf) | 主要贡献是理论、误差分析、基准或性能机理。 |
 | [Attaining and Surpassing the IID Ceiling in Multi-Draft Speculative Decoding](ICLR2027-AttainingandSurpassingtheIIDCeiling/README.md) | 待补 | 主要贡献是理论、误差分析、基准或性能机理。 |

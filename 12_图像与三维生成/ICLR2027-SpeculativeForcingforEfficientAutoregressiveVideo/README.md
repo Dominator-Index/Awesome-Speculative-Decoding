@@ -6,6 +6,8 @@
 - [投稿页面](https://openreview.net/forum?id=KOxYqUAFpT)；ICLR 2027 投稿快照记录；非录用，当前状态未由官方 API 实时复核。
 - 发现依据：[公开元数据镜像](https://github.com/yzc-666/iclr2027-explorer)，2026-10-07 快照；当前官方 API 返回 HTTP 403。
 - 快照状态：`active`；它不表示今天的实时状态。
+- [作者预印本](https://arxiv.org/abs/2610.22347)；arXiv 与投稿版本可能不同。
+- PDF 补充检索：2026-10-19 已按完整题名检索；未下载条目另按方法名与辨识词补搜。检索失败不能推断论文没有公开 PDF。
 
 ## 2. 分类与定位
 
@@ -19,6 +21,10 @@
 
 ## 3. 本地文件与证据边界
 
-尚未取得可校验 PDF。已尝试本条 OpenReview PDF 地址，但当前网络返回访问限制；若没有匹配到作者预印本，保留待补状态，不以网页或其他论文代替。逐条错误记录保存在 `conference_2027_manifest.json`。
+[阅读 PDF](SpeculativeForcingforEfficientAutoregressiveVideo.pdf)，20 页。文件头、`pdfinfo` 与 SHA-256 已核查。标题核对采用元数据匹配与首页词项覆盖检查，不表示独立复现全部论文实验。
+
+SHA-256：`3f43947fea6055d3661ffcdb0af11529dbd68c991c1e4b2cbd31004bf999a34c`。
+
+[文件下载来源](https://arxiv.org/pdf/2610.22347)。
 
 输出保证：尚未逐篇独立核查；须区别目标采样分布、贪心输出一致、语义质量及工具轨迹保证。

@@ -39,7 +39,7 @@
 | [Correct While Verifying: Intermediate Target Predictions for Speculative Draft Correction](ICLR2027-CorrectWhileVerifying/README.md) | 待补 | 主要问题是候选树、多路径组织、采样耦合或验证机制。 |
 | [ReTree: Budget-Efficient Tree Speculative Decoding via Path Guidance and Sibling Recovery](ICLR2027-ReTree/README.md) | 待补 | 主要问题是候选树、多路径组织、采样耦合或验证机制。 |
 | [Co-Evolving Trees and Control Policies: Bridging Posterior Optimality and Online Efficiency in Speculative Decoding](ICLR2027-Co-EvolvingTreesandControlPolicies/README.md) | 待补 | 主要问题是候选树、多路径组织、采样耦合或验证机制。 |
-| [Rank-Aware Speculative Sampling for Diffusion Draft Trees](ICLR2027-RankAwareSpeculativeSamplingforDiffusion/README.md) | 待补 | 主要问题是候选树、多路径组织、采样耦合或验证机制。 |
+| [Rank-Aware Speculative Sampling for Diffusion Draft Trees](ICLR2027-RankAwareSpeculativeSamplingforDiffusion/README.md) | [PDF](ICLR2027-RankAwareSpeculativeSamplingforDiffusion/RankAwareSpeculativeSamplingforDiffusion.pdf) | 主要问题是候选树、多路径组织、采样耦合或验证机制。 |
 | [Block Verification for Speculative Coupled Decoding](ICLR2027-BlockVerificationSCD/README.md) | 待补 | 主要问题是候选树、多路径组织、采样耦合或验证机制。 |
 | [SKIVE: Sparse-KV Importance-scheduled Verification by Expected true positives](ICLR2027-SKIVE/README.md) | 待补 | 主要问题是候选树、多路径组织、采样耦合或验证机制。 |
 | [Hybrid Verified Decoding: Learning to Allocate Verification in Speculative Decoding](ICLR2027-HybridVerifiedDecoding/README.md) | [PDF](ICLR2027-HybridVerifiedDecoding/HybridVerifiedDecoding.pdf) | 主要问题是候选树、多路径组织、采样耦合或验证机制。 |

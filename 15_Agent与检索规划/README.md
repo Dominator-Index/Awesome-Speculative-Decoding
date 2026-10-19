@@ -15,11 +15,11 @@ Agent 行动、检索链与规划层面的推测执行。
 | [Guess First, Correct the Rest: Graph Speculative Retrieval for Multi-hop Reasoning](ICLR2027-GuessFirstCorrecttheRest/README.md) | 待补 | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
 | [Risk-Controlled Speculative Prefetching for Tool-Augmented Dialogue](ICLR2027-RiskControlledSpeculativePrefetchingforTool/README.md) | 待补 | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
 | [PERSEUS: Non-Blocking Parallel Exploration with a Speculative Swarm](ICLR2027-PERSEUS/README.md) | 待补 | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
-| [Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems](ICLR2027-DraftingAgentsNotJustTokens/README.md) | 待补 | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
+| [Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems](ICLR2027-DraftingAgentsNotJustTokens/README.md) | [PDF](ICLR2027-DraftingAgentsNotJustTokens/DraftingAgentsNotJustTokens.pdf) | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
 | [ACCORDION: Breaking Dependency Barriers in Multi-Agent LLM Workflows via Context Speculation](ICLR2027-ACCORDION/README.md) | 待补 | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
-| [DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation](ICLR2027-DualSpec/README.md) | 待补 | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
+| [DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation](ICLR2027-DualSpec/README.md) | [PDF](ICLR2027-DualSpec/DualSpec.pdf) | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
 | [ProSpect: Proactive Speculation for Lossless Acceleration of Multi-Agent Systems](ICLR2027-ProSpect-MAS/README.md) | 待补 | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
-| [ObsSpec: Accelerating Agentic Reinforcement Learning with Observation Speculation](ICLR2027-ObsSpec/README.md) | 待补 | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
+| [ObsSpec: Accelerating Agentic Reinforcement Learning with Observation Speculation](ICLR2027-ObsSpec/README.md) | [PDF](ICLR2027-ObsSpec/ObsSpec.pdf) | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
 | [LEAP: Learning Efficient Action Proposals For LLM Agents](ICLR2027-LEAP/README.md) | [PDF](ICLR2027-LEAP/LEAP.pdf) | 涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。 |
 
 ## 交叉阅读：Agentic token 级推测解码

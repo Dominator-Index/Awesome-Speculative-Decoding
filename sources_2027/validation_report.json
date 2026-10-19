@@ -5,12 +5,13 @@
   "screened_candidates": 328,
   "included": 269,
   "excluded": 59,
-  "included_with_pdf": 81,
-  "included_pdf_pending": 188,
+  "included_with_pdf": 95,
+  "included_pdf_pending": 174,
   "total_papers": 391,
-  "total_pdf_entries": 187,
+  "total_pdf_entries": 201,
   "broken_local_links": [],
   "missing_pdfs": [],
   "sha256_mismatches": [],
-  "official_live_status_verified": false
+  "official_live_status_verified": false,
+  "validation_refreshed_at": "2026-10-19"
 }

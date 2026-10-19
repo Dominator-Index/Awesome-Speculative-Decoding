@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-19",
+  "before_pending": 188,
+  "full_title_searches": 188,
+  "additional_short_title_searches": 175,
+  "newly_downloaded": [
+    {
+      "id": "rZc9uOU2OO",
+      "title": "OmniOPD:  Logit-Free On-Policy Distillation via Speculative Verification",
+      "pdf_file": "16_MTP与蒸馏背景/ICLR2027-OmniOPD/OmniOPD.pdf",
+      "source": "https://arxiv.org/pdf/2606.01476",
+      "title_coverage": 1.0
+    },
+    {
+      "id": "NLXgdOlPSb",
+      "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting",
+      "pdf_file": "10_基准与机制分析/ICLR2027-BeyondParallelBlindness/BeyondParallelBlindness.pdf",
+      "source": "https://arxiv.org/pdf/2608.27339",
+      "title_coverage": 0.727
+    },
+    {
+      "id": "TKYYT98LKw",
+      "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+      "pdf_file": "16_MTP与蒸馏背景/ICLR2027-SAKI/SAKI.pdf",
+      "source": "https://arxiv.org/pdf/2609.36601",
+      "title_coverage": 1.0
+    },
+    {
+      "id": "WGFgksL7DY",
+      "title": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression",
+      "pdf_file": "17_长上下文与近似计算/ICLR2027-WhentoEvictNotWhattoKeep/WhentoEvictNotWhattoKeep.pdf",
+      "source": "https://arxiv.org/pdf/2609.33334",
+      "title_coverage": 0.933
+    },
+    {
+      "id": "KOxYqUAFpT",
+      "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+      "pdf_file": "12_图像与三维生成/ICLR2027-SpeculativeForcingforEfficientAutoregressiveVideo/SpeculativeForcingforEfficientAutoregressiveVideo.pdf",
+      "source": "https://arxiv.org/pdf/2610.22347",
+      "title_coverage": 1.0
+    },
+    {
+      "id": "Tp9I0PbJPD",
+      "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes",
+      "pdf_file": "19_安全隐私与水印/ICLR2027-WatermarkableMultiDraftSpeculativeSamplingvia/WatermarkableMultiDraftSpeculativeSamplingvia.pdf",
+      "source": "https://arxiv.org/pdf/2609.21858",
+      "title_coverage": 1.0
+    },
+    {
+      "id": "2H371RoBQf",
+      "title": "Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems",
+      "pdf_file": "15_Agent与检索规划/ICLR2027-DraftingAgentsNotJustTokens/DraftingAgentsNotJustTokens.pdf",
+      "source": "https://arxiv.org/pdf/2610.16491",
+      "title_coverage": 1.0
+    },
+    {
+      "id": "ki673uxHST",
+      "title": "LightMTP: Lightweight Latent Multi-Token Prediction",
+      "pdf_file": "16_MTP与蒸馏背景/ICLR2027-LightMTP/LightMTP.pdf",
+      "source": "https://arxiv.org/pdf/2610.06031",
+      "title_coverage": 1.0
+    },
+    {
+      "id": "PHlDfWcIa9",
+      "title": "Speculative Decoding Has Disparate Impacts",
+      "pdf_file": "19_安全隐私与水印/ICLR2027-SpeculativeDecodingHasDisparateImpacts/SpeculativeDecodingHasDisparateImpacts.pdf",
+      "source": "https://arxiv.org/pdf/2510.02128",
+      "title_coverage": 0.8
+    },
+    {
+      "id": "84LlzycwO8",
+      "title": "DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation",
+      "pdf_file": "15_Agent与检索规划/ICLR2027-DualSpec/DualSpec.pdf",
+      "source": "https://arxiv.org/pdf/2603.07416",
+      "title_coverage": 1.0
+    },
+    {
+      "id": "t7ryJLliBv",
+      "title": "Speculate with Memory: Lossless Acceleration for LLM Agents",
+      "pdf_file": "20_检索与复用草稿/ICLR2027-SpeculatewithMemory/SpeculatewithMemory.pdf",
+      "source": "https://arxiv.org/pdf/2607.12236",
+      "title_coverage": 1.0
+    },
+    {
+      "id": "Hx1bHuWiR7",
+      "title": "ObsSpec: Accelerating Agentic Reinforcement Learning with Observation Speculation",
+      "pdf_file": "15_Agent与检索规划/ICLR2027-ObsSpec/ObsSpec.pdf",
+      "source": "https://arxiv.org/pdf/2610.15246",
+      "title_coverage": 1.0
+    },
+    {
+      "id": "hQhAZ6H4Vc",
+      "title": "Rank-Aware Speculative Sampling for Diffusion Draft Trees",
+      "pdf_file": "04_候选树与采样验证/ICLR2027-RankAwareSpeculativeSamplingforDiffusion/RankAwareSpeculativeSamplingforDiffusion.pdf",
+      "source": "https://arxiv.org/pdf/2610.02251",
+      "title_coverage": 1.0
+    },
+    {
+      "id": "ljRSQUO06H",
+      "title": "Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools",
+      "pdf_file": "19_安全隐私与水印/ICLR2027-GhostToolCalls/GhostToolCalls.pdf",
+      "source": "https://arxiv.org/pdf/2606.02483",
+      "title_coverage": 1.0
+    }
+  ],
+  "newly_downloaded_count": 14,
+  "remaining_pending": 174,
+  "access_boundary": "OpenReview 请求返回 HTTP 403；普通浏览器跳到浏览器验证页。待补不表示论文没有公开 PDF。"
+}

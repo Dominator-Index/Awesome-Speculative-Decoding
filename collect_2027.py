@@ -77,7 +77,7 @@ def retrieve(p):
   if r.returncode==0 and tmp.exists() and tmp.read_bytes().startswith(b'%PDF-') and subprocess.run(['pdfinfo',str(tmp)],capture_output=True).returncode==0:
    tmp.replace(pdf);valid=True;p['download_url']=url;break
   errors.append({'url':url,'error':r.stderr[-180:]});tmp.unlink(missing_ok=True)
- p['status']='downloaded' if valid else 'pdf_unavailable';p['download_errors']=errors
+ p['status']='downloaded' if valid else 'pdf_pending';p['download_errors']=errors
  if valid:
   p['pdf_file']=str(pdf.relative_to(ROOT));p['sha256']=hashlib.sha256(pdf.read_bytes()).hexdigest();p['bytes']=pdf.stat().st_size
   info=subprocess.check_output(['pdfinfo',str(pdf)],stderr=subprocess.DEVNULL,text=True)
@@ -99,6 +99,8 @@ if __name__=='__main__':
   if not reason and x['match_basis']!='title' and x['id'] not in EXTRA_KEEP:reason='已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。'
   if reason:excluded.append({'id':x['id'],'title':x['title'],'source_url':x['source_url'],'reason':reason});continue
   p=dict(x);key=classify(p);cat=cats[key];am=arxiv.get(norm(p['title']))
+  for field in ['arxiv_id','arxiv_title','pdf_discovery_url','pdf_match_basis','title_version_note','pdf_searches','pdf_search_pass']:
+   if previous_batch.get(p['id'],{}).get(field):p[field]=previous_batch[p['id']][field]
   if am:p.update(arxiv_id=am['arxiv_id'],arxiv_title=am['title'])
   if p['id'] in ARXIV_OVERRIDES:p['arxiv_id']=ARXIV_OVERRIDES[p['id']]
   previous=oldbytitle.get(norm(p['title']));record=layouttitles.get(norm(p['title']))

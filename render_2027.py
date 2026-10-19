@@ -37,12 +37,14 @@ if __name__=='__main__':
   if p['id']!='NcnAlaUt76':
    text=f"# {p['title']}\n\n## 1. 来源与状态\n\n- OpenReview ID：`{p['id']}`，投稿编号：{p['number']}。\n- [投稿页面]({p['source_url']})；{p['venue_status']}。\n- 发现依据：[公开元数据镜像](https://github.com/yzc-666/iclr2027-explorer)，2026-10-07 快照；当前官方 API 返回 HTTP 403。\n- 快照状态：`{p['status_at_snapshot']}`；它不表示今天的实时状态。\n"
    if p.get('arxiv_id'):text+=f"- [作者预印本](https://arxiv.org/abs/{p['arxiv_id']})；arXiv 与投稿版本可能不同。\n"
+   if p.get('pdf_searches'):text+='- PDF 补充检索：2026-10-19 已按完整题名检索；未下载条目另按方法名与辨识词补搜。检索失败不能推断论文没有公开 PDF。\n'
+   if p.get('title_version_note'):text+=f"- 版本对应说明：{p['title_version_note']}\n"
    if p.get('status_observation'):text+=f"- 状态差异：{p['status_observation']} [观察来源]({p['status_observation_url']})。\n"
    text+=f"\n## 2. 分类与定位\n\n主分类：**{p['primary_category']}**。\n\n{p['summary_zh']}\n\n分类依据：{p['classification_basis']}\n\n交叉主题：{', '.join(p['secondary_topics']) or '未单独标注'}。这是题名与摘要的初筛分类，尚未逐篇重新精读全文；目录采用主要贡献，其余主题交叉标记。描述性目录简称不一定是作者给定的方法缩写。\n\n## 3. 本地文件与证据边界\n\n"
    if p['status']=='downloaded':
     text+=f"[阅读 PDF]({pathlib.Path(p['pdf_file']).name})，{p['pages']} 页。文件头、`pdfinfo` 与 SHA-256 已核查。标题核对采用元数据匹配与首页词项覆盖检查，不表示独立复现全部论文实验。\n\nSHA-256：`{p['sha256']}`。\n"
     if p.get('download_url'):text+=f"\n[文件下载来源]({p['download_url']})。\n"
-   else:text+='尚未取得可校验 PDF。已尝试本条 OpenReview PDF 地址，但当前网络返回访问限制；若没有匹配到作者预印本，保留待补状态，不以网页或其他论文代替。逐条错误记录保存在 `conference_2027_manifest.json`。\n'
+   else:text+='**已检索，尚未下载成功；不表示论文没有公开 PDF。** 当前环境访问 OpenReview 会遇到 HTTP 403 或浏览器验证；公开页面、作者预印本和下载文件分别记录。未取得可校验文件时保持待补，不以网页或其他论文替代。逐条检索与请求记录保存在 `conference_2027_manifest.json` 和根目录 `sources_2027/pdf_search_2026-10-19.json`。\n'
    text+='\n输出保证：'+p['output_guarantee']+'\n'
    if p['id']=='UwMYxYHQSG':text+='\n## 4. 进一步阅读\n\n[定位与阅读笔记](定位与阅读笔记.md)：token 级与动作级区别、历史 KV、训练方式，以及 Agentic 评测的时间口径。\n'
    (d/'README.md').write_text(text)
@@ -92,7 +94,7 @@ DLite 附录的 BFCL 统计不计工具执行时间；其 acceptance length 也�
  intro+='\n## 5. PDF 待补与排除记录\n\n待补条目已经建立 README，正文记录当前下载限制；不是已完成 PDF 收集的条目。\n\n| 投稿编号 | 论文 | OpenReview |\n| --- | --- | --- |\n'
  for p in papers:
   if p['status']!='downloaded':intro+=f"| {p['number']} | [{p['title']}]({p['directory_path']}/README.md) | [链接]({p['source_url']}) |\n"
- intro+='\n完整初筛：[search_candidates.json](sources_2027/search_candidates.json)。逐条排除：[excluded.json](sources_2027/excluded.json)。保留清单与下载记录：[conference_2027_manifest.json](conference_2027_manifest.json)。快照出处：[upstream_provenance.json](sources_2027/upstream_provenance.json)。\n\n## 6. 后续维护\n\n`discover_2027.py` 复现固定快照与 arXiv 发现过程；`collect_2027.py` 复用已有 PDF 并补下载；`render_2027.py` 合并记录和更新分类。重新访问的快照日期与实时状态必须分别记录。当前分类为初筛导航，并非论文性能排序。\n'
+ intro+='\n完整初筛：[search_candidates.json](sources_2027/search_candidates.json)。逐条排除：[excluded.json](sources_2027/excluded.json)。保留清单与下载记录：[conference_2027_manifest.json](conference_2027_manifest.json)。快照出处：[upstream_provenance.json](sources_2027/upstream_provenance.json)。\n\n补充 PDF 检索：[完整题名检索](sources_2027/pdf_search_2026-10-19.json)、[方法名与辨识词补搜](sources_2027/pdf_search_short_2026-10-19.json)。待补表示本地没有取得文件，不表示该公开投稿没有 PDF。\n\n## 6. 后续维护\n\n`discover_2027.py` 复现固定快照与 arXiv 发现过程；`collect_2027.py` 复用已有 PDF 并补下载；`render_2027.py` 合并记录和更新分类。重新访问的快照日期与实时状态必须分别记录。当前分类为初筛导航，并非论文性能排序。\n'
  (ROOT/'ICLR2027.md').write_text(intro)
  # Rebuild category indexes from authoritative layout while keeping individual older notes.
  for c in cats.values():

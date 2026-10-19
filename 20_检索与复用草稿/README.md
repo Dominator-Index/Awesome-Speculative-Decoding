@@ -12,6 +12,6 @@ n-gram、上下文复制、轨迹检索、历史后缀复用和参数／检索�
 | [UBTree: Parallel Tree Drafting via Unigram and Bigram Models for Speculative Decoding](ICLR2027-UBTree/README.md) | [PDF](ICLR2027-UBTree/UBTree.pdf) | 主要问题是从上下文、历史或检索库复用候选。 |
 | [AgSpec: Pushing the Limits of Retrieval-Based Speculative Decoding in Coding Agent Pipelines](ICLR2027-AgSpec/README.md) | [PDF](ICLR2027-AgSpec/AgSpec.pdf) | 主要问题是从上下文、历史或检索库复用候选。 |
 | [Extractive Speculative Decoding: Lempel-Ziv Limits and How to Approach Them](ICLR2027-ExtractiveSpeculativeDecoding/README.md) | 待补 | 主要问题是从上下文、历史或检索库复用候选。 |
-| [Speculate with Memory: Lossless Acceleration for LLM Agents](ICLR2027-SpeculatewithMemory/README.md) | 待补 | 主要问题是从上下文、历史或检索库复用候选。 |
+| [Speculate with Memory: Lossless Acceleration for LLM Agents](ICLR2027-SpeculatewithMemory/README.md) | [PDF](ICLR2027-SpeculatewithMemory/SpeculatewithMemory.pdf) | 主要问题是从上下文、历史或检索库复用候选。 |
 | [Frequencies Rank, Probabilities Allocate: Calibrated Draft Trees for Drafter-Free Speculative Decoding](ICLR2027-FrequenciesRankProbabilitiesAllocate/README.md) | 待补 | 主要问题是从上下文、历史或检索库复用候选。 |
 | [SuffixSpec: Hierarchical Context-Aware Memory for Training-Free Speculative Decoding](ICLR2027-SuffixSpec/README.md) | 待补 | 主要问题是从上下文、历史或检索库复用候选。 |

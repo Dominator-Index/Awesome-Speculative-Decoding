@@ -1,0 +1,3986 @@
+{
+  "date": "2026-10-19",
+  "scope": "逐篇完整题名网络检索；仅保存结果标题与链接，候选须核对后下载。",
+  "batches": [
+    {
+      "papers": [
+        {
+          "id": "e9RG7RBDSX",
+          "title": "Cadence: Regulating the Speculation Externality in LLM Serving",
+          "acronym": "Cadence"
+        },
+        {
+          "id": "ie4ipFVb04",
+          "title": "LAM++: Enhanced LocateAnything via High-Resolution Post-Training and Geometry-Aware Speculative Decoding",
+          "acronym": "LAM++"
+        },
+        {
+          "id": "V295SYnVAe",
+          "title": "PC-VOT: Prefix-Coupled Verifier-Induced Optimal Transport for Draft Training",
+          "acronym": "PC-VOT"
+        },
+        {
+          "id": "M4lxTHfZHj",
+          "title": "Spec$^2$: Efficient VLA Control through Action Decoding and Propagation",
+          "acronym": "Spec2"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Cadence: Regulating the Speculation Externality in LLM Serving\""
+        },
+        {
+          "q": "\"LAM++: Enhanced LocateAnything via High-Resolution Post-Training and Geometry-Aware Speculative Decoding\""
+        },
+        {
+          "q": "\"PC-VOT: Prefix-Coupled Verifier-Induced Optimal Transport for Draft Training\""
+        },
+        {
+          "q": "\"Spec$^2$: Efficient VLA Control through Action Decoding and Propagation\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Downloads",
+          "url": "https://neurips.cc/Downloads/2026"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://neurips.cc/Downloads/2025"
+        },
+        {
+          "title": "arXiv Papers of Vision-Language",
+          "url": "https://hongsong-wang.github.io/Vision-Language/"
+        },
+        {
+          "title": "arXiv Papers with Code in Computer Science (September 2025)",
+          "url": "https://hongsong-wang.github.io/arXiv09/"
+        },
+        {
+          "title": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence | IJCAI",
+          "url": "https://www.ijcai.org/proceedings/2025/"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "rZc9uOU2OO",
+          "title": "OmniOPD:  Logit-Free On-Policy Distillation via Speculative Verification",
+          "acronym": "OmniOPD"
+        },
+        {
+          "id": "6LPQVnHdF5",
+          "title": "Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding",
+          "acronym": "FactorizationGuided"
+        },
+        {
+          "id": "CeYnTqMlWL",
+          "title": "Making Computation Count: Speculative State Recycling for Flow-Based VLAs",
+          "acronym": "MakingComputationCount"
+        },
+        {
+          "id": "tyokGv9qrV",
+          "title": "LoadMatch: Balancing Memory and Compute Loads in Quantized Models using Speculative Decoding",
+          "acronym": "LoadMatch"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification\""
+        },
+        {
+          "q": "\"Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding\""
+        },
+        {
+          "q": "\"Making Computation Count: Speculative State Recycling for Flow-Based VLAs\""
+        },
+        {
+          "q": "\"LoadMatch: Balancing Memory and Compute Loads in Quantized Models using Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification",
+          "url": "https://arxiv.org/abs/2606.01476"
+        },
+        {
+          "title": "Paper page - OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification",
+          "url": "https://huggingface.co/papers/2606.01476"
+        },
+        {
+          "title": "Yifan Wu",
+          "url": "https://yifannnwu.github.io/"
+        },
+        {
+          "title": "dblp: OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification.",
+          "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2606-01476.html"
+        },
+        {
+          "title": "OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification: Analysis, Review & Summary | Paperium",
+          "url": "https://paperium.net/article/article/19369/omniopd-logit-free-on-policy-distillation-via-speculative-verification"
+        },
+        {
+          "title": "OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification | Computing Research Repository | DeepDyve",
+          "url": "https://www.deepdyve.com/lp/arxiv/omniopd-logit-free-on-policy-distillation-via-speculative-verification-0Dk2KOqrF0"
+        },
+        {
+          "title": "OmniOPD:投機的検証を介したロジット無しオンポリシー蒸留〖JST機械翻訳〗 | 文献情報 | J-GLOBAL 科学技術総合リンクセンター",
+          "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602202189239926"
+        },
+        {
+          "title": "OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification — Lacuna",
+          "url": "https://lacuna.tiptreesystems.com/work/omniopd-logit-free-on-policy-distillation-via-speculative-verification/wrk_f858b4a86e8fe84536fd252283bfca02"
+        },
+        {
+          "title": "publications | Lizhu Zhang",
+          "url": "https://zhanglizhu.github.io/publications/"
+        },
+        {
+          "title": "OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification | alphaXiv",
+          "url": "https://www.alphaxiv.org/abs/2606.01476v2"
+        },
+        {
+          "title": "(PDF) OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification",
+          "url": "https://www.researchgate.net/publication/405683991_OmniOPD_Logit-Free_On-Policy_Distillation_via_Speculative_Verification"
+        },
+        {
+          "title": "OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification | alphaXiv",
+          "url": "https://www.alphaxiv.org/uk/abs/2606.01476"
+        },
+        {
+          "title": "MiMo-V2-Flash Technical Report · Pith",
+          "url": "https://pith.science/citations/1f3df90c-4bc3-49b1-ad9b-7f3b34e4ffba?verdict=REJECT"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "pXjoxWMzLd",
+          "title": "Beyond Acceptance Prediction: When Adaptivity Pays Off in Speculative Decoding",
+          "acronym": "BeyondAcceptancePrediction"
+        },
+        {
+          "id": "I5CQFZWM7f",
+          "title": "PercepDraft for Efficient Generative Perception",
+          "acronym": "PercepDraftforEfficientGenerativePerception"
+        },
+        {
+          "id": "BVi9zGlAq4",
+          "title": "Gentoo: Draft Continuously, Decode Discretely",
+          "acronym": "Gentoo"
+        },
+        {
+          "id": "96mkAG7gh1",
+          "title": "Speculating on the Past: Lossless Reuse of Stale KV Caches via Self-Speculative Verification",
+          "acronym": "SpeculatingonthePast"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Beyond Acceptance Prediction: When Adaptivity Pays Off in Speculative Decoding\""
+        },
+        {
+          "q": "\"PercepDraft for Efficient Generative Perception\""
+        },
+        {
+          "q": "\"Gentoo: Draft Continuously, Decode Discretely\""
+        },
+        {
+          "q": "\"Speculating on the Past: Lossless Reuse of Stale KV Caches via Self-Speculative Verification\""
+        }
+      ],
+      "results": [
+        {
+          "title": "All English Words",
+          "url": "https://words.chlod.net/"
+        },
+        {
+          "title": "Reading List",
+          "url": "https://www.joepivetti.com/reading-list.html"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://rag-chunk-visualizer-proxy.modelpark.app/papers?q=KV+cache+reuse"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "4lifCr6HGQ",
+          "title": "VTD: Visible-Text Drafting for Speculative Decoding in Vision-Language Models",
+          "acronym": "VTD"
+        },
+        {
+          "id": "mQIHtKbJrZ",
+          "title": "Xtra-MTP: State-Efficient Parallel Verification for Hybrid Language Models",
+          "acronym": "Xtra-MTP"
+        },
+        {
+          "id": "PkRfbBnIf4",
+          "title": "Think Less, Retrieve Earlier: Self-Speculative Retrieval for Efficient Retrieval-Augmented Generation",
+          "acronym": "ThinkLessRetrieveEarlier"
+        },
+        {
+          "id": "XYWTGsEIkT",
+          "title": "DiSpecWAM: Distillation and Speculative Inference for World Action Models",
+          "acronym": "DiSpecWAM"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"VTD: Visible-Text Drafting for Speculative Decoding in Vision-Language Models\""
+        },
+        {
+          "q": "\"Xtra-MTP: State-Efficient Parallel Verification for Hybrid Language Models\""
+        },
+        {
+          "q": "\"Think Less, Retrieve Earlier: Self-Speculative Retrieval for Efficient Retrieval-Augmented Generation\""
+        },
+        {
+          "q": "\"DiSpecWAM: Distillation and Speculative Inference for World Action Models\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Xtra-MTP: State-Efficient Parallel Verification for Hybrid Language Models[v1] | Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202610.0641"
+        },
+        {
+          "title": "Wenqi Pei · National University of Singapore | Seata",
+          "url": "https://scholar.seata.ai/scholars/wenqi-pei?sort=year"
+        },
+        {
+          "title": "Michael Heinrich | alphaXiv",
+          "url": "https://www.alphaxiv.org/zh/%40michael-heinrich"
+        },
+        {
+          "title": "Real-Time Execution of Action Chunking Flow Policies · mlsanity",
+          "url": "https://mlsanity.com/paper/2506.07339/"
+        },
+        {
+          "title": "Search | arXiv e-print repository",
+          "url": "https://rt.http3.lol/index.php?q=aHR0cHM6Ly9hcnhpdi5vcmcvc2VhcmNoL2NzP3NlYXJjaHR5cGU9YXV0aG9yJnF1ZXJ5PVpoYW5nJTJDK1Q"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=decision--draft--reflect+pipeline"
+        },
+        {
+          "title": "Search | arXiv e-print repository",
+          "url": "https://www.tempodimare.com/?_=%2Fsearch%2Fcs%23nIKhFiPUZajrdh0GkGynKZM%3D&query=Du%2C+L&searchtype=author"
+        },
+        {
+          "title": "Search | arXiv e-print repository",
+          "url": "https://slimjectvitamins.com/accel-vitamin-b-complex-capsules/?_=%2Fsearch%2Fcs%23CD3DgejCa2b3OIySVEszRQc%3D&query=Dai%2C+C&searchtype=author"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://rag-chunk-visualizer-proxy.modelpark.app/papers?q=inference+optimizations"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=denoising+prediction"
+        },
+        {
+          "title": "VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon · mlsanity",
+          "url": "https://mlsanity.com/paper/2607.01804/"
+        },
+        {
+          "title": "arXiv Papers of Large Language Model Agent",
+          "url": "https://hongsong-wang.github.io/LLM_Agent/"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "obt59DdVCm",
+          "title": "DChord: Schema-Aware Speculative Decoding for Structured Generation",
+          "acronym": "DChord"
+        },
+        {
+          "id": "NLXgdOlPSb",
+          "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting",
+          "acronym": "BeyondParallelBlindness"
+        },
+        {
+          "id": "B0oyr1Zdjv",
+          "title": "Directly Maximizing On-policy Expected Accepted Length for Speculative Decoding",
+          "acronym": "OnPolicyEAL"
+        },
+        {
+          "id": "pxyCtHARqW",
+          "title": "LoopDraft: Target-Guided Multi-State Recurrence for Speculative Decoding",
+          "acronym": "LoopDraft"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"DChord: Schema-Aware Speculative Decoding for Structured Generation\""
+        },
+        {
+          "q": "\"Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting\""
+        },
+        {
+          "q": "\"Directly Maximizing On-policy Expected Accepted Length for Speculative Decoding\""
+        },
+        {
+          "q": "\"LoopDraft: Target-Guided Multi-State Recurrence for Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting",
+          "url": "https://arxiv.org/abs/2608.27339"
+        },
+        {
+          "title": "Paper page - Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting",
+          "url": "https://huggingface.co/papers/2608.27339"
+        },
+        {
+          "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting | alphaXiv",
+          "url": "https://www.alphaxiv.org/abs/2608.27339"
+        },
+        {
+          "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting · Pith",
+          "url": "https://pith.science/paper/2608.27339"
+        },
+        {
+          "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting",
+          "url": "https://www.catalyzex.com/paper/beyond-parallel-blindness-information-floors"
+        },
+        {
+          "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting - Paper Detail",
+          "url": "https://deeplearn.org/arxiv/815432/beyond-parallel-blindness%3A-information-floors-and-model-gaps-in-block-drafting"
+        },
+        {
+          "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting · ScholarBro",
+          "url": "https://scholarbro.com/p/30336-beyond-parallel-blindness-information-floors-and-model-gaps-in-block"
+        },
+        {
+          "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting | The Latest in AI",
+          "url": "https://thelatestinai.com/papers/2608.27339"
+        },
+        {
+          "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting | Scholar Feed",
+          "url": "https://www.scholarfeed.org/paper/2608.27339"
+        },
+        {
+          "title": "[2608.27339] Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting",
+          "url": "https://vpn.luca-server.com/px/aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDguMjczMzk"
+        },
+        {
+          "title": "Beyond Parallel Blindness: Information Floors and Model...",
+          "url": "https://arxivlens.com/paperview/details/beyond-parallel-blindness-information-floors-and-model-gaps-in-block-drafting-6559-840aeb0e"
+        },
+        {
+          "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting | AI Research Paper Details",
+          "url": "https://www.aimodels.fyi/papers/arxiv/beyond-parallel-blindness-information-floors-model-gaps"
+        },
+        {
+          "title": "[Literature Review] Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting",
+          "url": "https://www.themoonlight.io/en/review/beyond-parallel-blindness-information-floors-and-model-gaps-in-block-drafting"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "TKYYT98LKw",
+          "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+          "acronym": "SAKI"
+        },
+        {
+          "id": "3rRLnNk2BP",
+          "title": "RELAY: Momentum Drafting from Hidden Transitions for Speculative Decoding",
+          "acronym": "RELAY"
+        },
+        {
+          "id": "5IQp6EOHry",
+          "title": "STEP: Separating Trajectory Evolution and Prediction for Speculative Decoding",
+          "acronym": "STEP"
+        },
+        {
+          "id": "UL6sPWpM1z",
+          "title": "Shaping What to Verify: Realizable Multi-Path Speculative Decoding",
+          "acronym": "ShapingWhattoVerify"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation\""
+        },
+        {
+          "q": "\"RELAY: Momentum Drafting from Hidden Transitions for Speculative Decoding\""
+        },
+        {
+          "q": "\"STEP: Separating Trajectory Evolution and Prediction for Speculative Decoding\""
+        },
+        {
+          "q": "\"Shaping What to Verify: Realizable Multi-Path Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Paper page - SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+          "url": "https://huggingface.co/papers/2609.36601"
+        },
+        {
+          "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2609.36601"
+        },
+        {
+          "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation | alphaXiv",
+          "url": "https://www.alphaxiv.org/abs/2609.36601"
+        },
+        {
+          "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation — Lacuna",
+          "url": "https://lacuna.tiptreesystems.com/work/saki-maximal-coupling-routed-teacher-supervision-for-on-policy-distillation/wrk_4f766fb3e966944480ceebe6768c0f09"
+        },
+        {
+          "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation: Analysis, Review & Summary | Paperium",
+          "url": "https://paperium.net/article/library/24602/saki-maximal-coupling-routed-teacher-supervision-for-on-policy-distillation"
+        },
+        {
+          "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation · Pith",
+          "url": "https://pith.science/paper/2609.36601"
+        },
+        {
+          "title": "Zehao Chen | OmanScience",
+          "url": "https://www.omanscience.com/en/authors/af37d269-66a9-491d-a467-006db6e36442"
+        },
+        {
+          "title": "Draft-OPD: On-Policy Distillation for Speculative Draft Models · mlsanity",
+          "url": "https://mlsanity.com/paper/2605.29343/"
+        },
+        {
+          "title": "AI Paper Digest — 2026-09-30",
+          "url": "https://amarcu.github.io/ai-paper-digest/archive/2026-09-30.html"
+        },
+        {
+          "title": "Zehao Chen",
+          "url": "https://www.catalyzex.com/author/Zehao%20Chen"
+        },
+        {
+          "title": "Process-Level Supervision research | The Latest in AI",
+          "url": "https://thelatestinai.com/topics/sample-level-supervision?density=cards"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=routing+supervision"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=reverse-KL"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "mXaSfeDwq2",
+          "title": "OneiroDraft: Reading the Latent Dreams for Speculative Decoding",
+          "acronym": "OneiroDraft"
+        },
+        {
+          "id": "Hxdi4f7oMh",
+          "title": "A Sampling-Centric Framework for Tree Speculative Decoding",
+          "acronym": "ASamplingCentricFrameworkforTree"
+        },
+        {
+          "id": "vxPm9hAWCN",
+          "title": "AdaptSpec: Input- and Step-Adaptive Tree-Based Speculative Decoding to Accelerate LLM Inference",
+          "acronym": "AdaptSpec"
+        },
+        {
+          "id": "WGFgksL7DY",
+          "title": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression",
+          "acronym": "WhentoEvictNotWhattoKeep"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"OneiroDraft: Reading the Latent Dreams for Speculative Decoding\""
+        },
+        {
+          "q": "\"A Sampling-Centric Framework for Tree Speculative Decoding\""
+        },
+        {
+          "q": "\"AdaptSpec: Input- and Step-Adaptive Tree-Based Speculative Decoding to Accelerate LLM Inference\""
+        },
+        {
+          "q": "\"When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression\""
+        }
+      ],
+      "results": [
+        {
+          "title": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression",
+          "url": "https://arxiv.org/abs/2609.33334"
+        },
+        {
+          "title": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression — Lacuna",
+          "url": "https://lacuna.tiptreesystems.com/work/when-to-evict-not-what-to-keep-draft"
+        },
+        {
+          "title": "[Literature Review] When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression",
+          "url": "https://www.themoonlight.io/en/review/when-to-evict-not-what-to-keep-draft-guided-eviction-for-training-free-kv-cache-compression"
+        },
+        {
+          "title": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression | AI Research Paper Details",
+          "url": "https://www.aimodels.fyi/papers/arxiv/when-evict-not-what-keep-draft-guided"
+        },
+        {
+          "title": "Inference - Domain Research Papers - Arxiv Search | Arxiv - DeepPaper",
+          "url": "https://arxiv.deeppaper.ai/domain_tags/Inference?locale=en"
+        },
+        {
+          "title": "dblp: Chang Dong Yoo",
+          "url": "https://dblp.dagstuhl.de/pid/31/7819.html?view=by-year"
+        },
+        {
+          "title": "Key-Value Cache Compression research | The Latest in AI",
+          "url": "https://thelatestinai.com/topics/key-value-cache-compression"
+        },
+        {
+          "title": "何时驱逐而非保留什么：用于免训练 KV Cache 压缩的草稿引导驱逐策略 | Arxiv - DeepPaper",
+          "url": "https://arxiv.deeppaper.ai/papers/2609.33334v1"
+        },
+        {
+          "title": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression | Cool Papers - Immersive Paper Discovery",
+          "url": "https://papers.cool/arxiv/2609.33334"
+        },
+        {
+          "title": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression",
+          "url": "https://chatpaper.com/zh-CN/chatpaper/paper/350596"
+        },
+        {
+          "title": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression | The Latest in AI",
+          "url": "https://thelatestinai.com/papers/2609.33334"
+        },
+        {
+          "title": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression",
+          "url": "https://chatpaper.com/de/paper/350596"
+        },
+        {
+          "title": "Post by @cslg-bot.bsky.social — Bluesky",
+          "url": "https://bsky.app/profile/cslg-bot.bsky.social/post/3mwnaahjbow2q"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "qK086eGRNS",
+          "title": "SODA: Subspace Online Drafter Adaptation for Speculative Decoding",
+          "acronym": "SODA"
+        },
+        {
+          "id": "qZ176Ev65f",
+          "title": "TraSURE: Exploiting Cross-trajectory Recurrence to Accelerate Information-seeking RL Rollouts over Shared Corpora",
+          "acronym": "TraSURE"
+        },
+        {
+          "id": "FdEDds2GWP",
+          "title": "Efficient EAGLE-3 Training via Structure-Aware Execution",
+          "acronym": "EAGLE3-Training"
+        },
+        {
+          "id": "o9QQ5aTWFw",
+          "title": "QSpar: Co-Designing Sparse Attention and Quantized Weights for Long-Context Self-Speculative Decoding",
+          "acronym": "QSpar"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"SODA: Subspace Online Drafter Adaptation for Speculative Decoding\""
+        },
+        {
+          "q": "\"TraSURE: Exploiting Cross-trajectory Recurrence to Accelerate Information-seeking RL Rollouts over Shared Corpora\""
+        },
+        {
+          "q": "\"Efficient EAGLE-3 Training via Structure-Aware Execution\""
+        },
+        {
+          "q": "\"QSpar: Co-Designing Sparse Attention and Quantized Weights for Long-Context Self-Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "acceptodds: Which papers will get accepted at ICLR 2027?",
+          "url": "https://acceptodds.com/?kind=ICLR+2027&sort=volume&status=open"
+        },
+        {
+          "title": "Findings of the Association for Computational Linguistics: EMNLP 2023 - ACL Anthology",
+          "url": "https://aclanthology.org/volumes/2023.findings-emnlp/"
+        },
+        {
+          "title": "64th Annual Meeting of the Association for Computational Linguistics - ACL Anthology",
+          "url": "https://aclanthology.org/events/acl-2026/"
+        },
+        {
+          "title": "chrisliu298/awesome-on-policy-distillation - GitHubHelp",
+          "url": "https://githubhelp.com/chrisliu298/awesome-on-policy-distillation"
+        },
+        {
+          "title": "Publications - Apple Machine Learning Research",
+          "url": "https://pr-mlr-shield-prod.apple.com/research/?domain=Human-Computer+Interaction"
+        },
+        {
+          "title": "October 2026 — AI Post Transformers",
+          "url": "https://podcast.do-not-panic.com/2026/10/index.html"
+        },
+        {
+          "title": "Machine Learning",
+          "url": "https://borowiecki.dev/list/cs.LG/new"
+        },
+        {
+          "title": "Arxiv Day: Article",
+          "url": "https://arxivday.com/articles?date=2024-05-30"
+        },
+        {
+          "title": "Notes for Weekly/Monthly Good News – Computer Sciences – UW–Madison",
+          "url": "https://www.cs.wisc.edu/notes-for-weekly-monthly-good-news/"
+        },
+        {
+          "title": "AI Reproducibility Index",
+          "url": "https://reproducibilityindex.ai/venues/NeurIPS/2025"
+        },
+        {
+          "title": "GitHub - chrisliu298/awesome-on-policy-distillation: A curated collection of papers, technical reports, frameworks, and tools for on-policy distillation (OPD) of large language models · GitHub",
+          "url": "https://github.itlym.cn/chrisliu298/awesome-on-policy-distillation"
+        },
+        {
+          "title": "AI Post Transformers Podcast Republic",
+          "url": "https://podcastrepublic.net/podcast/1835878324"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "nKNo5G1zJO",
+          "title": "DSpark-OPD: Acceptance-Aligned On-Policy Distillation for Semi-Autoregressive Speculative Drafting",
+          "acronym": "DSpark-OPD"
+        },
+        {
+          "id": "eg1MphIBtj",
+          "title": "Do Not Regenerate What is in Your Context: Instant Context Reuse via a Pointer Head",
+          "acronym": "DoNotRegenerateWhatisinYourContext"
+        },
+        {
+          "id": "2Ql5mfYaVv",
+          "title": "Taurus: Accelerating Private LLM Inference via Homomorphic Speculative Decoding",
+          "acronym": "Taurus"
+        },
+        {
+          "id": "UF86Kl5V5s",
+          "title": "PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations",
+          "acronym": "PACT-VLA"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"DSpark-OPD: Acceptance-Aligned On-Policy Distillation for Semi-Autoregressive Speculative Drafting\""
+        },
+        {
+          "q": "\"Do Not Regenerate What is in Your Context: Instant Context Reuse via a Pointer Head\""
+        },
+        {
+          "q": "\"Taurus: Accelerating Private LLM Inference via Homomorphic Speculative Decoding\""
+        },
+        {
+          "q": "\"PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations\""
+        }
+      ],
+      "results": [
+        {
+          "title": "PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations | acceptodds",
+          "url": "https://acceptodds.com/papers/iclr2027-14351"
+        },
+        {
+          "title": "acceptodds: Which papers will make it?",
+          "url": "https://acceptodds.com/?kind=all&page=6&sort=activity&status=open"
+        },
+        {
+          "title": "DEFLECT: Temporal Counterfactual Preference Learning for Delay-Robust Asynchronous VLAs | acceptodds",
+          "url": "https://acceptodds.com/papers/iclr2027-14336"
+        },
+        {
+          "title": "Field Manual | ASDLC.io",
+          "url": "https://asdlc.io/fieldmanual/"
+        },
+        {
+          "title": "GitHub - AIDASLab/Awesome-Diffusion-LLM: A comprehensive list of papers about Large-Language-Diffusion-Models. · GitHub",
+          "url": "https://github.com/AIDASLab/Awesome-Diffusion-LLM"
+        },
+        {
+          "title": "Full Code of CryptoAILab/Awesome-LM-SSP for AI - Complete Repository Source | GitExtract",
+          "url": "https://gitextract.com/CryptoAILab/Awesome-LM-SSP"
+        },
+        {
+          "title": "arXiv Papers of Large Language Model Agent",
+          "url": "https://hongsong-wang.github.io/LLM_Agent/"
+        },
+        {
+          "title": "PDF document",
+          "url": "https://device.report/m/bbf3caeeaecdbc03d6c1a413197fc34e49843d9589117106289f079b0506f532"
+        },
+        {
+          "title": "U.S. Patent Application for EMULATED BRAIN Patent Application (Application #20100088262 issued April 8, 2010) - Justia Patents Search",
+          "url": "https://patents.justia.com/patent/20100088262"
+        },
+        {
+          "title": "Production — Agentic AI & RAG",
+          "url": "https://venukiran004.github.io/tutorial-hub-site/07_GenAI_and_LLMs/production.html"
+        },
+        {
+          "title": "LLM inference Arxiv Daily | Automatically Update inference Papers Daily using Github Actions (Update Every 8th hours)",
+          "url": "https://toseic.github.io/LLM-inference-arxiv-daily/"
+        },
+        {
+          "title": "Software Wrighter Lab Blog | AI coding agents, systems programming, and practical machine learning",
+          "url": "https://software-wrighter-lab.github.io/"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "jvM6vXIZmm",
+          "title": "SAVE-WAM: Speculative Action Verification with Environment Feedback for Asynchronous World-Action Models",
+          "acronym": "SAVE-WAM"
+        },
+        {
+          "id": "R8vnFuDNce",
+          "title": "SpecRoute: Multi-Step Speculation for Efficient LLM Agent Serving",
+          "acronym": "SpecRoute"
+        },
+        {
+          "id": "tDiKtIhJoT",
+          "title": "D-VOLT: Training Speculative Drafters with Token-Conditional Acceptance Values",
+          "acronym": "D-VOLT"
+        },
+        {
+          "id": "k9spbZ0wpw",
+          "title": "From Alignment Diagnosis to Joint Supervision in Multimodal Draft Training",
+          "acronym": "FromAlignmentDiagnosistoJointSupervision"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"SAVE-WAM: Speculative Action Verification with Environment Feedback for Asynchronous World-Action Models\""
+        },
+        {
+          "q": "\"SpecRoute: Multi-Step Speculation for Efficient LLM Agent Serving\""
+        },
+        {
+          "q": "\"D-VOLT: Training Speculative Drafters with Token-Conditional Acceptance Values\""
+        },
+        {
+          "q": "\"From Alignment Diagnosis to Joint Supervision in Multimodal Draft Training\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Zhiren Gong | Academic Homepage",
+          "url": "https://gongzhiren.github.io/personal-website/"
+        },
+        {
+          "title": "acceptodds: Which papers will make it?",
+          "url": "https://acceptodds.com/?kind=all&page=2&sort=activity&status=open"
+        },
+        {
+          "title": "Search | arXiv e-print repository",
+          "url": "https://rt.http3.lol/index.php?q=aHR0cHM6Ly9hcnhpdi5vcmcvc2VhcmNoL2NzP3NlYXJjaHR5cGU9YXV0aG9yJnF1ZXJ5PVl1YW4lMkMrQw"
+        },
+        {
+          "title": "GitHub - BofangJia/Awesome-Video-Action-Model · GitHub",
+          "url": "https://github.com/BofangJia/Awesome-Video-Action-Model"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=agentic+LLM+serving"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=model+invocations"
+        },
+        {
+          "title": "bioRxiv directory",
+          "url": "https://connect.biorxiv.org/archive/10.1126/meta_gs.php?id=10.1101%2F2025.04.28.650976"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=multi-tier+shared-memory+architecture"
+        },
+        {
+          "title": "arXiv Papers of Large Language Model Agent",
+          "url": "https://hongsong-wang.github.io/LLM_Agent/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=low-latency+LLM+serving"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "EhutNBs58R",
+          "title": "AOSR: Asynchronous On-Policy Speculative Rollout for Efficient Distillation of Autoregressive Image Generators",
+          "acronym": "AOSR"
+        },
+        {
+          "id": "mG4ymMBptL",
+          "title": "RIVET: Ragged Inference with Variable-Granularity Execution for Token-Tree Verification in Speculative Decoding",
+          "acronym": "RIVET"
+        },
+        {
+          "id": "BnaJK6Bt2v",
+          "title": "LatticeSpec: From Draft Chains to Verification Lattices for Efficient Diffusion Language Model Decoding",
+          "acronym": "LatticeSpec"
+        },
+        {
+          "id": "YRpiRnJeC8",
+          "title": "Janus: Breaking Layer-Bound KV-Cache Layouts to Accelerate Local Agent Inference",
+          "acronym": "Janus"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"AOSR: Asynchronous On-Policy Speculative Rollout for Efficient Distillation of Autoregressive Image Generators\""
+        },
+        {
+          "q": "\"RIVET: Ragged Inference with Variable-Granularity Execution for Token-Tree Verification in Speculative Decoding\""
+        },
+        {
+          "q": "\"LatticeSpec: From Draft Chains to Verification Lattices for Efficient Diffusion Language Model Decoding\""
+        },
+        {
+          "q": "\"Janus: Breaking Layer-Bound KV-Cache Layouts to Accelerate Local Agent Inference\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Neural Trend Hub — Daily AI paper briefings",
+          "url": "https://www.neuraltrendhub.com/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=partial+rollout"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=rollout+engines"
+        },
+        {
+          "title": "Brief · AI research papers, explained for builders · ScatterAI",
+          "url": "https://scatterai.com/brief"
+        },
+        {
+          "title": "Search | arXiv e-print repository",
+          "url": "https://www.tempodimare.com/?_=%2Fsearch%2Fcs%23nIKhFiPUZajrdh0GkGynKZM%3D&query=He%2C+Y&searchtype=author"
+        },
+        {
+          "title": "Computer Science — SciFlux Prime",
+          "url": "https://scifluxprime.com/category/computer-science/"
+        },
+        {
+          "title": "arXiv Papers of Large Language Model Agent",
+          "url": "https://hongsong-wang.github.io/LLM_Agent/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://hf-p-cfw.fyan.top/papers?q=high-entropy+tokens"
+        },
+        {
+          "title": "U.S. Patent Application for Content-Aware Hybrid Quantum Enhanced Optimization and Orchestration Layer Patent Application (Application #20260148042 issued May 28, 2026) - Justia Patents Search",
+          "url": "https://patents.justia.com/patent/20260148042"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "ZOZCV5K6hs",
+          "title": "SPECULATIVE CACHE LINE PUNCTURING: GRANULAR MEMORY REDUCTION FOR LLM INFERENCE",
+          "acronym": "SPECULATIVECACHELINEPUNCTURING"
+        },
+        {
+          "id": "VHD7PibsBE",
+          "title": "Guess First, Correct the Rest: Graph Speculative Retrieval for Multi-hop Reasoning",
+          "acronym": "GuessFirstCorrecttheRest"
+        },
+        {
+          "id": "SEZ5XRutsS",
+          "title": "CSD: Confidence- and Stability-Guided Speculative Decoding in Large Language Models",
+          "acronym": "CSD"
+        },
+        {
+          "id": "o8gjwPRG1o",
+          "title": "CHARD: Efficient Block-Diffusion Speculative Decoding via Chunked Verification and Immediate Redrafting",
+          "acronym": "CHARD"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"SPECULATIVE CACHE LINE PUNCTURING: GRANULAR MEMORY REDUCTION FOR LLM INFERENCE\""
+        },
+        {
+          "q": "\"Guess First, Correct the Rest: Graph Speculative Retrieval for Multi-hop Reasoning\""
+        },
+        {
+          "q": "\"CSD: Confidence- and Stability-Guided Speculative Decoding in Large Language Models\""
+        },
+        {
+          "q": "\"CHARD: Efficient Block-Diffusion Speculative Decoding via Chunked Verification and Immediate Redrafting\""
+        }
+      ],
+      "results": [
+        {
+          "title": "64th Annual Meeting of the Association for Computational Linguistics - ACL Anthology",
+          "url": "https://aclanthology.org/events/acl-2026/"
+        },
+        {
+          "title": "Findings of the Association for Computational Linguistics: ACL 2025 - ACL Anthology",
+          "url": "https://aclanthology.org/volumes/2025.findings-acl/"
+        },
+        {
+          "title": "(PDF) Stalled, Biased, and Confused: Uncovering Reasoning Failures in LLMs for Cloud-Based Root Cause Analysis",
+          "url": "https://www.researchgate.net/publication/400339662_Stalled_Biased_and_Confused_Uncovering_Reasoning_Failures_in_LLMs_for_Cloud-Based_Root_Cause_Analysis"
+        },
+        {
+          "title": "19th Conference of the European Chapter of the Association for Computational Linguistics - ACL Anthology",
+          "url": "https://aclanthology.org/events/eacl-2026/"
+        },
+        {
+          "title": "19th Conference of the European Chapter of the Association for Computational Linguistics - ACL Anthology",
+          "url": "https://t.co/v51o9GxgdR"
+        },
+        {
+          "title": "Inference Report — Research",
+          "url": "https://inference.report/research/2026-10-07"
+        },
+        {
+          "title": "ICLR 2026 Accepted Papers",
+          "url": "https://kmno4-zx.github.io/iclr26-all-papers/"
+        },
+        {
+          "title": "Daily arXiv Papers - 2026-03-13",
+          "url": "https://blog.yueqianlin.com/daily-publication/260313/"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://icml.cc/Downloads/2026"
+        },
+        {
+          "title": "au:Mroueh_Y in:stat - SciRate Search",
+          "url": "https://scirate.com/search?q=au%3AMroueh_Y+in%3Astat"
+        },
+        {
+          "title": "ACMMM2025",
+          "url": "https://hongsong-wang.github.io/ACMMM25_arXiv/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=stochastic+decoding"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "lOBoYNcChS",
+          "title": "Lossless, Yet Not Identical: Execution-Level Numerical Bifurcations in Speculative Decoding",
+          "acronym": "LosslessYetNotIdentical"
+        },
+        {
+          "id": "McGNyPiTO0",
+          "title": "At What Cost? Evaluating the Security Impact of Lossy Speculative Decoding",
+          "acronym": "AtWhatCostEvaluatingtheSecurity"
+        },
+        {
+          "id": "B7yFidWcay",
+          "title": "Accelerating Agentic Multimodal LLMs via Asynchronous Tool-Trajectory Speculation",
+          "acronym": "AcceleratingAgenticMultimodalLLMsviaAsynchronous"
+        },
+        {
+          "id": "RARM3oKsSJ",
+          "title": "SAS: Scaling Speculative Drafting for Efficient 1T LLM Serving with Semi-Autoregressive Decoding",
+          "acronym": "SAS"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Lossless, Yet Not Identical: Execution-Level Numerical Bifurcations in Speculative Decoding\""
+        },
+        {
+          "q": "\"At What Cost? Evaluating the Security Impact of Lossy Speculative Decoding\""
+        },
+        {
+          "q": "\"Accelerating Agentic Multimodal LLMs via Asynchronous Tool-Trajectory Speculation\""
+        },
+        {
+          "q": "\"SAS: Scaling Speculative Drafting for Efficient 1T LLM Serving with Semi-Autoregressive Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=parallel+tool+invocation+paradigm"
+        },
+        {
+          "title": "Inference Report — Research",
+          "url": "https://inference.report/research/2026-10-07"
+        },
+        {
+          "title": "arXiv Papers of Large Language Model Agent",
+          "url": "https://hongsong-wang.github.io/LLM_Agent/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=Asynchronous+Execution+Engine"
+        },
+        {
+          "title": "Synaptic Insights",
+          "url": "https://blog.yonstor.com/?next_cursor=WzE3OTA3MzM4OTg2MjAsImgxN00wcThMaU0yIl0&order=desc&sort=published_at"
+        },
+        {
+          "title": "Speculative Decoding for Multimodal Models: A Survey[v1] | Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202603.2344/v1"
+        },
+        {
+          "title": "U.S. Patent Application for Content-Aware Hybrid Quantum Enhanced Optimization and Orchestration Layer Patent Application (Application #20260148042 issued May 28, 2026) - Justia Patents Search",
+          "url": "https://patents.justia.com/patent/20260148042"
+        },
+        {
+          "title": "Reinforcement Learning for Large Models | PDF | Artificial Intelligence | Intelligence (AI) & Semantics",
+          "url": "https://www.scribd.com/document/972059990/A-Survey-of-Reinforcement-Learning-for-Large-Reasoning-Models"
+        },
+        {
+          "title": "Speculative Decoding for Multimodal Models: A Survey[v2] | Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202603.2344"
+        },
+        {
+          "title": "GitHub - ZinYY/Awesome-Parallel-Decoding: Parallel Decoding of Language Models: A Survey. A systematic survey of parallel decoding, covering speculative decoding, diffusion LLMs, etc... · GitHub",
+          "url": "https://github.com/ZinYY/Awesome-Parallel-Decoding"
+        },
+        {
+          "title": "US20260148042A1 - Content-Aware Hybrid Quantum Enhanced Optimization and Orchestration Layer - Google Patents",
+          "url": "https://patents.google.com/patent/US20260148042A1/en"
+        },
+        {
+          "title": "Claude Fable 5 & Claude Mythos 5 System Card | PDF | Risk | Artificial Intelligence",
+          "url": "https://www.scribd.com/document/1052690873/Claude-Fable-5-Claude-Mythos-5-System-Card"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "k0iOorALaH",
+          "title": "When Mismatches Overlap: Concurrent Verification for Speculative Decoding",
+          "acronym": "WhenMismatchesOverlap"
+        },
+        {
+          "id": "LTnds9XemH",
+          "title": "BagDraft: Next-Bag-of-Tokens Drafting for Lossless Speculative Decoding",
+          "acronym": "BagDraft"
+        },
+        {
+          "id": "KOxYqUAFpT",
+          "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+          "acronym": "SpeculativeForcingforEfficientAutoregressiveVideo"
+        },
+        {
+          "id": "GSx2Gzx6Ei",
+          "title": "Risk-Controlled Speculative Prefetching for Tool-Augmented Dialogue",
+          "acronym": "RiskControlledSpeculativePrefetchingforTool"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"When Mismatches Overlap: Concurrent Verification for Speculative Decoding\""
+        },
+        {
+          "q": "\"BagDraft: Next-Bag-of-Tokens Drafting for Lossless Speculative Decoding\""
+        },
+        {
+          "q": "\"Speculative Forcing for Efficient Autoregressive Video Generation\""
+        },
+        {
+          "q": "\"Risk-Controlled Speculative Prefetching for Tool-Augmented Dialogue\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+          "url": "https://speculative-forcing.github.io/"
+        },
+        {
+          "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+          "url": "https://arxiv.org/abs/2610.22347"
+        },
+        {
+          "title": "Speculative Forcing for Efficient Autoregressive Video Generation: Analysis, Review & Summary | Paperium",
+          "url": "https://paperium.net/article/article/25696/speculative-forcing-for-efficient-autoregressive-video-generation"
+        },
+        {
+          "title": "Speculative Forcing for Efficient Autoregressive Video Generation | alphaXiv",
+          "url": "https://www.alphaxiv.org/abs/2610.22347"
+        },
+        {
+          "title": "Video Generation - Domain Research Papers - Arxiv Search | Arxiv - DeepPaper",
+          "url": "https://arxiv.deeppaper.ai/domain_tags/Video%20Generation?locale=en"
+        },
+        {
+          "title": "GitHub - longxiang-ai/awesome-video-diffusions: A curated and auto-updated collection of video diffusion / video generation papers from arXiv, covering text-to-video, image-to-video, controllable generation, world models, video editing, and 16+ research categories. · GitHub",
+          "url": "https://github.com/longxiang-ai/awesome-video-diffusions"
+        },
+        {
+          "title": "Sangdoo Yun",
+          "url": "https://www.catalyzex.com/author/Sangdoo%20Yun"
+        },
+        {
+          "title": "Speculative Forcing for Efficient Autoregressive Video Generation | MLinfo",
+          "url": "https://mlinfo.vercel.app/article/arxiv-2610.22347"
+        },
+        {
+          "title": "Speculative Forcing for Efficient Autoregressive Video Generation · PaperPeel",
+          "url": "https://www.paperpeel.com/paper/2610.22347"
+        },
+        {
+          "title": "Be Forced To",
+          "url": "https://www.catalyzex.com/s/Be%20Forced%20To"
+        },
+        {
+          "title": "用于高效自回归视频生成的推测强制（Speculative Forcing）｜arXiv 2610.22347｜arXivDaily",
+          "url": "https://www.arxivdaily.com/papers/2610.22347"
+        },
+        {
+          "title": "Speculative Forcing freezes converged tokens… · AGI Hunt",
+          "url": "https://agihunt.info/en/papers/2610.22347"
+        },
+        {
+          "title": "[논문리뷰] Speculative Forcing for Efficient Autoregressive Video Generation - secrett2633's blog",
+          "url": "https://blog.secrett2633.cloud/ai/review/2026-10-16-Speculative-Forcing-for-Efficient-Autoregressive-Video-Generation"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "QekNiN2I9H",
+          "title": "Never Sampled, Always Accepted: Commitment Injection Through Top-$k$ Verification in Speculative Decoding",
+          "acronym": "NeverSampledAlwaysAccepted"
+        },
+        {
+          "id": "SPM8WSZyeY",
+          "title": "FlashMTP: Flash Multi-Token Prediction",
+          "acronym": "FlashMTP"
+        },
+        {
+          "id": "KeEqxAB6P0",
+          "title": "Window Pool: Verify-Aligned Routing for MoE Speculative Decoding",
+          "acronym": "WindowPool"
+        },
+        {
+          "id": "WLStKyK5Qp",
+          "title": "Speculative Rollback Correction: Counterfactual Credit Assignment for GUI Agent Imitation",
+          "acronym": "SpeculativeRollbackCorrection"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Never Sampled, Always Accepted: Commitment Injection Through Top-$k$ Verification in Speculative Decoding\""
+        },
+        {
+          "q": "\"FlashMTP: Flash Multi-Token Prediction\""
+        },
+        {
+          "q": "\"Window Pool: Verify-Aligned Routing for MoE Speculative Decoding\""
+        },
+        {
+          "q": "\"Speculative Rollback Correction: Counterfactual Credit Assignment for GUI Agent Imitation\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Speculative Rollback Correction for Quality-Diverse Web Agent Imitation — AIssential",
+          "url": "https://aissential.tech/articles/1e287d09-fa6d-41e1-bc3f-5d6430be0ea1"
+        },
+        {
+          "title": "GitHub - js-lee-AI/awesome-agent-loop-papers: Companion reading list for the survey 'The Agent Loop: Control Strategies, Skills, and Harnesses for LLM Agents': 492 papers by section plus 28 open-source artifacts (frameworks, coding harnesses, skill libraries, registries). · GitHub",
+          "url": "https://github.com/js-lee-AI/awesome-agent-loop-papers"
+        },
+        {
+          "title": "Inference Report — Research",
+          "url": "https://inference.report/research/2026-10-14"
+        },
+        {
+          "title": "arXiv Papers of Large Language Model Agent",
+          "url": "https://hongsong-wang.github.io/LLM_Agent/"
+        },
+        {
+          "title": "2026-10-01～10-07 审查收口 - Auto Research",
+          "url": "https://daiwk.github.io/auto-research/research-audits/oct07-review-closure/"
+        },
+        {
+          "title": "Agentic Reinforcement Learning for LLMs | papers | ASa Book",
+          "url": "https://www.asabook.cc/en/papers/agentic-reinforcement-learning/"
+        },
+        {
+          "title": "Search | arXiv e-print repository",
+          "url": "https://rt.http3.lol/index.php?q=aHR0cHM6Ly9hcnhpdi5vcmcvc2VhcmNoL2NzP3NlYXJjaHR5cGU9YXV0aG9yJnF1ZXJ5PVhpYW8lMkMrVA"
+        },
+        {
+          "title": "May 2026 AI papers | The Year in AI Papers",
+          "url": "https://www.1kpapers.com/months/2026-05"
+        },
+        {
+          "title": "GitHub - tmgthb/Autonomous-Agents: Autonomous Agents (LLMs) research papers. Updated Daily. · GitHub",
+          "url": "https://sitelet.easiiodev.ai/sitelet?url=https%3A%2F%2Fgithub.com%2Ftmgthb%2FAutonomous-Agents"
+        },
+        {
+          "title": "Search | arXiv e-print repository",
+          "url": "https://rt.http3.lol/index.php?q=aHR0cHM6Ly9hcnhpdi5vcmcvc2VhcmNoL2NzP3NlYXJjaHR5cGU9YXV0aG9yJnF1ZXJ5PVNoYW5nJTJDK1o"
+        },
+        {
+          "title": "AI Safety Digest — week of 2026-05-24 - AI Safety Weekly",
+          "url": "https://ai-safety-weekly.github.io/ai-safety-digest/digest-2026-W21/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=native+computer-use+agent"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "7jeiNFDXAN",
+          "title": "One Call Ahead: Packed Self-Speculative Decoding with Diffusion Drafting",
+          "acronym": "OneCallAhead"
+        },
+        {
+          "id": "dvlzRyzEqP",
+          "title": "StrataSpec: Self-Speculative Decoding with Structured Routes for Efficient LLM Serving",
+          "acronym": "StrataSpec"
+        },
+        {
+          "id": "DbrIPMhiWP",
+          "title": "CurveK: Throughput-Curve Estimation for Batched Speculative Decoding",
+          "acronym": "CurveK"
+        },
+        {
+          "id": "c1q5SbSiJz",
+          "title": "RELOAD: Packed Future-State Re-Encoding for Low-Latency Exact Speculative Diffusion",
+          "acronym": "RELOAD"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"One Call Ahead: Packed Self-Speculative Decoding with Diffusion Drafting\""
+        },
+        {
+          "q": "\"StrataSpec: Self-Speculative Decoding with Structured Routes for Efficient LLM Serving\""
+        },
+        {
+          "q": "\"CurveK: Throughput-Curve Estimation for Batched Speculative Decoding\""
+        },
+        {
+          "q": "\"RELOAD: Packed Future-State Re-Encoding for Low-Latency Exact Speculative Diffusion\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Downloads",
+          "url": "https://neurips.cc/Downloads/2026"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=Shared-Prefix+Forward+strategy"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "HyQg39Fmp2",
+          "title": "SCD: Enabling Speculative Overlap for Target-Conditioned Draft Models",
+          "acronym": "SCD"
+        },
+        {
+          "id": "oh483ijJht",
+          "title": "SpecSplice: Dynamic Composition of Parametric and Retrieval-based Drafts for Agentic Speculative Decoding",
+          "acronym": "SpecSplice"
+        },
+        {
+          "id": "RW5qSXDENi",
+          "title": "SpecKV: Lossless Speculative Decoding via Dynamic KV Selection for Efficient Inference of Large Vision-Language Models",
+          "acronym": "SpecKV"
+        },
+        {
+          "id": "6yCS13MKGh",
+          "title": "Asymmetric Speculative Decoding: Unlocking In-Context Learning in Draft Models",
+          "acronym": "AsymmetricSpeculativeDecoding"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"SCD: Enabling Speculative Overlap for Target-Conditioned Draft Models\""
+        },
+        {
+          "q": "\"SpecSplice: Dynamic Composition of Parametric and Retrieval-based Drafts for Agentic Speculative Decoding\""
+        },
+        {
+          "q": "\"SpecKV: Lossless Speculative Decoding via Dynamic KV Selection for Efficient Inference of Large Vision-Language Models\""
+        },
+        {
+          "q": "\"Asymmetric Speculative Decoding: Unlocking In-Context Learning in Draft Models\""
+        }
+      ],
+      "results": [
+        {
+          "title": "SpecSplice: Dynamic Composition of Parametric and Retrieval-based Drafts for Agentic Speculative Decoding | acceptodds",
+          "url": "https://acceptodds.com/papers/iclr2027-24327"
+        },
+        {
+          "title": "SpecRouter: Reusable Payoff Prediction for Cost-Aware Speculative Decoding | acceptodds",
+          "url": "https://acceptodds.com/papers/iclr2027-53793"
+        },
+        {
+          "title": "Lidan Shou - ACL Anthology",
+          "url": "https://aclanthology.org/people/lidan-shou/"
+        },
+        {
+          "title": "Findings of the Association for Computational Linguistics (2026) - ACL Anthology",
+          "url": "https://aclanthology.org/events/findings-2026/"
+        },
+        {
+          "title": "64th Annual Meeting of the Association for Computational Linguistics - ACL Anthology",
+          "url": "https://aclanthology.org/events/acl-2026/"
+        },
+        {
+          "title": "Huan LI | Professor | PhD | Zhejiang University, Hangzhou | ZJU | College of Computer Science and Technology | Research profile",
+          "url": "https://www.researchgate.net/profile/Huan-Li-96"
+        },
+        {
+          "title": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) - ACL Anthology",
+          "url": "https://aclanthology.org/volumes/2026.acl-long/"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://iclr.cc/Downloads/2026"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://dev.neurips.cc/Downloads/2026"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=draft+length"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://neurips.cc/Downloads/2026"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://icml.cc/Downloads/2026"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "tfUX1UoIAX",
+          "title": "PERSEUS: Non-Blocking Parallel Exploration with a Speculative Swarm",
+          "acronym": "PERSEUS"
+        },
+        {
+          "id": "dqNOBArikS",
+          "title": "Training-Free Dynamic Verification Budget for Parallel Speculative Decoding",
+          "acronym": "TrainingFreeDynamicVerificationBudgetfor"
+        },
+        {
+          "id": "PCECUDVOgB",
+          "title": "MDSeq: Sequence-Level Verification for Multi-Draft Speculative Decoding",
+          "acronym": "MDSeq"
+        },
+        {
+          "id": "ewUkf1LIfW",
+          "title": "SSP: Self-Speculative Prefill",
+          "acronym": "SSP"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"PERSEUS: Non-Blocking Parallel Exploration with a Speculative Swarm\""
+        },
+        {
+          "q": "\"Training-Free Dynamic Verification Budget for Parallel Speculative Decoding\""
+        },
+        {
+          "q": "\"MDSeq: Sequence-Level Verification for Multi-Draft Speculative Decoding\""
+        },
+        {
+          "q": "\"SSP: Self-Speculative Prefill\""
+        }
+      ],
+      "results": [
+        {
+          "title": "About me - Jiaming Zhang(张家铭)",
+          "url": "https://traderbxy.github.io/jiamingzhang.github.io/"
+        },
+        {
+          "title": "Ouroboros: Generating Longer Drafts Phrase by Phrase for Faster Speculative Decoding | Request PDF",
+          "url": "https://www.researchgate.net/publication/386201810_Ouroboros_Generating_Longer_Drafts_Phrase_by_Phrase_for_Faster_Speculative_Decoding"
+        },
+        {
+          "title": "(PDF) SpecTr-GBV: Multi-Draft Block Verification Accelerating Speculative Decoding",
+          "url": "https://www.researchgate.net/publication/404307455_SpecTr-GBV_Multi-Draft_Block_Verification_Accelerating_Speculative_Decoding"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=draft-conditioned+editing"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=batched+speculative+decoding"
+        },
+        {
+          "title": "Zero-Arch: Architecture Challenge Repository",
+          "url": "https://pages.cs.wisc.edu/~karu/ArchAlphaZero/zero-arch/html/ideas-isca-2025-part1.html"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=multi-level+speculative+decoding"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://rag-chunk-visualizer-proxy.modelpark.app/papers?q=acceptance+rates"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=speculative+token+tree"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=token-level+Speculative+Decoding"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=Speculative+Decoding"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=tree-based+speculative+decoding"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "jbCrLrpaDw",
+          "title": "TraceDraft: Online Draft Adaptation During Speculative Decoding",
+          "acronym": "TraceDraft"
+        },
+        {
+          "id": "GtzE6wTswY",
+          "title": "Give the Drafter a Second Chance to Guess: Parallel Reconsideration for Speculative Decoding",
+          "acronym": "GivetheDrafteraSecondChancetoGuess"
+        },
+        {
+          "id": "fgpKZw2ryE",
+          "title": "Tree-Based Speculative Decoding for Watermark Generation via Vocabulary Partitioning",
+          "acronym": "TreeBasedSpeculativeDecodingforWatermark"
+        },
+        {
+          "id": "Ph1aakAOcb",
+          "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
+          "acronym": "SpeculativeDiffusionisaTaleof"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"TraceDraft: Online Draft Adaptation During Speculative Decoding\""
+        },
+        {
+          "q": "\"Give the Drafter a Second Chance to Guess: Parallel Reconsideration for Speculative Decoding\""
+        },
+        {
+          "q": "\"Tree-Based Speculative Decoding for Watermark Generation via Vocabulary Partitioning\""
+        },
+        {
+          "q": "\"Speculative Diffusion is a Tale of Two Tradeoffs\""
+        }
+      ],
+      "results": [
+        {
+          "title": "SpecRouter: Reusable Payoff Prediction for Cost-Aware Speculative Decoding | acceptodds",
+          "url": "https://acceptodds.com/papers/iclr2027-53793"
+        },
+        {
+          "title": "www.internationaleconomics.net: Research: Finance",
+          "url": "https://www.internationaleconomics.net/research-finance.html"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=draft+length"
+        },
+        {
+          "title": "ISHPSSB 2003 Vienna Programme and Abstracts - ISHPSSB.org",
+          "url": "https://www.ishpssb.org/past-meetings/99-2003-vienna-programme-and-abstracts"
+        },
+        {
+          "title": "Content Posted in 2026 | Technical Disclosure Commons | Technical Disclosure Commons Research",
+          "url": "https://www.tdcommons.org/2026.2.html"
+        },
+        {
+          "title": "Bob Jensen's Threads on Rotten to the Core",
+          "url": "https://faculty.trinity.edu/rjensen/FraudRottenPart2.htm"
+        },
+        {
+          "title": "Accepted Main Conference Papers - EMNLP 2025",
+          "url": "https://2025.emnlp.org/program/main_papers/"
+        },
+        {
+          "title": "Research Catalog — token-research.com",
+          "url": "https://token-research.com/research"
+        },
+        {
+          "title": "Working Papers - Page 77 of 79 - San Francisco Fed",
+          "url": "https://www.frbsf.org/research-and-insights/publications/working-papers/page/77/"
+        },
+        {
+          "title": "ACM SIGecom: Proceedings",
+          "url": "https://sigecom.org/proceedings25.html"
+        },
+        {
+          "title": "International Financial Crises",
+          "url": "https://www.internationaleconomics.net/crisis.html"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://neurips.cc/Downloads/2023"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "Tp9I0PbJPD",
+          "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes",
+          "acronym": "WatermarkableMultiDraftSpeculativeSamplingvia"
+        },
+        {
+          "id": "ueNzNzJT1R",
+          "title": "EchoSpec: Efficient Target-Integrated Speculative Decoding via Output-Projection Adaptation and Post-Target Refinement",
+          "acronym": "EchoSpec"
+        },
+        {
+          "id": "Cgc1uAuMYB",
+          "title": "ProVe: Proposer-Verifier Decoding",
+          "acronym": "ProVe"
+        },
+        {
+          "id": "kUybwAFqOH",
+          "title": "SpecGrove: Reusable Tree Capacity for Concurrent Diffusion Speculation",
+          "acronym": "SpecGrove"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Watermarkable Multi-Draft Speculative Sampling via Poisson Processes\""
+        },
+        {
+          "q": "\"EchoSpec: Efficient Target-Integrated Speculative Decoding via Output-Projection Adaptation and Post-Target Refinement\""
+        },
+        {
+          "q": "\"ProVe: Proposer-Verifier Decoding\""
+        },
+        {
+          "q": "\"SpecGrove: Reusable Tree Capacity for Concurrent Diffusion Speculation\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes",
+          "url": "https://arxiv.org/abs/2609.21858"
+        },
+        {
+          "title": "Publications",
+          "url": "https://yanxiaoliu-mike.github.io/publication.html"
+        },
+        {
+          "title": "dblp: Deniz Gündüz",
+          "url": "https://dblp.org/pid/05/6552.html"
+        },
+        {
+          "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes | AI Research Paper Details",
+          "url": "https://www.aimodels.fyi/papers/arxiv/watermarkable-multi-draft-speculative-sampling-via-poisson"
+        },
+        {
+          "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes · Pith Review",
+          "url": "https://pith.science/paper/2609.21858"
+        },
+        {
+          "title": "ISP Lab - Publications",
+          "url": "https://isp.skku.edu/publications"
+        },
+        {
+          "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes: Conceptio Open Knowledge Archive",
+          "url": "https://www.conceptio.app/document/1006782/watermarkable-multi-draft-speculative-sampling-via-poisson-processes"
+        },
+        {
+          "title": "Research — Megadose",
+          "url": "https://www.megadose.ai/c/research"
+        },
+        {
+          "title": "Yanxiao Liu - Research Papers & Publications | ArxivLens",
+          "url": "https://arxivlens.com/author/details/yanxiao-liu-1046-45802299"
+        },
+        {
+          "title": "All Papers · ArXivSignals",
+          "url": "https://arxivsignals.io/papers?cat=cs.LG&date=2026-09-21"
+        },
+        {
+          "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes | Cool Papers - Immersive Paper Discovery",
+          "url": "https://papers.cool/arxiv/2609.21858"
+        },
+        {
+          "title": "AI领域相关论文 - AiKey",
+          "url": "https://v1.seoml.com/paper"
+        },
+        {
+          "title": "#speculative-decoding 主题 - Cyber Security Daily Radar",
+          "url": "https://www.dailysecurity.cn/topics/speculative-decoding/"
+        },
+        {
+          "title": "Speculative Ensemble: Fast Large Language Model Ensemble via Speculation",
+          "url": "https://arxiv.org/abs/2502.01662"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "XTxvmGn75Z",
+          "title": "SparseDFlash: Dynamic Context Retrieval for Long-video Speculative Decoding",
+          "acronym": "SparseDFlash"
+        },
+        {
+          "id": "odAJfDLkpS",
+          "title": "Calibrate Before You Branch: Feedback-Calibrated, Cost-Aware Trees for Block-Diffusion Speculative Decoding",
+          "acronym": "CalibrateBeforeYouBranch"
+        },
+        {
+          "id": "2H371RoBQf",
+          "title": "Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems",
+          "acronym": "DraftingAgentsNotJustTokens"
+        },
+        {
+          "id": "5ayx4zhVDh",
+          "title": "Agent Turns Are Not Chat Turns: Matching Draft Supply with Verification Cost",
+          "acronym": "AgentTurnsAreNotChatTurns"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"SparseDFlash: Dynamic Context Retrieval for Long-video Speculative Decoding\""
+        },
+        {
+          "q": "\"Calibrate Before You Branch: Feedback-Calibrated, Cost-Aware Trees for Block-Diffusion Speculative Decoding\""
+        },
+        {
+          "q": "\"Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems\""
+        },
+        {
+          "q": "\"Agent Turns Are Not Chat Turns: Matching Draft Supply with Verification Cost\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems",
+          "url": "https://arxiv.org/abs/2610.16491"
+        },
+        {
+          "title": "[2610.16491] Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems",
+          "url": "https://borowiecki.dev/abs/2610.16491"
+        },
+        {
+          "title": "Drafting Agents, Not Just Tokens: Speculative Rec… - arXiv",
+          "url": "https://arxiv-troller.com/paper/3340828/"
+        },
+        {
+          "title": "Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems · Pith",
+          "url": "https://pith.science/paper/2610.16491"
+        },
+        {
+          "title": "Zhisheng Zhong | Search arXiv",
+          "url": "https://searcharxiv.org/authors/Zhisheng%20Zhong"
+        },
+        {
+          "title": "Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems | AI Research Daily",
+          "url": "https://recynie.github.io/research_pipeline/papers/2610.16491/"
+        },
+        {
+          "title": "Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems | Arxiv - DeepPaper",
+          "url": "https://arxiv.deeppaper.ai/papers/2610.16491v1"
+        },
+        {
+          "title": "Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems | The Latest in AI",
+          "url": "https://thelatestinai.com/papers/2610.16491"
+        },
+        {
+          "title": "智能体系统的推测式递归自我改进：聚焦智能体而非仅 token｜arXiv 2610.16491｜arXivDaily",
+          "url": "https://www.arxivdaily.com/papers/2610.16491"
+        },
+        {
+          "title": "Zhichao Chen",
+          "url": "https://www.catalyzex.com/author/Zhichao%20Chen"
+        },
+        {
+          "title": "[Literature Review] Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems",
+          "url": "https://www.themoonlight.io/en/review/drafting-agents-not-just-tokens-speculative-recursive-self-improvement-for-agentic-systems"
+        },
+        {
+          "title": "Jie Jiang",
+          "url": "https://www.catalyzex.com/author/Jie%20Jiang"
+        },
+        {
+          "title": "Qian Li",
+          "url": "https://www.catalyzex.com/author/Qian%20Li"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "S3CaLwxU71",
+          "title": "TamedFlow: Trajectory-Aware Distillation for Teacher-Assisted Diffusion Sampling",
+          "acronym": "TamedFlow"
+        },
+        {
+          "id": "Fq7maQpCRp",
+          "title": "HybridSpec: Throughput-Aware Speculative Decoding for Hybrid GDN-MoE Models",
+          "acronym": "HybridSpec"
+        },
+        {
+          "id": "ki673uxHST",
+          "title": "LightMTP: Lightweight Latent Multi-Token Prediction",
+          "acronym": "LightMTP"
+        },
+        {
+          "id": "6lDsDQnFPa",
+          "title": "Branch-Jacobi: Prefix-Conditioned Multi-Pass Drafting for Speculative Decoding",
+          "acronym": "Branch-Jacobi"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"TamedFlow: Trajectory-Aware Distillation for Teacher-Assisted Diffusion Sampling\""
+        },
+        {
+          "q": "\"HybridSpec: Throughput-Aware Speculative Decoding for Hybrid GDN-MoE Models\""
+        },
+        {
+          "q": "\"LightMTP: Lightweight Latent Multi-Token Prediction\""
+        },
+        {
+          "q": "\"Branch-Jacobi: Prefix-Conditioned Multi-Pass Drafting for Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "LightMTP: Lightweight Latent Multi-Token Prediction",
+          "url": "https://arxiv.org/abs/2610.06031"
+        },
+        {
+          "title": "LightMTP: Lightweight Latent Multi-Token Prediction | Arxiv - DeepPaper",
+          "url": "https://arxiv.deeppaper.ai/papers/2610.06031v1"
+        },
+        {
+          "title": "Osm Helper",
+          "url": "https://www.catalyzex.com/s/Osm%20Helper"
+        },
+        {
+          "title": "Chen Shani",
+          "url": "https://www.catalyzex.com/author/Chen%20Shani"
+        },
+        {
+          "title": "Gerard de Melo",
+          "url": "https://www.catalyzex.com/author/Gerard%20de%20Melo"
+        },
+        {
+          "title": "LightMTP: Lightweight Latent Multi-Token Prediction",
+          "url": "https://www.catalyzex.com/paper/lightmtp-lightweight-latent-multi-token"
+        },
+        {
+          "title": "LightMTP: Lightweight Latent Multi-Token Prediction | AI Research Paper Details",
+          "url": "https://www.aimodels.fyi/papers/arxiv/lightmtp-lightweight-latent-multi-token-prediction"
+        },
+        {
+          "title": "LightMTP: Lightweight Latent Multi-Token Predicti… - arXiv",
+          "url": "https://arxiv-troller.com/paper/3330369/"
+        },
+        {
+          "title": "[2610.06031] LightMTP: Lightweight Latent Multi-Token Prediction",
+          "url": "https://accelresearching.com/accel-zinc-picolinate-50mg/?_=%2Fabs%2F2610.06031%23nLw79nwZb1b3uPkZUsgpm5M%3D"
+        },
+        {
+          "title": "arXiv Troller",
+          "url": "https://arxiv-troller.com/?q=paper%3A+2610.12376"
+        },
+        {
+          "title": "arXiv Troller",
+          "url": "https://arxiv-troller.com/?q=paper%3A+2610.11399"
+        },
+        {
+          "title": "arXiv Troller",
+          "url": "https://arxiv-troller.com/?q=paper%3A+2604.02650"
+        },
+        {
+          "title": "arXiv Troller",
+          "url": "https://arxiv-troller.com/?q=paper%3A+2610.08879"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "QBdP6DyGVr",
+          "title": "SpecSys: Selective Speculative Decoding and Completion-Aware Scheduling for Efficient Agentic LLM Inference",
+          "acronym": "SpecSys"
+        },
+        {
+          "id": "vUB0qVCmXh",
+          "title": "VFlash-FM: Training for One-Pass Drafting in Video Language Models",
+          "acronym": "VFlash-FM"
+        },
+        {
+          "id": "nZ8sDQf0dN",
+          "title": "Queue-Aware Combinatorial Bandit Scheduling for Speculative Decoding in Cloud–Edge LLM Serving",
+          "acronym": "QueueAwareCombinatorialBanditSchedulingfor"
+        },
+        {
+          "id": "RGyZN08gPv",
+          "title": "RamoMark: Multi-Bit Watermarking via Randomness-Modulated Speculative Sampling",
+          "acronym": "RamoMark"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"SpecSys: Selective Speculative Decoding and Completion-Aware Scheduling for Efficient Agentic LLM Inference\""
+        },
+        {
+          "q": "\"VFlash-FM: Training for One-Pass Drafting in Video Language Models\""
+        },
+        {
+          "q": "\"Queue-Aware Combinatorial Bandit Scheduling for Speculative Decoding in Cloud–Edge LLM Serving\""
+        },
+        {
+          "q": "\"RamoMark: Multi-Bit Watermarking via Randomness-Modulated Speculative Sampling\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Computer Research and Development | SinoAILab Research Archive | SinoAILab",
+          "url": "https://sinoailab.com/journal/computer-research-and-development?volume=Vol.+32&year=2025"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=scheduling+latency"
+        },
+        {
+          "title": "Victor C. M. Leung",
+          "url": "https://www.csauthors.net/victor-c-m-leung/"
+        },
+        {
+          "title": "Add md analyses: ICLR2026 · yufan/top-conference-papers at 5e7e694",
+          "url": "https://huggingface.co/datasets/yufan/top-conference-papers/commit/5e7e69460960e35b68d8c08b022a4a1fff16db53"
+        },
+        {
+          "title": "Field Notes - Page 48 - New Runtime",
+          "url": "https://newruntime.com/posts/page/48/"
+        },
+        {
+          "title": "md -> Paper_Reading_Markdown/ICLR2026 · yufan/top-conference-papers at 56789aa",
+          "url": "https://huggingface.co/datasets/yufan/top-conference-papers/commit/56789aaadb75ee9f6dabbdd73af2e5a7866df4c9"
+        },
+        {
+          "title": "arXiv Papers of Large Language Model Agent",
+          "url": "https://hongsong-wang.github.io/LLM_Agent/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=low-latency+LLM+serving"
+        },
+        {
+          "title": "Publications – Page 4 – SIGDA",
+          "url": "https://www.sigda.org/category/publications/page/4/"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "1WCdEqDPlW",
+          "title": "Caduceus: Parallel Speculative Decoding with Two Simple Drafters Intertwined",
+          "acronym": "Caduceus"
+        },
+        {
+          "id": "bS8MFquWs7",
+          "title": "Target Correction for Diffusion Sampling and Speculative Decoding",
+          "acronym": "TargetCorrectionforDiffusionSamplingand"
+        },
+        {
+          "id": "Otx1KwtJ71",
+          "title": "TMOT: Geometric Optimal Transport over Target Representations for Speculative Verification",
+          "acronym": "TMOT"
+        },
+        {
+          "id": "C3m7H86BDA",
+          "title": "TapKV: Accelerating Long-Horizon Speculative Decoding with Target-Aware Draft KV Caches Optimization",
+          "acronym": "TapKV"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Caduceus: Parallel Speculative Decoding with Two Simple Drafters Intertwined\""
+        },
+        {
+          "q": "\"Target Correction for Diffusion Sampling and Speculative Decoding\""
+        },
+        {
+          "q": "\"TMOT: Geometric Optimal Transport over Target Representations for Speculative Verification\""
+        },
+        {
+          "q": "\"TapKV: Accelerating Long-Horizon Speculative Decoding with Target-Aware Draft KV Caches Optimization\""
+        }
+      ],
+      "results": [
+        {
+          "title": "SpecRouter: Reusable Payoff Prediction for Cost-Aware Speculative Decoding | acceptodds",
+          "url": "https://acceptodds.com/papers/iclr2027-53793"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=draft+length"
+        },
+        {
+          "title": "NeurIPS 2025 | ML Anthology",
+          "url": "https://mlanthology.org/neurips/"
+        },
+        {
+          "title": "arXivDaily每日学术速递，同步arXiv全量数据，AI总结、翻译，覆盖人工智能、机器人、计算机、金融、统计学、数学、物理学、生物学、经济学、电气&系统等方向。",
+          "url": "https://www.arxivdaily.com/?date=2026-05-11&major=HOT&search_in=title&subcat=cs.LG&submission=replacement"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=decoder+speedup"
+        },
+        {
+          "title": "(PDF) Discrete Diffusion Models: A Unified Framework from Tokenization to Generation",
+          "url": "https://www.researchgate.net/publication/410158442_Discrete_Diffusion_Models_A_Unified_Framework_from_Tokenization_to_Generation"
+        },
+        {
+          "title": "GitHub - New-Ground-AI/Discrete-Diffusion: 🔬 [Discrete Diffusion Survey] This is the curated paper list collected for our survey paper: \"Discrete Diffusion Models: A Unified Framework from Tokenization to Generation\" · GitHub",
+          "url": "https://github.com/New-Ground-AI/Discrete-Diffusion"
+        },
+        {
+          "title": "Yu Zhang's Homepage",
+          "url": "https://yzhang.site/arxiv"
+        },
+        {
+          "title": "ICLR2026 Image Generation Papers · 352 Notes",
+          "url": "https://en.papernotes.org/ICLR2026/image_generation/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=decoding+speeds"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=Skip+Decoding"
+        },
+        {
+          "title": "학술대회 – POSTECH - graduate school of artificial intelligence",
+          "url": "https://ai.postech.ac.kr/sub090302"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "ykFIKoFL8A",
+          "title": "Multi-Draft On-Policy Distillation for Diffusion Drafters",
+          "acronym": "MultiDraftOnPolicyDistillationfor"
+        },
+        {
+          "id": "pqPZjf4pqE",
+          "title": "HARP: Horizon-Aware Representation Preference for Parallel Speculative Decoding",
+          "acronym": "HARP"
+        },
+        {
+          "id": "82VVFrkHRi",
+          "title": "SpecPilot: Guiding Speculation with Online Adaptive Cost Prediction",
+          "acronym": "SpecPilot"
+        },
+        {
+          "id": "hvwIMCSzTw",
+          "title": "SERVAL: Efficient In-Flight Draft Adaptation for LLM Serving",
+          "acronym": "SERVAL"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Multi-Draft On-Policy Distillation for Diffusion Drafters\""
+        },
+        {
+          "q": "\"HARP: Horizon-Aware Representation Preference for Parallel Speculative Decoding\""
+        },
+        {
+          "q": "\"SpecPilot: Guiding Speculation with Online Adaptive Cost Prediction\""
+        },
+        {
+          "q": "\"SERVAL: Efficient In-Flight Draft Adaptation for LLM Serving\""
+        }
+      ],
+      "results": [
+        {
+          "title": "[2607.19223] AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters - Academus scientific article reader",
+          "url": "https://academ.us/article/2607.19223/"
+        },
+        {
+          "title": "Awesome-Parallel-Decoding/README.md at main · ZinYY/Awesome-Parallel-Decoding · GitHub",
+          "url": "https://ithub.global.ssl.fastly.net/ZinYY/Awesome-Parallel-Decoding/blob/main/README.md"
+        },
+        {
+          "title": "SpecRouter: Reusable Payoff Prediction for Cost-Aware Speculative Decoding | acceptodds",
+          "url": "https://acceptodds.com/papers/iclr2027-53793"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=draft+distribution"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=DFlash-style+block+drafting"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=draft+model+selection"
+        },
+        {
+          "title": "GitHub - chrisliu298/awesome-on-policy-distillation: A curated collection of papers, technical reports, frameworks, and tools for on-policy distillation (OPD) of large language models · GitHub",
+          "url": "https://www.webkkk.net/chrisliu298/awesome-on-policy-distillation"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=token-level+target"
+        },
+        {
+          "title": "GitHub - ZinYY/Awesome-Parallel-Decoding: Parallel Decoding of Language Models: A Survey. A systematic survey of parallel decoding, covering speculative decoding, diffusion LLMs, etc... · GitHub",
+          "url": "https://github.com/ZinYY/Awesome-Parallel-Decoding"
+        },
+        {
+          "title": "GitHub - DngBack/awesome-speculative-decoding: A curated list of awesome speculative decoding papers · GitHub",
+          "url": "https://github.com/DngBack/awesome-speculative-decoding"
+        },
+        {
+          "title": "awesome-speculative-decoding/README.md at main · DngBack/awesome-speculative-decoding · GitHub",
+          "url": "https://github.com/DngBack/awesome-speculative-decoding/blob/main/README.md"
+        },
+        {
+          "title": "Speculative Decoding: Types and Optimizations",
+          "url": "https://www.aussieai.com/research/speculative-decoding"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "QSXyR3A1OU",
+          "title": "SpecRelay: Amortize or Avoid the Round Trip in Edge–Cloud Speculative Decoding",
+          "acronym": "SpecRelay"
+        },
+        {
+          "id": "JXnBJhhRFL",
+          "title": "ACCORDION: Breaking Dependency Barriers in Multi-Agent LLM Workflows via Context Speculation",
+          "acronym": "ACCORDION"
+        },
+        {
+          "id": "Qfw1AYkLLt",
+          "title": "Graph-Constrained Heterogeneous Tree Allocation for Workload-Adaptive Speculative Decoding",
+          "acronym": "GraphConstrainedHeterogeneousTreeAllocationfor"
+        },
+        {
+          "id": "SXB8VD2tdY",
+          "title": "ForeSift: Speculative Reasoning for Small-to-Large Prompt Compression",
+          "acronym": "ForeSift"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"SpecRelay: Amortize or Avoid the Round Trip in Edge–Cloud Speculative Decoding\""
+        },
+        {
+          "q": "\"ACCORDION: Breaking Dependency Barriers in Multi-Agent LLM Workflows via Context Speculation\""
+        },
+        {
+          "q": "\"Graph-Constrained Heterogeneous Tree Allocation for Workload-Adaptive Speculative Decoding\""
+        },
+        {
+          "q": "\"ForeSift: Speculative Reasoning for Small-to-Large Prompt Compression\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Scientia Professor Jingling Xue",
+          "url": "https://www.unsw.edu.au/staff/jingling-xue"
+        },
+        {
+          "title": "Netflix Technology Blog | Noise",
+          "url": "https://noise.getoto.net/author/netflix-technology-blog/"
+        },
+        {
+          "title": "Papers",
+          "url": "https://www.ieee-ai-for-science.org/2024/ispa/ispa-2024-accepted.html"
+        },
+        {
+          "title": "EurekaMag Full Text Articles Chapter 100113",
+          "url": "https://deals.eurekamag.com/research/100/112/"
+        },
+        {
+          "title": "T.A. Gulliver - List of Publications",
+          "url": "https://www.ece.uvic.ca/~agullive/publications.html"
+        },
+        {
+          "title": "EurekaMag Full Text Articles Chapter 107719",
+          "url": "https://changelog.eurekamag.com/research/107/718/"
+        },
+        {
+          "title": "EurekaMag Full Text Articles Chapter 103321",
+          "url": "https://extensions.eurekamag.com/research/103/320/"
+        },
+        {
+          "title": "Booklet Proof Reading | DATE 2020",
+          "url": "https://past.date-conference.com/date20/booklet/proof_reading"
+        },
+        {
+          "title": "EurekaMag Full Text Articles Chapter 97188",
+          "url": "https://documentation.eurekamag.com/research/097/187/"
+        },
+        {
+          "title": "EurekaMag Full Text Articles Chapter 103321",
+          "url": "https://journals.eurekamag.com/research/103/320/"
+        },
+        {
+          "title": "EurekaMag Full Text Articles Chapter 100108",
+          "url": "https://graphql.eurekamag.com/research/100/107/"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "jQf1bvD6Gt",
+          "title": "Predictive Speculative Coupling: Distribution-Preserving Acceleration of Autoregressive Visual Generation",
+          "acronym": "PredictiveSpeculativeCoupling"
+        },
+        {
+          "id": "PHlDfWcIa9",
+          "title": "Speculative Decoding Has Disparate Impacts",
+          "acronym": "SpeculativeDecodingHasDisparateImpacts"
+        },
+        {
+          "id": "1ueGhmCmE1",
+          "title": "Uncommitted Drafts Track Words, Not Knowledge: Evasion and Representation Monitoring in Diffusion LMs",
+          "acronym": "UncommittedDraftsTrackWordsNotKnowledge"
+        },
+        {
+          "id": "owCZMqNsqR",
+          "title": "D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding",
+          "acronym": "D3D"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Predictive Speculative Coupling: Distribution-Preserving Acceleration of Autoregressive Visual Generation\""
+        },
+        {
+          "q": "\"Speculative Decoding Has Disparate Impacts\""
+        },
+        {
+          "q": "\"Uncommitted Drafts Track Words, Not Knowledge: Evasion and Representation Monitoring in Diffusion LMs\""
+        },
+        {
+          "q": "\"D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "D3D - a lingc8 Collection",
+          "url": "https://huggingface.co/collections/lingc8/d3d"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://dev.neurips.cc/Downloads/2026"
+        },
+        {
+          "title": "THE DISPARATE IMPACTS OF SPECULATIVE DECODING",
+          "url": "https://openreview.net/pdf/f82b9ab443fbf355ac9bcfffac86f1681b20c4bd.pdf"
+        },
+        {
+          "title": "Findings of the Association for Computational Linguistics (2024) - ACL Anthology",
+          "url": "https://aclanthology.org/events/findings-2024/"
+        },
+        {
+          "title": "Findings of the Association for Computational Linguistics: NAACL 2025 - ACL Anthology",
+          "url": "https://aclanthology.org/volumes/2025.findings-naacl/"
+        },
+        {
+          "title": "publications | Ferdinando (Nando) Fioretto",
+          "url": "https://nandofioretto.github.io/publications/"
+        },
+        {
+          "title": "SSD: Spatially Speculative Decoding Accelerates Autoregressive Image Generation",
+          "url": "https://rt.http3.lol/index.php?q=aHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA2LjIwNTQzdjI"
+        },
+        {
+          "title": "ICML 2026 论文 · 中文导读（6567 篇）",
+          "url": "https://jenniferzhao0531.github.io/ICML2026-Guide-CN/"
+        },
+        {
+          "title": "news | Ferdinando (Nando) Fioretto",
+          "url": "https://nandofioretto.github.io/news/"
+        },
+        {
+          "title": "Machine Learning Systems at Scale",
+          "url": "https://mlsysbook.ai/vol2/inference/inference.html"
+        },
+        {
+          "title": "ICLR 2025 Papers with Code & Data – Resources | Paper Digest",
+          "url": "https://resources.paperdigest.org/2025/03/iclr-2025-papers-with-code-data/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=draft+length"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://rag-chunk-visualizer-proxy.modelpark.app/papers?q=block-causal+attention"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "sLpTzI6XxI",
+          "title": "HIGAP: Bridging the Overhead Gap in History-Based Speculative Rollout for MoE RL",
+          "acronym": "HIGAP"
+        },
+        {
+          "id": "rWgGD1hBwD",
+          "title": "TreeSpark: From Acceptance Scores to Useful Work in Conditional Speculative Decoding",
+          "acronym": "TreeSpark-Control"
+        },
+        {
+          "id": "gRLl6TtFWP",
+          "title": "Cannot Wait to Verify: Parallel Drafting to Eliminate Verifier Idle Time in Speculative Decoding",
+          "acronym": "CannotWaittoVerify"
+        },
+        {
+          "id": "yMRTqsCY5f",
+          "title": "Correct While Verifying: Intermediate Target Predictions for Speculative Draft Correction",
+          "acronym": "CorrectWhileVerifying"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"HIGAP: Bridging the Overhead Gap in History-Based Speculative Rollout for MoE RL\""
+        },
+        {
+          "q": "\"TreeSpark: From Acceptance Scores to Useful Work in Conditional Speculative Decoding\""
+        },
+        {
+          "q": "\"Cannot Wait to Verify: Parallel Drafting to Eliminate Verifier Idle Time in Speculative Decoding\""
+        },
+        {
+          "q": "\"Correct While Verifying: Intermediate Target Predictions for Speculative Draft Correction\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Publications | Tianyu Xie",
+          "url": "https://teeryxie.github.io/publications/"
+        },
+        {
+          "title": "Claude Opus 4.7 | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47793411"
+        },
+        {
+          "title": "nep-dcm 2017-06-04 papers",
+          "url": "https://nep.repec.org/nep-dcm/2017-06-04"
+        },
+        {
+          "title": "Blog | Tianyu Xie",
+          "url": "https://teeryxie.github.io/blog/"
+        },
+        {
+          "title": "Shubham Keswani Audit Question Bank | PDF | Audit | Auditor's Report",
+          "url": "https://id.scribd.com/document/812474092/CA-Final-Audit-Shubham-Keshwani-Notes-m24"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "3EoH49TYLt",
+          "title": "Parallel-Parallel Speculative Decoding",
+          "acronym": "ParallelParallelSpeculativeDecoding"
+        },
+        {
+          "id": "HfH5Wq5gRi",
+          "title": "Rescuing Regrettable Rejections: Relaxed Acceptance for Speculative Decoding",
+          "acronym": "RescuingRegrettableRejections"
+        },
+        {
+          "id": "Ofr3Eq260L",
+          "title": "Why Freeze the Target Model? Aligning the LLM Toward Its Small Drafter for Speculative Decoding",
+          "acronym": "WhyFreezetheTargetModelAligning"
+        },
+        {
+          "id": "II0XL36lue",
+          "title": "Where to Speculate: Cross-Request Survival-Value Allocation for Batched Speculative Decoding",
+          "acronym": "WheretoSpeculate"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Parallel-Parallel Speculative Decoding\""
+        },
+        {
+          "q": "\"Rescuing Regrettable Rejections: Relaxed Acceptance for Speculative Decoding\""
+        },
+        {
+          "q": "\"Why Freeze the Target Model? Aligning the LLM Toward Its Small Drafter for Speculative Decoding\""
+        },
+        {
+          "q": "\"Where to Speculate: Cross-Request Survival-Value Allocation for Batched Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "SchemaFill: Efficient LLM Tool Calling via Slot-Parallel Speculative Decoding — Lacuna",
+          "url": "https://lacuna.tiptreesystems.com/work/schemafill-efficient-llm-tool-calling-via-slot-parallel"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=parallel+evaluation"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=parallel+samples"
+        },
+        {
+          "title": "Zero-Arch: Architecture Challenge Repository",
+          "url": "https://pages.cs.wisc.edu/~karu/ArchAlphaZero/zero-arch/html/ideas-isca-2025-part1.html"
+        },
+        {
+          "title": "CPC Scheme - G06F ELECTRIC DIGITAL DATA PROCESSING",
+          "url": "https://www.uspto.gov/web/patents/classification/cpc/html/cpc-G06F.html"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=Parallel+Coordinated+Reasoning"
+        },
+        {
+          "title": "Releasing SpecSpeech: 2.29x faster ASR Inference with Speculative Decoding",
+          "url": "https://www.reddit.com/r/speechtech/comments/1x9diuu/releasing_specspeech_229x_faster_asr_inference/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=parallel+paths"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=parallel-then-sequential+reasoning"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=GSM8K+benchmark"
+        },
+        {
+          "title": "CN121210626A - User problem handling methods, apparatus, equipment, and media based on serial-parallel decoding - Google Patents",
+          "url": "https://patents.google.com/patent/CN121210626A/en"
+        },
+        {
+          "title": "Getting Qwen3.8-27B with decent speed on my 4080 with 16Gb card | TheaterFire",
+          "url": "https://theaterfi.re/post/3593491"
+        },
+        {
+          "title": "CPC Definition - G06F ELECTRIC DIGITAL DATA PROCESSING (computer systems based on specific compu...",
+          "url": "https://www.uspto.gov/web/patents/classification/cpc/html/defG06F.html"
+        },
+        {
+          "title": "State of local inference for Qwen3.8-27B and Flash-Next (Oct 2026): engine architectures + every number I could find, verified vs. claimed",
+          "url": "https://www.reddit.com/r/LocalLLM/comments/1x99oeu/state_of_local_inference_for_qwen3827b_and/"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "FMSCTShQ1q",
+          "title": "The Shape of Speculation: Efficient Draft Topology for Speculative Jacobi Decoding in Autoregressive Image Generation",
+          "acronym": "TheShapeofSpeculation"
+        },
+        {
+          "id": "mxY7485XDF",
+          "title": "The Right Kind of Disagreement: Dynamic Collaborator Pruning for Speculative Token-Level Collaboration",
+          "acronym": "TheRightKindofDisagreement"
+        },
+        {
+          "id": "84LlzycwO8",
+          "title": "DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation",
+          "acronym": "DualSpec"
+        },
+        {
+          "id": "uITjZ5b7L1",
+          "title": "FairSpec: Robust Expert Selection for Efficient MoE Speculative Decoding",
+          "acronym": "FairSpec"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"The Shape of Speculation: Efficient Draft Topology for Speculative Jacobi Decoding in Autoregressive Image Generation\""
+        },
+        {
+          "q": "\"The Right Kind of Disagreement: Dynamic Collaborator Pruning for Speculative Token-Level Collaboration\""
+        },
+        {
+          "q": "\"DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation\""
+        },
+        {
+          "q": "\"FairSpec: Robust Expert Selection for Efficient MoE Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation",
+          "url": "https://arxiv.org/abs/2603.07416"
+        },
+        {
+          "title": "Paper page - DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation",
+          "url": "https://huggingface.co/papers/2603.07416"
+        },
+        {
+          "title": "DualSpec:二重プロセス行動投機による深い研究エージェントの加速〖JST機械翻訳〗 | 文献情報 | J-GLOBAL 科学技術総合リンクセンター",
+          "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602215210149090"
+        },
+        {
+          "title": "Baotong Lu",
+          "url": "https://baotonglu.github.io/"
+        },
+        {
+          "title": "DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation | DeepDyve",
+          "url": "https://www.deepdyve.com/lp/arxiv-cornell-university/dualspec-accelerating-deep-research-agents-via-dual-process-action-NKJb5avOeR"
+        },
+        {
+          "title": "DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation — Lacuna",
+          "url": "https://lacuna.tiptreesystems.com/work/dualspec-accelerating-deep-research-agents-via-dual-process-action-speculation/wrk_d65cb822d887d1c17e8aa76cee4bd2d9"
+        },
+        {
+          "title": "dblp: Baotong Lu",
+          "url": "https://dblp.org/pid/256/1745.html"
+        },
+        {
+          "title": "DualSpec: Accelerating Deep Research Agents via D… - arXiv",
+          "url": "https://arxiv-troller.com/paper/3108648/"
+        },
+        {
+          "title": "Speculation | Applied Science Commons",
+          "url": "https://appliedsciencecommons.net/topics/speculation/"
+        },
+        {
+          "title": "Baotong Lu | Search arXiv",
+          "url": "https://searcharxiv.org/authors/Baotong%20Lu"
+        },
+        {
+          "title": "Fan YANG | Microsoft, Redmond | Systems Research Group | Research profile",
+          "url": "https://www.researchgate.net/profile/Fan-Yang-68"
+        },
+        {
+          "title": "DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation · ArXivSignals",
+          "url": "https://arxivsignals.io/papers/2603.07416"
+        },
+        {
+          "title": "DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation | Article Information | J-GLOBAL",
+          "url": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602215210149090"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "43QYHpZo5A",
+          "title": "ProSpect: Proactive Speculation for Lossless Acceleration of Multi-Agent Systems",
+          "acronym": "ProSpect-MAS"
+        },
+        {
+          "id": "sO6appZlV6",
+          "title": "ReTree: Budget-Efficient Tree Speculative Decoding via Path Guidance and Sibling Recovery",
+          "acronym": "ReTree"
+        },
+        {
+          "id": "jTkVGBz5LX",
+          "title": "ProSpect: Efficient and Consistent Self-Speculative Decoding",
+          "acronym": "ProSpect-Self"
+        },
+        {
+          "id": "Ty1kT3NAss",
+          "title": "Multi-Token Prediction and Alternative Tokenization Improve Learning Latent Multi-Hop Graph Search at Scale",
+          "acronym": "MultiTokenPredictionandAlternativeTokenization"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"ProSpect: Proactive Speculation for Lossless Acceleration of Multi-Agent Systems\""
+        },
+        {
+          "q": "\"ReTree: Budget-Efficient Tree Speculative Decoding via Path Guidance and Sibling Recovery\""
+        },
+        {
+          "q": "\"ProSpect: Efficient and Consistent Self-Speculative Decoding\""
+        },
+        {
+          "q": "\"Multi-Token Prediction and Alternative Tokenization Improve Learning Latent Multi-Hop Graph Search at Scale\""
+        }
+      ],
+      "results": [
+        {
+          "title": "acceptodds: Which papers will make it?",
+          "url": "https://acceptodds.com/?kind=all&page=841&sort=activity&status=open"
+        },
+        {
+          "title": "USENIX Security '23 Technical Sessions | USENIX",
+          "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+        },
+        {
+          "title": "Map of Decentralized AI | IDAI",
+          "url": "https://decentralized-ai.org/research-areas/"
+        },
+        {
+          "title": "ICML 2025 | ML Anthology",
+          "url": "https://mlanthology.org/icml/"
+        },
+        {
+          "title": "NIPS 2024 collected by Wang",
+          "url": "https://hongsong-wang.github.io/NIPS2024_ABSTRACT/"
+        },
+        {
+          "title": "Updated 2026-09-09 · GitHub",
+          "url": "https://gist.github.com/masta-g3/8f7227397b1053b42e727bbd6abf1d2e?permalink_comment_id=5418518"
+        },
+        {
+          "title": "Computer Science",
+          "url": "https://borowiecki.dev/list/cs/new"
+        },
+        {
+          "title": "DB - Publications (List Selected Publications)",
+          "url": "https://tik-old.ee.ethz.ch/db/public/tik/?author=&db=publications&form=report_list_selected_publications&format=Traditional&grp=&keyword=&order=Year&pub_key=&rep_nbr=&submitIt=search&title=&type=&wizard=&year="
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=sparse+MoE"
+        },
+        {
+          "title": "Updated 2026-10-08 · GitHub",
+          "url": "https://gist.github.com/masta-g3/8f7227397b1053b42e727bbd6abf1d2e"
+        },
+        {
+          "title": "Arxiv Papers Podcast Republic",
+          "url": "https://podcastrepublic.net/podcast/1692476016"
+        },
+        {
+          "title": "Top arXiv papers",
+          "url": "https://scirate.com/?date=2025-06-06&page=190&range=56"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "n5IF2kyZrS",
+          "title": "Cross-dLLM: Cross-Block Diffusion Decoding with Autoregressive Drafting for Complex Reasoning",
+          "acronym": "Cross-dLLM"
+        },
+        {
+          "id": "NC6BzYy1m0",
+          "title": "Attaining and Surpassing the IID Ceiling in Multi-Draft Speculative Decoding",
+          "acronym": "AttainingandSurpassingtheIIDCeiling"
+        },
+        {
+          "id": "b3ourMRHMa",
+          "title": "Diffusion Drafters Can Predict Beyond Their Training Blocks",
+          "acronym": "DiffusionDraftersCanPredictBeyondTheir"
+        },
+        {
+          "id": "7AnUnllUi1",
+          "title": "Drafting Without Hearing: Why Speculative Decoding Fails in Hierarchical Speech Generation",
+          "acronym": "DraftingWithoutHearing"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Cross-dLLM: Cross-Block Diffusion Decoding with Autoregressive Drafting for Complex Reasoning\""
+        },
+        {
+          "q": "\"Attaining and Surpassing the IID Ceiling in Multi-Draft Speculative Decoding\""
+        },
+        {
+          "q": "\"Diffusion Drafters Can Predict Beyond Their Training Blocks\""
+        },
+        {
+          "q": "\"Drafting Without Hearing: Why Speculative Decoding Fails in Hierarchical Speech Generation\""
+        }
+      ],
+      "results": [
+        {
+          "title": "CN122389841A – A cross-block diffusion decoding method for efficient inference generation of a language model | Patsnap Eureka",
+          "url": "https://eureka.patsnap.com/patent/CN122389841A"
+        },
+        {
+          "title": "ICLR 2025 论文集 - 全部接收论文",
+          "url": "https://kmno4-zx.github.io/iclr25-all-papers/"
+        },
+        {
+          "title": "GitHub - bansky-cl/diffusion-nlp-paper-arxiv: Auto get diffusion nlp papers in Axriv. More papers Information can be found in another repository \"Diffusion-LM-Papers\". · GitHub",
+          "url": "https://github.com/bansky-cl/diffusion-nlp-paper-arxiv"
+        },
+        {
+          "title": "GitHub - AIDASLab/Awesome-Diffusion-LLM: A comprehensive list of papers about Large-Language-Diffusion-Models. · GitHub",
+          "url": "https://github.com/AIDASLab/Awesome-Diffusion-LLM"
+        },
+        {
+          "title": "Similar Papers for Ripple-Pivot Search: Active Parallel Decoding for Diffusion Large Language Models | Arxiv - DeepPaper",
+          "url": "https://arxiv.deeppaper.ai/papers/2608.11742v1/similar"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://rag-chunk-visualizer-proxy.modelpark.app/papers?q=parallel+drafters"
+        },
+        {
+          "title": "GitHub - tuteng0915/Awesome-dLLM-AR-Hybrid: Diffusion × Autoregression: Hybrid Models for Language, Reasoning, and VLA · GitHub",
+          "url": "https://github.com/tuteng0915/Awesome-dLLM-AR-Hybrid"
+        },
+        {
+          "title": "전체 AI 논문 - 2026-04-17 - ArXiv AI Digest",
+          "url": "https://2shin0.github.io/arxiv-ai-mailing/ALL/2026-04-17"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=multi-block+decoding"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=decoding+strategies"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=block-level+decoding"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=two-stage+parallel+decoding"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "1lQRSuBmss",
+          "title": "FACT: Fixed-Budget Allocation and Cross-Step Training for Speculative Decoding",
+          "acronym": "FACT"
+        },
+        {
+          "id": "FpZcpaYXxl",
+          "title": "WOSpec: Watermarked Online Speculative Decoding",
+          "acronym": "WOSpec"
+        },
+        {
+          "id": "YRa03Q2QnY",
+          "title": "Extractive Speculative Decoding: Lempel-Ziv Limits and How to Approach Them",
+          "acronym": "ExtractiveSpeculativeDecoding"
+        },
+        {
+          "id": "QxqPo2BsGT",
+          "title": "Co-Evolving Trees and Control Policies: Bridging Posterior Optimality and Online Efficiency in Speculative Decoding",
+          "acronym": "Co-EvolvingTreesandControlPolicies"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"FACT: Fixed-Budget Allocation and Cross-Step Training for Speculative Decoding\""
+        },
+        {
+          "q": "\"WOSpec: Watermarked Online Speculative Decoding\""
+        },
+        {
+          "q": "\"Extractive Speculative Decoding: Lempel-Ziv Limits and How to Approach Them\""
+        },
+        {
+          "q": "\"Co-Evolving Trees and Control Policies: Bridging Posterior Optimality and Online Efficiency in Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) - ACL Anthology",
+          "url": "https://aclanthology.org/volumes/2026.acl-long/"
+        },
+        {
+          "title": "Computer Science — New on arXiv | Academus",
+          "url": "https://www.academ.us/list/cs/"
+        },
+        {
+          "title": "AI Paper Digest — 2026-10-15",
+          "url": "https://amarcu.github.io/ai-paper-digest/archive/2026-10-15.html"
+        },
+        {
+          "title": "Inference Report — Research",
+          "url": "https://inference.report/research/2026-10-14"
+        },
+        {
+          "title": "Yu Zhang's Homepage",
+          "url": "https://yzhang.site/arxiv"
+        },
+        {
+          "title": "Arxiv今日论文 | 2026-09-02 | 闲记算法",
+          "url": "https://lonepatient.top/2026/09/02/arxiv_papers_2026-09-02"
+        },
+        {
+          "title": "ICML 2026 论文 · 中文导读（6567 篇）",
+          "url": "https://jenniferzhao0531.github.io/ICML2026-Guide-CN/"
+        },
+        {
+          "title": "US20260148042A1 - Content-Aware Hybrid Quantum Enhanced Optimization and Orchestration Layer - Google Patents",
+          "url": "https://patents.google.com/patent/US20260148042A1/en"
+        },
+        {
+          "title": "Proceedings of Machine Learning Research | Proceedings of the 41st International Conference on Machine Learning Held in Vienna, Austria on 21-27 July 2024 Published as Volume 235 by the Proceedings of Machine Learning Research on 08 July 2024. Volume Edited by: Ruslan Salakhutdinov Zico Kolter Katherine Heller Adrian Weller Nuria Oliver Jonathan Scarlett Felix Berkenkamp Series Editors: Neil D. Lawrence",
+          "url": "https://rt.http3.lol/index.php?q=aHR0cHM6Ly9wcm9jZWVkaW5ncy5tbHIucHJlc3MvdjIzNS8"
+        },
+        {
+          "title": "arXivDaily每日学术速递，同步arXiv全量数据，AI总结、翻译，覆盖人工智能、机器人、计算机、金融、统计学、数学、物理学、生物学、经济学、电气&系统等方向。",
+          "url": "https://arxivdaily.com/?date=2026-06-02&major=HOT&search_in=all&subcat=cs.LG"
+        },
+        {
+          "title": "Mlsys Arxiv Daily | Automatically Update Mlsys(Mainly focus on LLM serving system) Papers Daily using Github Actions (Update Every 8th hours)",
+          "url": "https://zzhbrr.github.io/mlsys-arxiv-daily/"
+        },
+        {
+          "title": "Daily arXiv Papers - 2026-02-04",
+          "url": "https://blog.yueqianlin.com/daily-publication/260204/"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "t7ryJLliBv",
+          "title": "Speculate with Memory: Lossless Acceleration for LLM Agents",
+          "acronym": "SpeculatewithMemory"
+        },
+        {
+          "id": "HuRqGEh1x0",
+          "title": "Learning What to Attend to: Training Dynamics of Multi-Token Prediction",
+          "acronym": "LearningWhattoAttendto"
+        },
+        {
+          "id": "Hx1bHuWiR7",
+          "title": "ObsSpec: Accelerating Agentic Reinforcement Learning with Observation Speculation",
+          "acronym": "ObsSpec"
+        },
+        {
+          "id": "hQhAZ6H4Vc",
+          "title": "Rank-Aware Speculative Sampling for Diffusion Draft Trees",
+          "acronym": "RankAwareSpeculativeSamplingforDiffusion"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Speculate with Memory: Lossless Acceleration for LLM Agents\""
+        },
+        {
+          "q": "\"Learning What to Attend to: Training Dynamics of Multi-Token Prediction\""
+        },
+        {
+          "q": "\"ObsSpec: Accelerating Agentic Reinforcement Learning with Observation Speculation\""
+        },
+        {
+          "q": "\"Rank-Aware Speculative Sampling for Diffusion Draft Trees\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Speculate with Memory: Lossless Acceleration for LLM Agents",
+          "url": "https://arxiv.org/abs/2607.12236"
+        },
+        {
+          "title": "Rank-Aware Speculative Sampling for Diffusion Draft Trees",
+          "url": "https://arxiv.org/abs/2610.02251"
+        },
+        {
+          "title": "ObsSpec: Accelerating Agentic Reinforcement Learning with Observation Speculation",
+          "url": "https://arxiv.org/abs/2610.15246"
+        },
+        {
+          "title": "Rank-Aware Speculative Sampling for Diffusion Draft Trees | 每日论文",
+          "url": "https://paper.dou.ac/p/2610.02251v1"
+        },
+        {
+          "title": "Rank-Aware Speculative Sampling for Diffusion Draft Trees |...",
+          "url": "https://arxivlens.com/paperview/details/rank-aware-speculative-sampling-for-diffusion-draft-trees-4142-a2fba29e"
+        },
+        {
+          "title": "Speculate with Memory: Lossless Acceleration for LLM Agents | alphaXiv",
+          "url": "https://www.alphaxiv.org/abs/2607.12236"
+        },
+        {
+          "title": "Speculate with Memory: Lossless Acceleration for LLM Agents · Pith Review",
+          "url": "https://pith.science/paper/2607.12236"
+        },
+        {
+          "title": "Speculate with Memory: Lossless Acceleration for LLM Agents | Cool Papers - Immersive Paper Discovery",
+          "url": "https://papers.cool/arxiv/2607.12236"
+        },
+        {
+          "title": "[論文レビュー] Speculate with Memory: Lossless Acceleration for LLM Agents",
+          "url": "https://www.themoonlight.io/ja/review/speculate-with-memory-lossless-acceleration-for-llm-agents"
+        },
+        {
+          "title": "Rank-Aware Speculative Sampling for Diffusion Draft Trees",
+          "url": "https://chatpaper.com/de/chatpaper/paper/355496"
+        },
+        {
+          "title": "Fugu-MT 論文翻訳(概要): Rank-Aware Speculative Sampling for Diffusion Draft Trees",
+          "url": "https://fugumt.com/fugumt/paper_check/2610.02251v1"
+        },
+        {
+          "title": "(PDF) A Comprehensive Survey on Large Language Models: From Pre-training to Autonomous Agents",
+          "url": "https://www.researchgate.net/publication/399059225_A_Comprehensive_Survey_on_Large_Language_Models_From_Pre-training_to_Autonomous_Agents"
+        },
+        {
+          "title": "Concept Library — Praveen T N",
+          "url": "https://praveentn.live/learn/concepts"
+        },
+        {
+          "title": "AI研究・論文 | AI News Hub",
+          "url": "https://ai-news.iru-yo.com/topic/ai-research/"
+        },
+        {
+          "title": "(PDF) How to Make Tool-Using LLM Agents Efficient? A Survey",
+          "url": "https://www.researchgate.net/publication/411344140_How_to_Make_Tool-Using_LLM_Agents_Efficient_A_Survey"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "cLL6ddjWCC",
+          "title": "Block Verification for Speculative Coupled Decoding",
+          "acronym": "BlockVerificationSCD"
+        },
+        {
+          "id": "KIvurUxpDk",
+          "title": "RFlash: Relaxed Speculative Decoding with Drift Constraint",
+          "acronym": "RFlash"
+        },
+        {
+          "id": "t8Np0RnNQh",
+          "title": "SpecFlow: Fast and Lossless Speculative Sampling for Flow Matching",
+          "acronym": "SpecFlow"
+        },
+        {
+          "id": "UbyKrDh0jN",
+          "title": "Speculative Fine-Tuning: Accelerated Supervised Fine-Tuning with Speculative Heads",
+          "acronym": "SpeculativeFine-Tuning"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Block Verification for Speculative Coupled Decoding\""
+        },
+        {
+          "q": "\"RFlash: Relaxed Speculative Decoding with Drift Constraint\""
+        },
+        {
+          "q": "\"SpecFlow: Fast and Lossless Speculative Sampling for Flow Matching\""
+        },
+        {
+          "q": "\"Speculative Fine-Tuning: Accelerated Supervised Fine-Tuning with Speculative Heads\""
+        }
+      ],
+      "results": [
+        {
+          "title": "AI Reproducibility Index",
+          "url": "https://reproducibilityindex.ai/venues/ICLR/2025"
+        },
+        {
+          "title": "Proceedings of Machine Learning Research | Proceedings of the 43rd International Conference on Machine Learning Held in Seoul, South Korea on 06-11 July 2026 Published as Volume 306 by the Proceedings of Machine Learning Research on 29 September 2026. Volume Edited by: Tong Zhang Miroslav Dudik Martin Jaggi Alekh Agarwal Sharon Li Dale Schuurmans Jerry Zhu Felix Berkenkamp Hanze Dong Alberto Bietti Series Editors: Tegan Emerson Hoel Kervadec Neil D. Lawrence",
+          "url": "https://proceedings.mlr.press/v306/"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://icml.cc/Downloads/2026"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://cdn-avatars.qwak.ai/papers?q=parallel+minibatch+verification"
+        },
+        {
+          "title": "Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis[v1] | Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202608.1730"
+        },
+        {
+          "title": "arXiv Troller",
+          "url": "https://arxiv-troller.com/?q=paper%3A+2605.04543"
+        },
+        {
+          "title": "arXiv Troller",
+          "url": "https://arxiv-troller.com/?q=paper%3A+2609.37532"
+        },
+        {
+          "title": "Error Correcting Code Techniques - Emergence",
+          "url": "https://emergence.caameleon.com/en/sujets/error-correcting-code-techniques"
+        },
+        {
+          "title": "claim_audit/current_manifest.json · ICML-2026-agent-repro/challenge at a65811c81d8a82f6c536b58eba495afb3f119790",
+          "url": "https://huggingface.co/spaces/ICML-2026-agent-repro/challenge/blame/a65811c81d8a82f6c536b58eba495afb3f119790/claim_audit/current_manifest.json"
+        },
+        {
+          "title": "SGLang release history — The AI Toolchain",
+          "url": "https://aitoolchain.io/tools/sglang/"
+        },
+        {
+          "title": "Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis",
+          "url": "https://bittide.aicompass.dev/article/923f401f-9555-486f-9c52-b84836980578?cache=1"
+        },
+        {
+          "title": "GitHub - ZinYY/Awesome-Parallel-Decoding: Parallel Decoding of Language Models: A Survey. A systematic survey of parallel decoding, covering speculative decoding, diffusion LLMs, etc... · GitHub",
+          "url": "https://github.com/ZinYY/Awesome-Parallel-Decoding"
+        },
+        {
+          "title": "Transformer (deep learning)",
+          "url": "https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "JTrbJlIJra",
+          "title": "Beyond the Tip of the Iceberg: Depth-Aware Top-$K$ Margin Distillation for Diffusion Speculative Decoding",
+          "acronym": "BeyondtheTipoftheIceberg"
+        },
+        {
+          "id": "0LNgIaFZcY",
+          "title": "Draft-Guided Constrained Diffusion for Structured Generation in LLMs",
+          "acronym": "DraftGuidedConstrainedDiffusionforStructured"
+        },
+        {
+          "id": "lueiowOZZ7",
+          "title": "SPEAR: Exact Self-Speculative Sampling from the Autoregressive-Order Policy of Diffusion Language Models",
+          "acronym": "SPEAR"
+        },
+        {
+          "id": "T88NIhdQ1C",
+          "title": "Disentangling Diffusion Decoding: Selection, Pace, and Numerical Semantics",
+          "acronym": "DisentanglingDiffusionDecoding"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Beyond the Tip of the Iceberg: Depth-Aware Top-$K$ Margin Distillation for Diffusion Speculative Decoding\""
+        },
+        {
+          "q": "\"Draft-Guided Constrained Diffusion for Structured Generation in LLMs\""
+        },
+        {
+          "q": "\"SPEAR: Exact Self-Speculative Sampling from the Autoregressive-Order Policy of Diffusion Language Models\""
+        },
+        {
+          "q": "\"Disentangling Diffusion Decoding: Selection, Pace, and Numerical Semantics\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=forward-looking+constrained+decoding+strategy"
+        },
+        {
+          "title": "GitHub - Rainiver/constrained-decoding-atlas: Evidence-coded map of constrained decoding, structured generation, guarantees, systems costs, and evaluation for language models. · GitHub",
+          "url": "https://github.com/Rainiver/constrained-decoding-atlas"
+        },
+        {
+          "title": "Speculative Decoding for Multimodal Models: A Survey[v2] | Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202603.2344"
+        },
+        {
+          "title": "(PDF) Constraints Are Graphs, Not Chains: Exact Decoding for Diffusion Language Models",
+          "url": "https://www.researchgate.net/publication/414926034_Constraints_Are_Graphs_Not_Chains_Exact_Decoding_for_Diffusion_Language_Models"
+        },
+        {
+          "title": "GitHub - Rainiver/constrained-decoding-atlas: Evidence-coded map of constrained decoding, structured generation, guarantees, systems costs, and evaluation for language models. · GitHub",
+          "url": "https://ithub.global.ssl.fastly.net/Rainiver/constrained-decoding-atlas"
+        },
+        {
+          "title": "Constrained Decoding (SCD) Explained",
+          "url": "https://www.emergentmind.com/topics/constrained-decoding-scd"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://alpha-ollama.hf-mirror.com/papers?q=constrained+autoregressive+decoder"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://neurips.cc/Downloads/2024"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=constrained"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=constrained+infilling"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=sketch-guided+constrained+decoding"
+        },
+        {
+          "title": "Inference Engineering — The Workshop Book",
+          "url": "https://vizuaraai.github.io/convolution-musical-journey/book.html"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "CiGvIrGXUa",
+          "title": "SKIVE: Sparse-KV Importance-scheduled Verification by Expected true positives",
+          "acronym": "SKIVE"
+        },
+        {
+          "id": "GllKyzLZjf",
+          "title": "T2D: Target-to-Draft Model Pruning & Adaptation for Efficient Speculative Decoding",
+          "acronym": "T2D"
+        },
+        {
+          "id": "kPogpAbOGS",
+          "title": "Draft-and-Verify: Speculative Entropy Decoding for Autoregressive Learned Compression",
+          "acronym": "EntropyDraftVerify"
+        },
+        {
+          "id": "mJEviouJLH",
+          "title": "SpecPF: Speculative Permute-Flip Decoding with Improved Watermark",
+          "acronym": "SpecPF"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"SKIVE: Sparse-KV Importance-scheduled Verification by Expected true positives\""
+        },
+        {
+          "q": "\"T2D: Target-to-Draft Model Pruning & Adaptation for Efficient Speculative Decoding\""
+        },
+        {
+          "q": "\"Draft-and-Verify: Speculative Entropy Decoding for Autoregressive Learned Compression\""
+        },
+        {
+          "q": "\"SpecPF: Speculative Permute-Flip Decoding with Improved Watermark\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Speculative Decoding for Multimodal Models: A Survey[v2] | Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202603.2344"
+        },
+        {
+          "title": "64th Annual Meeting of the Association for Computational Linguistics - ACL Anthology",
+          "url": "https://aclanthology.org/events/acl-2026/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://rag-chunk-visualizer-proxy.modelpark.app/papers?q=slice-parallel+decoding"
+        },
+        {
+          "title": "GitHub - ZinYY/Awesome-Parallel-Decoding: Parallel Decoding of Language Models: A Survey. A systematic survey of parallel decoding, covering speculative decoding, diffusion LLMs, etc... · GitHub",
+          "url": "https://github.com/ZinYY/Awesome-Parallel-Decoding"
+        },
+        {
+          "title": "Adaptive Speculative Decoding: Draft-Length Control | TMLS.NYC",
+          "url": "https://www.tmls.nyc/research/adaptive-speculative-decoding"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=draft+length"
+        },
+        {
+          "title": "Speculative Decoding",
+          "url": "https://vladislavkruglikov.com/articles/speculative-decoding"
+        },
+        {
+          "title": "ENLSP NeurIPS Workshop 2024 | ENLSP highlights some fundamental problems in NLP and speech processing related to efficiency of the models, training and inference for the general ML and DL communities.",
+          "url": "https://neurips2024-enlsp.github.io/accepted_papers.html"
+        },
+        {
+          "title": "28 Neural Network Tricks | AI Wranglers",
+          "url": "https://www.aiwranglers.org/foundation/xii-neural-network-tricks/28-neural-network-tricks/"
+        },
+        {
+          "title": "ICLR2026 LLM Efficiency Papers · 171 Notes",
+          "url": "https://en.papernotes.org/ICLR2026/llm_efficiency/"
+        },
+        {
+          "title": "Speculative Decoding for Multimodal Models: A Survey[v1] | Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202603.2344/v1"
+        },
+        {
+          "title": "OpenAI AI Engineer Interview Questions & Prep | AI Interview Training",
+          "url": "https://aiinterviewtraining.com/company/openai"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "2fSfup5HuR",
+          "title": "Beyond the Point Mass: Acceptance-Derived Weights and Distributional Losses for Speculative Decoding",
+          "acronym": "BeyondthePointMass"
+        },
+        {
+          "id": "mQO2CZs8Xq",
+          "title": "Fork and Regenerate: MTP-Guided Early Forking and Suffix Regeneration for Block Diffusion Speculative Decoding",
+          "acronym": "ForkandRegenerate"
+        },
+        {
+          "id": "uu9k80L7nK",
+          "title": "ReDraft: Your Verifier Is Secretly a Depth Supervisor for Recurrent Speculative Decoding",
+          "acronym": "ReDraft"
+        },
+        {
+          "id": "MBCpY4MP66",
+          "title": "Does a Grammar-Constrained Speculative Verifier Sample the Conditional Law? Fidelity Bounds, Numerical Paths and Exact Acquisition",
+          "acronym": "DoesaGrammarConstrainedSpeculativeVerifier"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Beyond the Point Mass: Acceptance-Derived Weights and Distributional Losses for Speculative Decoding\""
+        },
+        {
+          "q": "\"Fork and Regenerate: MTP-Guided Early Forking and Suffix Regeneration for Block Diffusion Speculative Decoding\""
+        },
+        {
+          "q": "\"ReDraft: Your Verifier Is Secretly a Depth Supervisor for Recurrent Speculative Decoding\""
+        },
+        {
+          "q": "\"Does a Grammar-Constrained Speculative Verifier Sample the Conditional Law? Fidelity Bounds, Numerical Paths and Exact Acquisition\""
+        }
+      ],
+      "results": [
+        {
+          "title": "acceptodds: Which papers will get accepted at ICLR 2027?",
+          "url": "https://acceptodds.com/?kind=ICLR+2027&page=9&sort=likelihood&status=open"
+        },
+        {
+          "title": "acceptodds: Which papers will get accepted at ICLR 2027?",
+          "url": "https://acceptodds.com/?kind=ICLR+2027&page=849&sort=likelihood&status=open"
+        },
+        {
+          "title": "Artificial Intelligence: Philosophy, Theory and Practice",
+          "url": "https://alikoker.com.tr/en/artificial-intelligence-philosophy-theory-practice"
+        },
+        {
+          "title": "NYU Computer Science Department",
+          "url": "https://cs.nyu.edu/dynamic/reports/?year=all"
+        },
+        {
+          "title": "bioRxiv directory",
+          "url": "https://connect.biorxiv.org/archive/10.1126/meta_gs.php?id=10.1101%2F2025.04.28.650976"
+        },
+        {
+          "title": "Field Notes - Page 48 - New Runtime",
+          "url": "https://newruntime.com/posts/page/48/"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "ArFDP7NvRy",
+          "title": "Spec-Spike: Spiking Drafters for Vision-Language-Action Speculative Decoding",
+          "acronym": "Spec-Spike"
+        },
+        {
+          "id": "FcIkhaV8AZ",
+          "title": "Compass: Repairing When Target-Model Guidance Hurts in Parallel Speculative Decoding",
+          "acronym": "Compass"
+        },
+        {
+          "id": "n057WRwQxp",
+          "title": "Dispersed Any-Order Speculative Decoding for Exact Parallel Autoregressive Image Generation",
+          "acronym": "DispersedAnyOrderSpeculativeDecodingfor"
+        },
+        {
+          "id": "LoTA2X1BKF",
+          "title": "FLASHLight: Preserving Accepted Prefixes in Low-Bit Speculative Decoding",
+          "acronym": "FLASHLight"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Spec-Spike: Spiking Drafters for Vision-Language-Action Speculative Decoding\""
+        },
+        {
+          "q": "\"Compass: Repairing When Target-Model Guidance Hurts in Parallel Speculative Decoding\""
+        },
+        {
+          "q": "\"Dispersed Any-Order Speculative Decoding for Exact Parallel Autoregressive Image Generation\""
+        },
+        {
+          "q": "\"FLASHLight: Preserving Accepted Prefixes in Low-Bit Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Decoding Algorithms",
+          "url": "https://www.aussieai.com/research/decoding"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://neurips.cc/Downloads/2024"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=decoding+strategies"
+        },
+        {
+          "title": "Physical AI Brief — Silicon Photonics, CPO, Embodied AI Daily Signals | OrangeBot.AI",
+          "url": "https://orangebot.ai/physical-ai?date=2026-09-01"
+        },
+        {
+          "title": "Fugu-MT: arxivの論文翻訳(概要)",
+          "url": "https://fugumt.com/fugumt/paper/index.html"
+        },
+        {
+          "title": "論文や技術メモの一覧（随時更新） | わたしのべんきょうノート",
+          "url": "https://akihikowatanabe.github.io/paper_notes/"
+        },
+        {
+          "title": "ICLR 2025 论文集 - 全部接收论文",
+          "url": "https://kmno4-zx.github.io/iclr25-all-papers/"
+        },
+        {
+          "title": "Paper Archive Room — geepity",
+          "url": "https://geepity.com/"
+        },
+        {
+          "title": "Xiaohu AI デイリー — 2026-04-22",
+          "url": "https://daily.xiaohu.ai/ja/2026-04-22/"
+        },
+        {
+          "title": "ICML 2025 Papers with Code & Data – Resources | Paper Digest",
+          "url": "https://resources.paperdigest.org/2025/06/icml-2025-papers-with-code-data/"
+        },
+        {
+          "title": "Book",
+          "url": "https://papers.neurips.cc/paper/2024"
+        },
+        {
+          "title": "Brief · AI research papers, explained for builders · ScatterAI",
+          "url": "https://scatterai.com/brief"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "cKG5DrtVDm",
+          "title": "When Better Drafts Cost More Verification: Safety Boundaries for Multi-Token Drafting",
+          "acronym": "WhenBetterDraftsCostMoreVerification"
+        },
+        {
+          "id": "iMoFWHnnRd",
+          "title": "Accelerating Decoding via Autoregressive-to-Parallel Distillation for Architecture-Agnostic Generative Recommendation",
+          "acronym": "APD-GR"
+        },
+        {
+          "id": "FSBDGqCv9R",
+          "title": "DStreamer: Acceptance-Aligned Diffusion Streaming for High-Throughput Serving and Online RLVR",
+          "acronym": "DStreamer"
+        },
+        {
+          "id": "mI8BOD3x1X",
+          "title": "Spec-WAM: Feedback Grounded Speculative Inference for World–Action Models",
+          "acronym": "Spec-WAM"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"When Better Drafts Cost More Verification: Safety Boundaries for Multi-Token Drafting\""
+        },
+        {
+          "q": "\"Accelerating Decoding via Autoregressive-to-Parallel Distillation for Architecture-Agnostic Generative Recommendation\""
+        },
+        {
+          "q": "\"DStreamer: Acceptance-Aligned Diffusion Streaming for High-Throughput Serving and Online RLVR\""
+        },
+        {
+          "q": "\"Spec-WAM: Feedback Grounded Speculative Inference for World–Action Models\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Accelerating Decoding via Autoregressive-to-Parallel Distillation for Architecture-Agnostic Generative Recommendation | acceptodds",
+          "url": "https://acceptodds.com/papers/iclr2027-52467"
+        },
+        {
+          "title": "Accepted Papers – IJCAI 2026",
+          "url": "https://2026.ijcai.org/accepted-papers/"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://dev.neurips.cc/Downloads/2026"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=decoding+strategies"
+        },
+        {
+          "title": "ACL2026 Accepted Papers List · 1409 Notes",
+          "url": "https://en.papernotes.org/ACL2026/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=execution+verification"
+        },
+        {
+          "title": "arXiv Papers of Large Language Model Agent",
+          "url": "https://hongsong-wang.github.io/LLM_Agent/"
+        },
+        {
+          "title": "GitHub - Jianguo99/Awesome-Diffusion-LLM: A Collection of Papers on Diffusion Large Language Models · GitHub",
+          "url": "https://github.com/Jianguo99/Awesome-Diffusion-LLM"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "uBXjudYGaf",
+          "title": "Stitch-and-Repair Speculative Decoding",
+          "acronym": "StitchandRepairSpeculativeDecoding"
+        },
+        {
+          "id": "heTK8MXaWg",
+          "title": "Confidence-Adaptive Permutation-Tree Self Speculative Decoding for Diffusion Large Language Models",
+          "acronym": "ConfidenceAdaptivePermutationTreeSelfSpeculative"
+        },
+        {
+          "id": "IuKihTs9rn",
+          "title": "Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding",
+          "acronym": "ConjugateCompilation"
+        },
+        {
+          "id": "19r4PNX4jz",
+          "title": "SpecRouter: Reusable Payoff Prediction for Cost-Aware Speculative Decoding",
+          "acronym": "SpecRouter"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Stitch-and-Repair Speculative Decoding\""
+        },
+        {
+          "q": "\"Confidence-Adaptive Permutation-Tree Self Speculative Decoding for Diffusion Large Language Models\""
+        },
+        {
+          "q": "\"Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding\""
+        },
+        {
+          "q": "\"SpecRouter: Reusable Payoff Prediction for Cost-Aware Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "SpecRouter: Reusable Payoff Prediction for Cost-Aware Speculative Decoding | acceptodds",
+          "url": "https://acceptodds.com/papers/iclr2027-53793"
+        },
+        {
+          "title": "acceptodds: Which papers will get accepted at ICLR 2027?",
+          "url": "https://acceptodds.com/?kind=ICLR+2027&sort=likelihood&status=open"
+        },
+        {
+          "title": "acceptodds: Which papers will get accepted at ICLR 2027?",
+          "url": "https://acceptodds.com/?kind=ICLR+2027&page=2&sort=likelihood&status=open"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=speculative+verification"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=draft-verify+scheme"
+        },
+        {
+          "title": "Diffusion Language Models Know the Answer Before Decoding · mlsanity",
+          "url": "https://mlsanity.com/paper/2508.19982/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=decoding+strategies"
+        },
+        {
+          "title": "Lingpeng Kong - RankMe",
+          "url": "https://rankdblp.com/authors/__name__lingpeng_kong.html"
+        },
+        {
+          "title": "GitHub - Jianguo99/Awesome-Diffusion-LLM: A Collection of Papers on Diffusion Large Language Models · GitHub",
+          "url": "https://github.com/Jianguo99/Awesome-Diffusion-LLM"
+        },
+        {
+          "title": "Computer Research and Development | SinoAILab Research Archive | SinoAILab",
+          "url": "https://sinoailab.com/journal/computer-research-and-development?volume=Vol.+32&year=2025"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=draft+length"
+        },
+        {
+          "title": "Machine Learning",
+          "url": "https://borowiecki.dev/list/cs.LG/new"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "CcRZDmX7eK",
+          "title": "VerifyLocal: Learning Expert-Residency-Conditioned Proposals for Exact MoE Speculative Decoding",
+          "acronym": "VerifyLocal"
+        },
+        {
+          "id": "zQ7rqJUTBz",
+          "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
+          "acronym": "DraftCalibrationforSpeculativeDecoding"
+        },
+        {
+          "id": "2qajVLsFL9",
+          "title": "AdaSpec: Speculative Decoding with In-Engine Continual Learning",
+          "acronym": "AdaSpec"
+        },
+        {
+          "id": "1FXlpwBci0",
+          "title": "Separating marginal error from recoverable dependence in parallel-head speculative decoding for large language models",
+          "acronym": "Separatingmarginalerrorfromrecoverabledependence"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"VerifyLocal: Learning Expert-Residency-Conditioned Proposals for Exact MoE Speculative Decoding\""
+        },
+        {
+          "q": "\"Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions\""
+        },
+        {
+          "q": "\"AdaSpec: Speculative Decoding with In-Engine Continual Learning\""
+        },
+        {
+          "q": "\"Separating marginal error from recoverable dependence in parallel-head speculative decoding for large language models\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Research Papers on AI and Learning Techniques | PDF",
+          "url": "https://www.scribd.com/document/982794505/Main-Track-Poster-Presentations-251120-2"
+        },
+        {
+          "title": "Fast Inference from Transformers via Speculative Decoding · Pith Review",
+          "url": "https://pith.science/paper/2211.17192"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=draft-verify+scheme"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://iclr.cc/Downloads/2026"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=DynamIc+SpeCulation+length+Optimization"
+        },
+        {
+          "title": "Daily AI Papers | All credits go to HuggingFace’s Daily AI papers",
+          "url": "https://huggingface.co/papers) and the research community. 🔉Audio summaries here (https://t.me/daily_ai_papers). (https://gabrielchua.me/daily-ai-papers/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=speculative+Jacobi+sampling"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "FkzxNKRNI0",
+          "title": "PrePair: Speculative Drafter Training for Generative UI under Semantic Acceptance",
+          "acronym": "PrePair"
+        },
+        {
+          "id": "NzEMaGTbQ8",
+          "title": "Request Forest: Jointly Growing Verification Trees for Speculative Decoding",
+          "acronym": "RequestForest"
+        },
+        {
+          "id": "ljRSQUO06H",
+          "title": "Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools",
+          "acronym": "GhostToolCalls"
+        },
+        {
+          "id": "agAQ2i7viU",
+          "title": "RelaySpec: Adapting Frozen Speculative Drafters with Linear Maps",
+          "acronym": "RelaySpec"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"PrePair: Speculative Drafter Training for Generative UI under Semantic Acceptance\""
+        },
+        {
+          "q": "\"Request Forest: Jointly Growing Verification Trees for Speculative Decoding\""
+        },
+        {
+          "q": "\"Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools\""
+        },
+        {
+          "q": "\"RelaySpec: Adapting Frozen Speculative Drafters with Linear Maps\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools",
+          "url": "https://arxiv.org/abs/2606.02483"
+        },
+        {
+          "title": "dblp: Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools.",
+          "url": "https://dblp.org/rec/journals/corr/abs-2606-02483.html"
+        },
+        {
+          "title": "Data Systems Group | MPI-SWS",
+          "url": "https://mpi-dsg.org/"
+        },
+        {
+          "title": "Ghost Tool Calls: Issue-Time Privacy for Speculative Agen… | Minicod",
+          "url": "https://www.minicod.com/papers/ghost-tool-calls-issue-time-privacy-for-speculative-agent-tools-d5475f78"
+        },
+        {
+          "title": "Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools · ArXivSignals",
+          "url": "https://arxivsignals.io/papers/2606.02483"
+        },
+        {
+          "title": "dblp: Laurent Bindschaedler",
+          "url": "https://dblp.org/pid/116/5046.html"
+        },
+        {
+          "title": "Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools (pdf) | Paperity",
+          "url": "https://paperity.org/p/373953657/ghost-tool-calls-issue-time-privacy-for-speculative-agent-tools"
+        },
+        {
+          "title": "dblp: Lars Henning Klein",
+          "url": "https://dblp.org/pid/371/9844.html"
+        },
+        {
+          "title": "[Literature Review] Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools",
+          "url": "https://www.themoonlight.io/en/review/ghost-tool-calls-issue-time-privacy-for-speculative-agent-tools"
+        },
+        {
+          "title": "Top arXiv papers",
+          "url": "https://scirate.com/?date=2026-06-05&page=100&range=31"
+        },
+        {
+          "title": "Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools | Scholar Feed",
+          "url": "https://www.scholarfeed.org/paper/2606.02483"
+        },
+        {
+          "title": "Top arXiv papers",
+          "url": "https://scirate.com/?date=2026-06-04&page=57&range=7"
+        },
+        {
+          "title": "Top arXiv papers",
+          "url": "https://scirate.com/?date=2026-06-02&page=7&range=7"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "QloJ5LvN1r",
+          "title": "When to Trust the Past: Reliability-Calibrated Draft-Tree Orchestration for Speculative Decoding",
+          "acronym": "WhentoTrustthePast"
+        },
+        {
+          "id": "mgQmqz3bom",
+          "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+          "acronym": "TheGenerativeGapBetweenSpeculativeDrafter"
+        },
+        {
+          "id": "lLEFkOKaZk",
+          "title": "SQB-Spec: Accelerating Large Multimodal Models through Task-Specific Speculative Decoding",
+          "acronym": "SQB-Spec"
+        },
+        {
+          "id": "MWT5JACcVr",
+          "title": "Training Reshapes Width-Dependent Acceptance in Block-Diffusion Speculative Decoding",
+          "acronym": "TrainingReshapesWidthDependentAcceptancein"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"When to Trust the Past: Reliability-Calibrated Draft-Tree Orchestration for Speculative Decoding\""
+        },
+        {
+          "q": "\"The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model\""
+        },
+        {
+          "q": "\"SQB-Spec: Accelerating Large Multimodal Models through Task-Specific Speculative Decoding\""
+        },
+        {
+          "q": "\"Training Reshapes Width-Dependent Acceptance in Block-Diffusion Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Continuous diffusion language models – Sander Dieleman",
+          "url": "https://sander.ai/2026/08/24/continuous-dlms.html"
+        },
+        {
+          "title": "DiffusionGemma Technical Report – Read with an AI tutor",
+          "url": "https://www.chapterpal.com/s/44dd0658/diffusiongemma-technical-report"
+        },
+        {
+          "title": "stat946W25 - statwiki",
+          "url": "https://wiki.math.uwaterloo.ca/statwiki/index.php?title=stat946W25"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=drafting+efficiency"
+        },
+        {
+          "title": "(PDF) A Survey on Diffusion Language Models",
+          "url": "https://www.researchgate.net/publication/394488067_A_Survey_on_Diffusion_Language_Models"
+        },
+        {
+          "title": "(PDF) Discrete Diffusion Models: A Unified Framework from Tokenization to Generation",
+          "url": "https://www.researchgate.net/publication/410158442_Discrete_Diffusion_Models_A_Unified_Framework_from_Tokenization_to_Generation"
+        },
+        {
+          "title": "Fast Inference from Transformers via Speculative Decoding · Pith Review",
+          "url": "https://pith.science/paper/2211.17192"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://ofia-docs.france-ioi.org/huggingface/papers?q=decoding+strategies"
+        },
+        {
+          "title": "US20260148042A1 - Content-Aware Hybrid Quantum Enhanced Optimization and Orchestration Layer - Google Patents",
+          "url": "https://patents.google.com/patent/US20260148042A1/en"
+        },
+        {
+          "title": "ICML2025 Accepted Papers List · 1060 Notes",
+          "url": "https://en.papernotes.org/ICML2025/"
+        },
+        {
+          "title": "Latest Posts – Sander Dieleman",
+          "url": "https://sander.ai/"
+        },
+        {
+          "title": "arXiv Papers of Large Language Model Agent",
+          "url": "https://hongsong-wang.github.io/LLM_Agent/"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "hS02qE5NLR",
+          "title": "LatentSpec: Two-Stage Thinker–Drafter Parallel Drafting with Shared Latent Reasoning for Speculative Decoding",
+          "acronym": "LatentSpec"
+        },
+        {
+          "id": "HEZO4VeU6W",
+          "title": "Specula: Lossless KV-Cache Recovery via Precision-Dual Drafting",
+          "acronym": "Specula"
+        },
+        {
+          "id": "3s9Dg3RAwP",
+          "title": "Speculative Multi-Trajectory Decoding for Efficient Multimodal LLM Planning",
+          "acronym": "SpeculativeMultiTrajectoryDecodingforEfficient"
+        },
+        {
+          "id": "R1TOtlmjpw",
+          "title": "StreamBank: Unified Generation–Memory Inference for Efficient Streaming Video Understanding",
+          "acronym": "StreamBank"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"LatentSpec: Two-Stage Thinker–Drafter Parallel Drafting with Shared Latent Reasoning for Speculative Decoding\""
+        },
+        {
+          "q": "\"Specula: Lossless KV-Cache Recovery via Precision-Dual Drafting\""
+        },
+        {
+          "q": "\"Speculative Multi-Trajectory Decoding for Efficient Multimodal LLM Planning\""
+        },
+        {
+          "q": "\"StreamBank: Unified Generation–Memory Inference for Efficient Streaming Video Understanding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Diffusion Language Models · ICML 2026 | paperlist.ai",
+          "url": "https://paperlist.ai/en/conferences/icml/2026/topics/diffusion-language-models"
+        },
+        {
+          "title": "Xihui Liu",
+          "url": "https://xh-liu.github.io/publications/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=layer-parallel+speculation"
+        },
+        {
+          "title": "Rui Zhang, Computer Science and Engineering, Penn State University",
+          "url": "https://ryanzhumich.github.io/publication.html"
+        },
+        {
+          "title": "Inference Engineering — The Workshop Book",
+          "url": "https://vizuaraai.github.io/convolution-musical-journey/book.html"
+        },
+        {
+          "title": "NIPS 2024 collected by Wang",
+          "url": "https://hongsong-wang.github.io/NIPS2024_ABSTRACT/"
+        },
+        {
+          "title": "Computer Research and Development | SinoAILab Research Archive | SinoAILab",
+          "url": "https://sinoailab.com/journal/computer-research-and-development?volume=Vol.+32&year=2025"
+        },
+        {
+          "title": "Towards Reasoning Era: A Survey of Long Chain-of-Thought",
+          "url": "https://long-cot.github.io/"
+        },
+        {
+          "title": "EurekaMag Full Text Articles Chapter 110075",
+          "url": "https://online.eurekamag.com/research/110/074/"
+        },
+        {
+          "title": "EurekaMag Full Text Articles Chapter 110079",
+          "url": "https://meet.eurekamag.com/research/110/078/"
+        },
+        {
+          "title": "Large-Scale Model-Enhanced Vision-Language Navigation: Recent Advances, Practical Applications, and Future Challenges[v1] | Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202602.0768"
+        },
+        {
+          "title": "2508.01875v3 | PDF | Streaming Media | Stream",
+          "url": "https://www.scribd.com/document/1070448653/2508-01875v3"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "1qoRIp9iuN",
+          "title": "Frequencies Rank, Probabilities Allocate: Calibrated Draft Trees for Drafter-Free Speculative Decoding",
+          "acronym": "FrequenciesRankProbabilitiesAllocate"
+        },
+        {
+          "id": "S5ggQYum98",
+          "title": "SIPA: Test-Time Reinforcement Learning through Speculative Policy Adaptation",
+          "acronym": "SIPA"
+        },
+        {
+          "id": "KJM6j45H3c",
+          "title": "dSpec: Efficient Speculative Decoding for Block-Diffusion Language Models",
+          "acronym": "dSpec"
+        },
+        {
+          "id": "KdJAQNozHX",
+          "title": "The Prefix Is Already Cached: Reusing Target KV for Speculative Decoding",
+          "acronym": "ThePrefixIsAlreadyCached"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"Frequencies Rank, Probabilities Allocate: Calibrated Draft Trees for Drafter-Free Speculative Decoding\""
+        },
+        {
+          "q": "\"SIPA: Test-Time Reinforcement Learning through Speculative Policy Adaptation\""
+        },
+        {
+          "q": "\"dSpec: Efficient Speculative Decoding for Block-Diffusion Language Models\""
+        },
+        {
+          "q": "\"The Prefix Is Already Cached: Reusing Target KV for Speculative Decoding\""
+        }
+      ],
+      "results": [
+        {
+          "title": "Latency Optimization: TTFT, Batching, Speculative Decoding - Interactive",
+          "url": "https://mbrenndoerfer.com/writing/latency-optimization-batching-streaming-monitoring-llm-serving"
+        },
+        {
+          "title": "config - vLLM",
+          "url": "https://docs.vllm.ai/en/latest/api/vllm/config/"
+        },
+        {
+          "title": "EAGLE/MTP prefix-cache last-block drop causes a 1,648-token recompute per hit on one hybrid Qwen3.8 GDN layout — ~30-40% batch throughput loss on prefix-reusing workloads with speculative decoding · Issue #53670 · vllm-project/vllm · GitHub",
+          "url": "https://ccn.web.tr/web-api/iframe-proxy?url=https%3A%2F%2Fgithub.com%2Fvllm-project%2Fvllm%2Fissues%2F53670"
+        },
+        {
+          "title": "SGLang: Efficient Execution of Structured Language Model Programs — Technical Review | Zhongzhu (Charlie) Zhou",
+          "url": "https://www.zhongzhuzhou.org/blog/2026-05-21-sglang-technical-review-en/"
+        },
+        {
+          "title": "The Stack Below the Stack (Part 3): Serving at Scale | Amit Bahree's (useless?) insight!",
+          "url": "https://blog.desigeek.com/post/2026/08/llm-inference-stack-part3-serving-at-scale/"
+        },
+        {
+          "title": "RL Infrastructure for the Mathematically Inclined — A Field Survey",
+          "url": "https://chenggong-zhang.github.io/RL_infra/"
+        },
+        {
+          "title": "Vllm Serving Deep Dive - LLM Serving & Inference — A Practical Guide",
+          "url": "https://fahimfaisal.info/llm-serving-inference-guide/05_vllm_serving/VLLM_SERVING_DEEP_DIVE.html"
+        },
+        {
+          "title": "What is inference engineering? Deepdive - by Gergely Orosz",
+          "url": "https://newsletter.pragmaticengineer.com/p/what-is-inference-engineering"
+        },
+        {
+          "title": "GitHub - bansky-cl/diffusion-nlp-paper-arxiv: Auto get diffusion nlp papers in Axriv. More papers Information can be found in another repository \"Diffusion-LM-Papers\". · GitHub",
+          "url": "https://github.com/bansky-cl/diffusion-nlp-paper-arxiv"
+        },
+        {
+          "title": "Section 9.4: Speculative Decoding",
+          "url": "https://llmbook.icsgen-ai.org/part-2-understanding-llms/module-09-inference-optimization/section-9.4.html"
+        },
+        {
+          "title": "Interview — Agentic AI & RAG",
+          "url": "https://venukiran004.github.io/tutorial-hub-site/07_GenAI_and_LLMs/interview.html"
+        },
+        {
+          "title": "CS2680 Modern AI Systems — Readings",
+          "url": "https://cs2680.com/readings"
+        }
+      ]
+    },
+    {
+      "papers": [
+        {
+          "id": "HDFKzKI82d",
+          "title": "SuffixSpec: Hierarchical Context-Aware Memory for Training-Free Speculative Decoding",
+          "acronym": "SuffixSpec"
+        },
+        {
+          "id": "T0dAyKIH7J",
+          "title": "RANA: Accelerating Multi-Turn Agentic Reinforcement Learning with Speculative Decoding",
+          "acronym": "RANA"
+        },
+        {
+          "id": "qMAx40LIRn",
+          "title": "SemanticTree: Grammar-Aware Tree Allocation for Speculative Decoding",
+          "acronym": "SemanticTree"
+        },
+        {
+          "id": "WpiyhmR6zw",
+          "title": "Search Into Weights: Turning Test-Time Search into Capability per Parameter",
+          "acronym": "SearchIntoWeights"
+        }
+      ],
+      "queries": [
+        {
+          "q": "\"SuffixSpec: Hierarchical Context-Aware Memory for Training-Free Speculative Decoding\""
+        },
+        {
+          "q": "\"RANA: Accelerating Multi-Turn Agentic Reinforcement Learning with Speculative Decoding\""
+        },
+        {
+          "q": "\"SemanticTree: Grammar-Aware Tree Allocation for Speculative Decoding\""
+        },
+        {
+          "q": "\"Search Into Weights: Turning Test-Time Search into Capability per Parameter\""
+        }
+      ],
+      "results": [
+        {
+          "title": "acceptodds: Which papers will get accepted at ICLR 2027?",
+          "url": "https://acceptodds.com/?kind=ICLR+2027&sort=newest&status=open"
+        },
+        {
+          "title": "From Grammar Deltas to Token Masks: Incremental Constrained Decoding under Runtime Grammar Evolution | acceptodds",
+          "url": "https://acceptodds.com/papers/iclr2027-3207"
+        },
+        {
+          "title": "ObsSpec: Accelerating Agentic Reinforcement Learning with Observation Speculation · Pith",
+          "url": "https://pith.science/paper/2610.15246"
+        },
+        {
+          "title": "Proceedings of Machine Learning Research | Proceedings of the 43rd International Conference on Machine Learning Held in Seoul, South Korea on 06-11 July 2026 Published as Volume 306 by the Proceedings of Machine Learning Research on 29 September 2026. Volume Edited by: Tong Zhang Miroslav Dudik Martin Jaggi Alekh Agarwal Sharon Li Dale Schuurmans Jerry Zhu Felix Berkenkamp Hanze Dong Alberto Bietti Series Editors: Tegan Emerson Hoel Kervadec Neil D. Lawrence",
+          "url": "https://proceedings.mlr.press/v306/"
+        },
+        {
+          "title": "arXiv Papers with Code in Computer Science (September 2025)",
+          "url": "https://hongsong-wang.github.io/arXiv09/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=training-free+acceleration"
+        },
+        {
+          "title": "Blog | vLLM",
+          "url": "https://vllm.ai/blog"
+        },
+        {
+          "title": "按机构/公司/学校 - Auto Research",
+          "url": "https://daiwk.github.io/auto-research/post-training/catalog/by-organization/"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=parallel+rollouts"
+        },
+        {
+          "title": "Research-Space/README.md at main · DicardoX/Research-Space · GitHub",
+          "url": "https://github.com/DicardoX/Research-Space/blob/main/README.md"
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=hierarchical+decoder+stack"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://icml.cc/Downloads/2026"
+        }
+      ]
+    }
+  ]
+}
