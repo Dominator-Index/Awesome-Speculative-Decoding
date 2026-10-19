@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-12",
+  "paper_file": "SD.pdf",
+  "paper_sha256": "b287adca11d8126e86dfd6facf162f74f2f6dcfefdef9130af7dde35b08e1d1d",
+  "repository": "https://github.com/romsto/Speculative-Decoding.git",
+  "commit": "db7db67604359d0380c330c240c276ec1f85ba65",
+  "license": "MIT",
+  "source_type": "third-party implementation, not confirmed author experiment code",
+  "upstream_changes": false,
+  "inspected_files": [
+    "sampling/speculative_decoding.py",
+    "sampling/base_decoding.py",
+    "utils/logits_processor.py",
+    "utils/caching.py"
+  ],
+  "execution": "stdlib sampling_demo.py: 3 checks passed; upstream model code not executed",
+  "notes": "论文与核心代码讲解.md"
+}
