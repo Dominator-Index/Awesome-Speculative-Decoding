@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/yzc-666/iclr2027-explorer",
+  "commit": "5b07b9aa7c2c5fbca35a9f4bb765cf71c489dbf0",
+  "snapshot_built": "2026-10-07",
+  "retrieved_at": "2026-10-19",
+  "total_records": 43013,
+  "limitations": "第三方对公开 OpenReview 元数据的快照，非当前官方全量列表；状态截至快照日期。官方 API 本次返回 HTTP 403。"
+}
