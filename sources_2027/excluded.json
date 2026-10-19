@@ -1,0 +1,356 @@
+[
+  {
+    "id": "UBWOaIbzKh",
+    "title": "GRACE: Graded Representation Augmentation for Cost-Effective SLM–LLM Collaboration",
+    "source_url": "https://openreview.net/forum?id=UBWOaIbzKh",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "gqKba6Tu8o",
+    "title": "EagleDepth: Efficient Fine-Grained Monocular Depth Estimation via Pixel Diffusion Decoder",
+    "source_url": "https://openreview.net/forum?id=gqKba6Tu8o",
+    "reason": "EagleDepth 为深度估计，与 EAGLE 草稿无关。"
+  },
+  {
+    "id": "XsjVbnJrSb",
+    "title": "Draft-KV: Learning Useful Latent Communication Between Language Models",
+    "source_url": "https://openreview.net/forum?id=XsjVbnJrSb",
+    "reason": "潜在通信研究，题名 Draft-KV 不代表推测解码。"
+  },
+  {
+    "id": "rAjoqmwYz5",
+    "title": "Scalable Attention: The Inference Compute-Cache Scaling Law",
+    "source_url": "https://openreview.net/forum?id=rAjoqmwYz5",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "4fcmMUnShp",
+    "title": "State-Coarsened Future-Validity Correction for Constrained Decoding",
+    "source_url": "https://openreview.net/forum?id=4fcmMUnShp",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "f8IUGy0sTC",
+    "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+    "source_url": "https://openreview.net/forum?id=f8IUGy0sTC",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "YtfoEdxf4V",
+    "title": "FlowLap: Execution-Aware Inference for Flow-Matching Video-Action World Models",
+    "source_url": "https://openreview.net/forum?id=YtfoEdxf4V",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "6YNTjYQxHx",
+    "title": "QUOTA: Head-Sensitive Uncertainty for Budget-Interpretable Token Routing",
+    "source_url": "https://openreview.net/forum?id=6YNTjYQxHx",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "Et89lO3Lc2",
+    "title": "ReDraft, Don't Just Distill: Reference-Driven Revision for Continual MLLM Post-Training",
+    "source_url": "https://openreview.net/forum?id=Et89lO3Lc2",
+    "reason": "多模态持续训练的修订策略，不是推测解码。"
+  },
+  {
+    "id": "wz7gWg69GF",
+    "title": "EHR-Bench: A Chinese Multi-Task Benchmark for Recruitment AI",
+    "source_url": "https://openreview.net/forum?id=wz7gWg69GF",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "OBox0NCLvL",
+    "title": "Super Apriel: One Checkpoint, Many Speeds",
+    "source_url": "https://openreview.net/forum?id=OBox0NCLvL",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "UDWofdHFrg",
+    "title": "From Design to Learning: Evolving Research Writing Harnesses from Expert Papers",
+    "source_url": "https://openreview.net/forum?id=UDWofdHFrg",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "ZEeYfne3aD",
+    "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents",
+    "source_url": "https://openreview.net/forum?id=ZEeYfne3aD",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "DBtNko6b1g",
+    "title": "TempoDraft: Efficient Long-Horizon Rolling Forecasting",
+    "source_url": "https://openreview.net/forum?id=DBtNko6b1g",
+    "reason": "时间序列滚动预测；本批不扩展到预测任务。"
+  },
+  {
+    "id": "cqWa4nYVKQ",
+    "title": "STANCE DRIFT: HOW AI-MEDIATED COMMUNICATION DISTORTS OUR MESSAGE",
+    "source_url": "https://openreview.net/forum?id=cqWa4nYVKQ",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "LOHzPGrcTQ",
+    "title": "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
+    "source_url": "https://openreview.net/forum?id=LOHzPGrcTQ",
+    "reason": "科学发现的多模型进化搜索，非解码或 Agent 未来动作验证。"
+  },
+  {
+    "id": "ZoVv8NH8sp",
+    "title": "DraftAttention2: Fast Video Diffusion with Low-Resolution-Guided Mixed-Precision Attention",
+    "source_url": "https://openreview.net/forum?id=ZoVv8NH8sp",
+    "reason": "视频扩散注意力加速，不是 token draft-verify。"
+  },
+  {
+    "id": "LYN8fCpi7x",
+    "title": "AmendGuard: Certify-Then-Decide Amendment Triage for Drafted Clinical Trials",
+    "source_url": "https://openreview.net/forum?id=LYN8fCpi7x",
+    "reason": "临床试验方案的修订审核，不是解码。"
+  },
+  {
+    "id": "8cWHKWsD1x",
+    "title": "Token-Adaptive Concrete Score Distillation (TA-CSD)",
+    "source_url": "https://openreview.net/forum?id=8cWHKWsD1x",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "qf89y8vogU",
+    "title": "\"Nothing to See Here'': Unintended Disclosure through Revision Traces of LLM Deliverables",
+    "source_url": "https://openreview.net/forum?id=qf89y8vogU",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "c2exIjjkYB",
+    "title": "Block Parallelism for Efficient Distributed Long-Context Diffusion Language Model Training",
+    "source_url": "https://openreview.net/forum?id=c2exIjjkYB",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "VZucZMdnQD",
+    "title": "Parallel Language Models via Variational Decoding",
+    "source_url": "https://openreview.net/forum?id=VZucZMdnQD",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "hWV7TkZ7dW",
+    "title": "Speculative Evaluation of Stochastic LLMs",
+    "source_url": "https://openreview.net/forum?id=hWV7TkZ7dW",
+    "reason": "评测预算分配中的推测执行，不是解码。"
+  },
+  {
+    "id": "JlDZVa2gaO",
+    "title": "Scalable Rollout Generation for Generative Driving Simulators",
+    "source_url": "https://openreview.net/forum?id=JlDZVa2gaO",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "SbFIIt33md",
+    "title": "Learning to Re-Draft: A Variational Stackelberg Game for Discrete Diffusion",
+    "source_url": "https://openreview.net/forum?id=SbFIIt33md",
+    "reason": "学习离散扩散噪声过程，re-draft 指去噪修订。"
+  },
+  {
+    "id": "ziJBgdjfFh",
+    "title": "ExpBoN: Exponential-Noise Best-of-n for Efficient Test-Time LLM Alignment",
+    "source_url": "https://openreview.net/forum?id=ziJBgdjfFh",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "VZCNOTa151",
+    "title": "Modeling Continuous Spatio-Temporal Disease Evolution for Longitudinal Radiology Report Generation",
+    "source_url": "https://openreview.net/forum?id=VZCNOTa151",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "JESwsc9oGo",
+    "title": "KAP: Bridging the Knowledge Selection–Runtime Consumption Gap in LLM Systems",
+    "source_url": "https://openreview.net/forum?id=JESwsc9oGo",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "YEdSmE0OzZ",
+    "title": "Divergence Decoding: Training-Free Capability Fusion",
+    "source_url": "https://openreview.net/forum?id=YEdSmE0OzZ",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "9aSZuOrJxR",
+    "title": "DistLMSim: Graph-Level Simulation of Dynamic LLM Inference Serving",
+    "source_url": "https://openreview.net/forum?id=9aSZuOrJxR",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "xakjdUSQA4",
+    "title": "LatLM: Line-Parallel Language Models with Deferred Commitment",
+    "source_url": "https://openreview.net/forum?id=xakjdUSQA4",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "1jtNAI8NRC",
+    "title": "Breaking Diffusion: Parallel Reasoning with Draft Refinement",
+    "source_url": "https://openreview.net/forum?id=1jtNAI8NRC",
+    "reason": "并行答案修订的独立生成模型，未以 SD 为主要贡献。"
+  },
+  {
+    "id": "5gw0elHwkG",
+    "title": "Hybrid-Flow Drive: Unifying Masked Diffusion and Continuous Embedding Flow for Autonomous Driving",
+    "source_url": "https://openreview.net/forum?id=5gw0elHwkG",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "dmXYZPyw2C",
+    "title": "Operation-Guided Progressive Human-to-AI Text Transformation Benchmark for Multi-Granularity AI-Text Detection",
+    "source_url": "https://openreview.net/forum?id=dmXYZPyw2C",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "BM8DhfrBNm",
+    "title": "Vocabulary Pruning via Submodular Optimization",
+    "source_url": "https://openreview.net/forum?id=BM8DhfrBNm",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "eLUJLZDg84",
+    "title": "InvisibleLoRA: Fast Multi-LoRA Serving Without Per-Token LoRA Decoding",
+    "source_url": "https://openreview.net/forum?id=eLUJLZDg84",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "ntrwwJeAgE",
+    "title": "Distribution-Preserving Response Length Separation for Language Models",
+    "source_url": "https://openreview.net/forum?id=ntrwwJeAgE",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "YeAi9Rg38D",
+    "title": "DraftCoder:A Benchmark and Model for Dimensioned Multi-View Mechanical Drawing",
+    "source_url": "https://openreview.net/forum?id=YeAi9Rg38D",
+    "reason": "机械工程图生成，同名 DraftCoder。"
+  },
+  {
+    "id": "MBsLrOWnlc",
+    "title": "ScreenWritingBench: Evaluating LLMs Across the Screenwriting Workflow with Dimension-Specific Evaluation",
+    "source_url": "https://openreview.net/forum?id=MBsLrOWnlc",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "1Ott6EBW32",
+    "title": "EVIDENCE THAT CAN CONTRADICT: WHAT REPORT- AUDITING METRICS ACTUALLY MEASURE IN MEDICAL VLMS",
+    "source_url": "https://openreview.net/forum?id=1Ott6EBW32",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "4vC5K3RgwR",
+    "title": "Grammar Reachability for Lossless LM-Head Compression and Deterministic Token Injection in Structured Generation",
+    "source_url": "https://openreview.net/forum?id=4vC5K3RgwR",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "amQcxOqzIY",
+    "title": "DRAFT: Disentangling Retrieval and Abstention via Factual Post-Training",
+    "source_url": "https://openreview.net/forum?id=amQcxOqzIY",
+    "reason": "事实检索与拒答训练，同名 DRAFT。"
+  },
+  {
+    "id": "KZSwfCEkqN",
+    "title": "Model Priming: Unverified Handoffs for Efficient Decoding",
+    "source_url": "https://openreview.net/forum?id=KZSwfCEkqN",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "Ec6B7E1neG",
+    "title": "Vibe Patenting: Agentic AI for Professional Patent Drafting",
+    "source_url": "https://openreview.net/forum?id=Ec6B7E1neG",
+    "reason": "专利文稿起草，不是推测解码。"
+  },
+  {
+    "id": "3g9IdvTKbE",
+    "title": "What Does a Token Cost? A Mixture-of-Agents Measurement of Sufficient Per-Token Compute",
+    "source_url": "https://openreview.net/forum?id=3g9IdvTKbE",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "sehaQUasEF",
+    "title": "SEP: Speculative Expert Prefetching for Low-Latency Mixture-of-Experts Inference",
+    "source_url": "https://openreview.net/forum?id=sehaQUasEF",
+    "reason": "专家预取而非多 token 起草验证，另列排除理由。"
+  },
+  {
+    "id": "0Kl4HY9Tfc",
+    "title": "CONFORMAL RISK CONTROL FOR CERTIFYING STREAMED GENERATION UNDER CONNECTIVITY LOSS",
+    "source_url": "https://openreview.net/forum?id=0Kl4HY9Tfc",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "dtN2B8UsPq",
+    "title": "DRAFT: Decoding and Reconstructing 3D Room Layouts from fMRI and Camera Trajectories",
+    "source_url": "https://openreview.net/forum?id=dtN2B8UsPq",
+    "reason": "fMRI 三维场景重建，同名 DRAFT。"
+  },
+  {
+    "id": "mGSMbbW7pH",
+    "title": "EAGLE: Entropy-Aware Geometric Learning Enhancer for Partially Polygon-Supervised Object Localization",
+    "source_url": "https://openreview.net/forum?id=mGSMbbW7pH",
+    "reason": "多边形监督定位，同名 EAGLE。"
+  },
+  {
+    "id": "Y5ado2U5C3",
+    "title": "EAGLE-360: Embodied Active Global-to-Local Exploration in $360^\\circ$",
+    "source_url": "https://openreview.net/forum?id=Y5ado2U5C3",
+    "reason": "全景主动探索，同名 EAGLE。"
+  },
+  {
+    "id": "XzlNiYoA7t",
+    "title": "LightDraft: Accelerating Masked Diffusion Image Editing with Look-Ahead Guidance",
+    "source_url": "https://openreview.net/forum?id=XzlNiYoA7t",
+    "reason": "图像编辑的计算复用和长度控制，未构成 SD 验证流程。"
+  },
+  {
+    "id": "YFNjp6KSF7",
+    "title": "Tool-Augmented Multimodal Agents for Piping & Instrumentation Diagram Understanding",
+    "source_url": "https://openreview.net/forum?id=YFNjp6KSF7",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "VoJ8FflwBk",
+    "title": "Speculative Directive Search for Indirect Prompt Injection Under Multi-Layer Defenses",
+    "source_url": "https://openreview.net/forum?id=VoJ8FflwBk",
+    "reason": "提示注入的指令搜索，不是解码加速。"
+  },
+  {
+    "id": "Qask3lw679",
+    "title": "EAGLE: Grounding Multimodal LLM Judges for AI-Generated Image Assessment via Evidence Anchors",
+    "source_url": "https://openreview.net/forum?id=Qask3lw679",
+    "reason": "图像评估，同名 EAGLE。"
+  },
+  {
+    "id": "brM5cLBa3G",
+    "title": "RAVEL: Reasoning Agents for Validating and Evaluating LLM Text Synthesis",
+    "source_url": "https://openreview.net/forum?id=brM5cLBa3G",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "5dEdB266sd",
+    "title": "MemoSight: Improving the Fidelity of Chain-of-Thought Compression with Memory and Foresight Tokens",
+    "source_url": "https://openreview.net/forum?id=5dEdB266sd",
+    "reason": "已检查候选摘要：以其他任务为主要贡献，SD 仅为背景、基线或关键词；不纳入本批方法目录。"
+  },
+  {
+    "id": "UGc6uujZga",
+    "title": "DrafTS: Time-Aware Decomposition with Residual Correction for Time Series Modeling",
+    "source_url": "https://openreview.net/forum?id=UGc6uujZga",
+    "reason": "时间序列分解与预测，同名 DrafTS；不是 token SD。"
+  },
+  {
+    "id": "61HXPpMUbe",
+    "title": "DRAFT-Solver: Dynamic spaRse Attention via node draFTing",
+    "source_url": "https://openreview.net/forum?id=61HXPpMUbe",
+    "reason": "节点起草的稀疏注意力求解器，不是语言模型候选验证。"
+  },
+  {
+    "id": "x23LuMrBJo",
+    "title": "GPU Forecasters: Language Models as Speculative Surrogates for Kernel Runtime Optimization",
+    "source_url": "https://openreview.net/forum?id=x23LuMrBJo",
+    "reason": "kernel runtime 搜索中的性能代理，不是 SD 解码。"
+  }
+]

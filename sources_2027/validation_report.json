@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-19",
+  "snapshot_date": "2026-10-07",
+  "snapshot_records": 43013,
+  "screened_candidates": 328,
+  "included": 269,
+  "excluded": 59,
+  "included_with_pdf": 81,
+  "included_pdf_pending": 188,
+  "total_papers": 391,
+  "total_pdf_entries": 187,
+  "broken_local_links": [],
+  "missing_pdfs": [],
+  "sha256_mismatches": [],
+  "official_live_status_verified": false
+}

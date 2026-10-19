@@ -1,10 +1,16 @@
 # DLoop 的 Related Work 整理
 
+<!-- ICLR2027 START -->
+
+ICLR2027 扩展：[分类检索索引](ICLR2027.md)。本批保留 269 条，81 篇已有 PDF；当前文献库 391 篇论文、187 篇已有 PDF。投稿状态与覆盖范围以索引中的快照说明为准。
+
+<!-- ICLR2027 END -->
+
 按研究方向浏览：[研究方向分类索引](CLASSIFICATION.md)。
 
 <!-- CONFERENCE2026 START -->
 
-2026 年扩展已整理：**ICML 32 篇、ICLR 23 篇、NeurIPS 40 篇**；下载状态、分类与待补名单见 [2026 会议索引](CONFERENCES2026.md)。合并文献库共 122 篇，106 篇已有 PDF。DFlash 的目录更新为 `ICML2026-DFlash`，SpecBlock 与 VAT 更新为 `NeurIPS2026-*`，复用原 PDF。
+2026 年扩展已整理：**ICML 32 篇、ICLR 23 篇、NeurIPS 40 篇**；下载状态、分类与待补名单见 [2026 会议索引](CONFERENCES2026.md)。当时合并文献库为 122 篇、106 篇 PDF（历史统计；最新总数见上方 ICLR2027 扩展）。DFlash 的目录更新为 `ICML2026-DFlash`，SpecBlock 与 VAT 更新为 `NeurIPS2026-*`，复用原 PDF。
 
 <!-- CONFERENCE2026 END -->
 整理日期：2026-10-11。主文：[DLoop: Looped Speculative Decoding](07_跨块与多轮起草/ICLR2027-DLoop/3897_DLoop_Looped_Speculative_.pdf)。该 PDF 标注 **ICLR 2027 在审**，保留原有目录，不代表已录用。

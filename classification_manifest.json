@@ -1,7 +1,7 @@
 {
-  "organized_at": "2026-10-12",
-  "scope": "仅分类现有本地文献，不新增网站论文，不更改已有发表与下载状态。",
-  "basis": "本地 papers_manifest.json、conference_2026_manifest.json、逐篇 README 的已有摘要与定位；不是本次逐篇全文评审。",
+  "organized_at": "2026-10-19",
+  "scope": "原有分类文献与用户授权新增的 ICLR2027 公开投稿快照候选；所有投稿状态与下载状态分别记录。",
+  "basis": "已有记录保持；新条目依据题名、关键词与摘要初筛，DLite 另核查公开 PDF 正文和评测附录。",
   "categories": [
     {
       "directory": "01_基础与早期工作",
@@ -87,6 +87,31 @@
       "directory": "17_长上下文与近似计算",
       "name": "长上下文与近似计算",
       "description": "长上下文稀疏验证、近似推理及通用推理系统背景。"
+    },
+    {
+      "directory": "18_MoE与混合架构",
+      "name": "MoE与混合架构",
+      "description": "专家路由、专家加载、混合注意力／递归状态及其推测验证；区别于单纯专家预取。"
+    },
+    {
+      "directory": "19_安全隐私与水印",
+      "name": "安全隐私与水印",
+      "description": "推测解码攻击面、放宽验证的安全影响、工具调用隐私与采样水印。"
+    },
+    {
+      "directory": "20_检索与复用草稿",
+      "name": "检索与复用草稿",
+      "description": "n-gram、上下文复制、轨迹检索、历史后缀复用和参数／检索混合草稿。"
+    },
+    {
+      "directory": "21_连续生成与熵解码",
+      "name": "连续生成与熵解码",
+      "description": "相邻方向：连续 flow/diffusion 的推测积分和压缩熵解码；不混同离散 LLM token SD。"
+    },
+    {
+      "directory": "22_生成式推荐",
+      "name": "生成式推荐",
+      "description": "在生成式推荐语义标识符、候选验证或 beam 解码中的推测加速。"
     }
   ],
   "papers": [
@@ -1558,13 +1583,10 @@
       "folder": "ICLR2027-DLoop",
       "title": "DLoop: Looped Speculative Decoding",
       "primary_category": "跨块与多轮起草",
-      "original_category": "多轮完整起草",
+      "original_category": "跨块与多轮起草",
       "directory_path": "07_跨块与多轮起草/ICLR2027-DLoop",
-      "basis": "一次目标验证前执行多轮完整起草；依据已有 DLoop README 和 Related Work 整理。",
-      "secondary_topics": [
-        "loop-aware training",
-        "置信度调度"
-      ],
+      "basis": "主要问题是跨块起草或一次验证前的循环／多轮起草。",
+      "secondary_topics": [],
       "kind": "paper"
     },
     {
@@ -1579,6 +1601,2771 @@
         "MTP模型报告"
       ],
       "kind": "blog"
+    },
+    {
+      "folder": "ICLR2027-Cadence",
+      "title": "Cadence: Regulating the Speculation Externality in LLM Serving",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-Cadence",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LAM++",
+      "title": "LAM++: Enhanced LocateAnything via High-Resolution Post-Training and Geometry-Aware Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-LAM++",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-PC-VOT",
+      "title": "PC-VOT: Prefix-Coupled Verifier-Induced Optimal Transport for Draft Training",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-PC-VOT",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Spec2",
+      "title": "Spec$^2$: Efficient VLA Control through Action Decoding and Propagation",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-Spec2",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-OmniOPD",
+      "title": "OmniOPD:  Logit-Free On-Policy Distillation via Speculative Verification",
+      "primary_category": "MTP与蒸馏背景",
+      "original_category": "MTP与蒸馏背景",
+      "directory_path": "16_MTP与蒸馏背景/ICLR2027-OmniOPD",
+      "basis": "相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。",
+      "secondary_topics": [
+        "相邻背景／扩展，不计为标准 LLM token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-FactorizationGuided",
+      "title": "Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-FactorizationGuided",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpeculativePipelineDecoding",
+      "title": "Speculative Pipeline Decoding: Higher-Accuracy Drafting with Hidden Latency via Pipeline Parallelism",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-SpeculativePipelineDecoding",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-MakingComputationCount",
+      "title": "Making Computation Count: Speculative State Recycling for Flow-Based VLAs",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-MakingComputationCount",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SSD",
+      "title": "SSD: Spatially Speculative Decoding Accelerates Autoregressive Image Generation",
+      "primary_category": "图像与三维生成",
+      "original_category": "图像与三维生成",
+      "directory_path": "12_图像与三维生成/ICLR2027-SSD",
+      "basis": "用于图像／视频生成的推测解码。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LoadMatch",
+      "title": "LoadMatch: Balancing Memory and Compute Loads in Quantized Models using Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-LoadMatch",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-JetSpec",
+      "title": "JetSpec: Breaking the Scaling Ceiling of Speculative Decoding with Parallel Tree Drafting",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-JetSpec",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DLite",
+      "title": "DLite: History-Free Speculative Decoding for Agentic AI",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-DLite",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [
+        "history-free",
+        "长上下文",
+        "草稿历史 KV",
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-BeyondAcceptancePrediction",
+      "title": "Beyond Acceptance Prediction: When Adaptivity Pays Off in Speculative Decoding",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-BeyondAcceptancePrediction",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-PercepDraftforEfficientGenerativePerception",
+      "title": "PercepDraft for Efficient Generative Perception",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-PercepDraftforEfficientGenerativePerception",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Gentoo",
+      "title": "Gentoo: Draft Continuously, Decode Discretely",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-Gentoo",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-BeyondtheTarget",
+      "title": "Beyond the Target: From Imitation to Collaboration in Speculative Decoding",
+      "primary_category": "放宽验证与推理加速",
+      "original_category": "放宽验证与推理加速",
+      "directory_path": "08_放宽验证与推理加速/ICLR2027-BeyondtheTarget",
+      "basis": "涉及语义接受、近似验证、修改目标或质量与速度权衡，不能直接视为分布保持。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpeculatingonthePast",
+      "title": "Speculating on the Past: Lossless Reuse of Stale KV Caches via Self-Speculative Verification",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-SpeculatingonthePast",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WhereDraftTreesLoseTargetMass",
+      "title": "Where Draft Trees Lose Target Mass: Exit-Guided Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-WhereDraftTreesLoseTargetMass",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-VTD",
+      "title": "VTD: Visible-Text Drafting for Speculative Decoding in Vision-Language Models",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-VTD",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Trajectory-RetrievalSpeculativeDecoding",
+      "title": "Trajectory-Retrieval Speculative Decoding: When Does a Model's Own History Help?",
+      "primary_category": "检索与复用草稿",
+      "original_category": "检索与复用草稿",
+      "directory_path": "20_检索与复用草稿/ICLR2027-Trajectory-RetrievalSpeculativeDecoding",
+      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-H-Spec",
+      "title": "H-Spec: Parallel Speculative Decoding Without a Drafter-Side KV Cache",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-H-Spec",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Xtra-MTP",
+      "title": "Xtra-MTP: State-Efficient Parallel Verification for Hybrid Language Models",
+      "primary_category": "MoE与混合架构",
+      "original_category": "MoE与混合架构",
+      "directory_path": "18_MoE与混合架构/ICLR2027-Xtra-MTP",
+      "basis": "涉及 MoE 专家成本、专家路由或混合递归架构的验证状态。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ThinkLessRetrieveEarlier",
+      "title": "Think Less, Retrieve Earlier: Self-Speculative Retrieval for Efficient Retrieval-Augmented Generation",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-ThinkLessRetrieveEarlier",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DiSpecWAM",
+      "title": "DiSpecWAM: Distillation and Speculative Inference for World Action Models",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-DiSpecWAM",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DChord",
+      "title": "DChord: Schema-Aware Speculative Decoding for Structured Generation",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-DChord",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-BeyondParallelBlindness",
+      "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-BeyondParallelBlindness",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LoopSpec",
+      "title": "LoopSpec: Pipelined Self-Speculative Decoding for Looped Transformers",
+      "primary_category": "自推测与计算裁剪",
+      "original_category": "自推测与计算裁剪",
+      "directory_path": "05_自推测与计算裁剪/ICLR2027-LoopSpec",
+      "basis": "主要问题是复用目标模型、跳层或自推测。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-OnPolicyEAL",
+      "title": "Directly Maximizing On-policy Expected Accepted Length for Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-OnPolicyEAL",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LoopDraft",
+      "title": "LoopDraft: Target-Guided Multi-State Recurrence for Speculative Decoding",
+      "primary_category": "跨块与多轮起草",
+      "original_category": "跨块与多轮起草",
+      "directory_path": "07_跨块与多轮起草/ICLR2027-LoopDraft",
+      "basis": "主要问题是跨块起草或一次验证前的循环／多轮起草。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ExpectedRounds",
+      "title": "Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-ExpectedRounds",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-CATS",
+      "title": "CATS: Cascaded Adaptive Tree Speculation for Memory-Limited LLM Inference Acceleration",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-CATS",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TrajectoryLevelSpeculationwithSemanticVerification",
+      "title": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-TrajectoryLevelSpeculationwithSemanticVerification",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LongSpark",
+      "title": "Efficient speculative decoding with a fixed-cost parallel drafter",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-LongSpark",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SAKI",
+      "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+      "primary_category": "MTP与蒸馏背景",
+      "original_category": "MTP与蒸馏背景",
+      "directory_path": "16_MTP与蒸馏背景/ICLR2027-SAKI",
+      "basis": "相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。",
+      "secondary_topics": [
+        "相邻背景／扩展，不计为标准 LLM token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RELAY",
+      "title": "RELAY: Momentum Drafting from Hidden Transitions for Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-RELAY",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-STEP",
+      "title": "STEP: Separating Trajectory Evolution and Prediction for Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-STEP",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ShapingWhattoVerify",
+      "title": "Shaping What to Verify: Realizable Multi-Path Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-ShapingWhattoVerify",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-OneiroDraft",
+      "title": "OneiroDraft: Reading the Latent Dreams for Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-OneiroDraft",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ASamplingCentricFrameworkforTree",
+      "title": "A Sampling-Centric Framework for Tree Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-ASamplingCentricFrameworkforTree",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AdaptSpec",
+      "title": "AdaptSpec: Input- and Step-Adaptive Tree-Based Speculative Decoding to Accelerate LLM Inference",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-AdaptSpec",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WhentoEvictNotWhattoKeep",
+      "title": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-WhentoEvictNotWhattoKeep",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SODA",
+      "title": "SODA: Subspace Online Drafter Adaptation for Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-SODA",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TraSURE",
+      "title": "TraSURE: Exploiting Cross-trajectory Recurrence to Accelerate Information-seeking RL Rollouts over Shared Corpora",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-TraSURE",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-EAGLE3-Training",
+      "title": "Efficient EAGLE-3 Training via Structure-Aware Execution",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-EAGLE3-Training",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-QSpar",
+      "title": "QSpar: Co-Designing Sparse Attention and Quantized Weights for Long-Context Self-Speculative Decoding",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-QSpar",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DSpark-OPD",
+      "title": "DSpark-OPD: Acceptance-Aligned On-Policy Distillation for Semi-Autoregressive Speculative Drafting",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-DSpark-OPD",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DoNotRegenerateWhatisinYourContext",
+      "title": "Do Not Regenerate What is in Your Context: Instant Context Reuse via a Pointer Head",
+      "primary_category": "检索与复用草稿",
+      "original_category": "检索与复用草稿",
+      "directory_path": "20_检索与复用草稿/ICLR2027-DoNotRegenerateWhatisinYourContext",
+      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Taurus",
+      "title": "Taurus: Accelerating Private LLM Inference via Homomorphic Speculative Decoding",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-Taurus",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-PACT-VLA",
+      "title": "PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-PACT-VLA",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SAVE-WAM",
+      "title": "SAVE-WAM: Speculative Action Verification with Environment Feedback for Asynchronous World-Action Models",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-SAVE-WAM",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecRoute",
+      "title": "SpecRoute: Multi-Step Speculation for Efficient LLM Agent Serving",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-SpecRoute",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-D-VOLT",
+      "title": "D-VOLT: Training Speculative Drafters with Token-Conditional Acceptance Values",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-D-VOLT",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ShallowQueriesMatureValues",
+      "title": "Shallow Queries, Mature Values: Depth-Asynchronous Self-Speculation for Looped Transformers",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-ShallowQueriesMatureValues",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ReciprocalGuidance",
+      "title": "Reciprocal Guidance: Orchestrating Draft and Verify Budgets for Advancing the Diffusion–AR Self-Speculation Frontier",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-ReciprocalGuidance",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WA-SpecDec",
+      "title": "WA-SpecDec: World-Aware Speculative Decoding for Vision-Language-Action Models",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-WA-SpecDec",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Mistletoe",
+      "title": "Mistletoe: Stealthy Acceleration-Collapse Attacks on Speculative Decoding",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-Mistletoe",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-FromAlignmentDiagnosistoJointSupervision",
+      "title": "From Alignment Diagnosis to Joint Supervision in Multimodal Draft Training",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-FromAlignmentDiagnosistoJointSupervision",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SJD-VP",
+      "title": "SJD-VP: Speculative Jacobi Decoding with Verification Prediction for Autoregressive Image Generation",
+      "primary_category": "图像与三维生成",
+      "original_category": "图像与三维生成",
+      "directory_path": "12_图像与三维生成/ICLR2027-SJD-VP",
+      "basis": "用于图像／视频生成的推测解码。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AOSR",
+      "title": "AOSR: Asynchronous On-Policy Speculative Rollout for Efficient Distillation of Autoregressive Image Generators",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-AOSR",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RIVET",
+      "title": "RIVET: Ragged Inference with Variable-Granularity Execution for Token-Tree Verification in Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-RIVET",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-OntheSPOT",
+      "title": "On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-OntheSPOT",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LatticeSpec",
+      "title": "LatticeSpec: From Draft Chains to Verification Lattices for Efficient Diffusion Language Model Decoding",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-LatticeSpec",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Janus",
+      "title": "Janus: Breaking Layer-Bound KV-Cache Layouts to Accelerate Local Agent Inference",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-Janus",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-BitNest",
+      "title": "BitNest: Bit-Nested Speculative Decoding for Memory-Efficient LLM Inference Acceleration",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-BitNest",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SPECULATIVECACHELINEPUNCTURING",
+      "title": "SPECULATIVE CACHE LINE PUNCTURING: GRANULAR MEMORY REDUCTION FOR LLM INFERENCE",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-SPECULATIVECACHELINEPUNCTURING",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-GuessFirstCorrecttheRest",
+      "title": "Guess First, Correct the Rest: Graph Speculative Retrieval for Multi-hop Reasoning",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-GuessFirstCorrecttheRest",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-CSD",
+      "title": "CSD: Confidence- and Stability-Guided Speculative Decoding in Large Language Models",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-CSD",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-CHARD",
+      "title": "CHARD: Efficient Block-Diffusion Speculative Decoding via Chunked Verification and Immediate Redrafting",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-CHARD",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Tsubame",
+      "title": "Tsubame: Tree Replay for Diffusion-Based Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-Tsubame",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AS2D",
+      "title": "AS²D: Accelerating On-Demand Audio Understanding on Mobile Devices",
+      "primary_category": "语音生成",
+      "original_category": "语音生成",
+      "directory_path": "14_语音生成/ICLR2027-AS2D",
+      "basis": "用于语音／音频理解或生成。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LosslessYetNotIdentical",
+      "title": "Lossless, Yet Not Identical: Execution-Level Numerical Bifurcations in Speculative Decoding",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-LosslessYetNotIdentical",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AcceleratingSpeculativeDiffusionsviaBlockVerification",
+      "title": "Accelerating Speculative Diffusions via Block Verification",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-AcceleratingSpeculativeDiffusionsviaBlockVerification",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AtWhatCostEvaluatingtheSecurity",
+      "title": "At What Cost? Evaluating the Security Impact of Lossy Speculative Decoding",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-AtWhatCostEvaluatingtheSecurity",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecFold",
+      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-SpecFold",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SMC-SD",
+      "title": "Faster LLM Inference via Sequential Monte Carlo",
+      "primary_category": "放宽验证与推理加速",
+      "original_category": "放宽验证与推理加速",
+      "directory_path": "08_放宽验证与推理加速/ICLR2027-SMC-SD",
+      "basis": "涉及语义接受、近似验证、修改目标或质量与速度权衡，不能直接视为分布保持。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AcceleratingAgenticMultimodalLLMsviaAsynchronous",
+      "title": "Accelerating Agentic Multimodal LLMs via Asynchronous Tool-Trajectory Speculation",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-AcceleratingAgenticMultimodalLLMsviaAsynchronous",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SAS",
+      "title": "SAS: Scaling Speculative Drafting for Efficient 1T LLM Serving with Semi-Autoregressive Decoding",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-SAS",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WhenMismatchesOverlap",
+      "title": "When Mismatches Overlap: Concurrent Verification for Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-WhenMismatchesOverlap",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-BagDraft",
+      "title": "BagDraft: Next-Bag-of-Tokens Drafting for Lossless Speculative Decoding",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-BagDraft",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpeculativeForcingforEfficientAutoregressiveVideo",
+      "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+      "primary_category": "图像与三维生成",
+      "original_category": "图像与三维生成",
+      "directory_path": "12_图像与三维生成/ICLR2027-SpeculativeForcingforEfficientAutoregressiveVideo",
+      "basis": "用于图像／视频生成的推测解码。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RiskControlledSpeculativePrefetchingforTool",
+      "title": "Risk-Controlled Speculative Prefetching for Tool-Augmented Dialogue",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-RiskControlledSpeculativePrefetchingforTool",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-GrowMTP",
+      "title": "GrowMTP: Can RL Grow Its Own Draft Head?",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-GrowMTP",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DiffusionDraftsARVerifies",
+      "title": "Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-DiffusionDraftsARVerifies",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WhenParallelDrafterMeetsParallelSpeculative",
+      "title": "When Parallel Drafter Meets Parallel Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-WhenParallelDrafterMeetsParallelSpeculative",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AdaFlash",
+      "title": "AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-AdaFlash",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LiLiCorr",
+      "title": "LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-LiLiCorr",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-NeverSampledAlwaysAccepted",
+      "title": "Never Sampled, Always Accepted: Commitment Injection Through Top-$k$ Verification in Speculative Decoding",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-NeverSampledAlwaysAccepted",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-MoE-Spec",
+      "title": "MoE-Spec: Expert Budgeting for MoE Speculative Decoding",
+      "primary_category": "MoE与混合架构",
+      "original_category": "MoE与混合架构",
+      "directory_path": "18_MoE与混合架构/ICLR2027-MoE-Spec",
+      "basis": "涉及 MoE 专家成本、专家路由或混合递归架构的验证状态。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-FlashMTP",
+      "title": "FlashMTP: Flash Multi-Token Prediction",
+      "primary_category": "MTP与蒸馏背景",
+      "original_category": "MTP与蒸馏背景",
+      "directory_path": "16_MTP与蒸馏背景/ICLR2027-FlashMTP",
+      "basis": "相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WindowPool",
+      "title": "Window Pool: Verify-Aligned Routing for MoE Speculative Decoding",
+      "primary_category": "MoE与混合架构",
+      "original_category": "MoE与混合架构",
+      "directory_path": "18_MoE与混合架构/ICLR2027-WindowPool",
+      "basis": "涉及 MoE 专家成本、专家路由或混合递归架构的验证状态。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpeculativeRollbackCorrection",
+      "title": "Speculative Rollback Correction: Counterfactual Credit Assignment for GUI Agent Imitation",
+      "primary_category": "MTP与蒸馏背景",
+      "original_category": "MTP与蒸馏背景",
+      "directory_path": "16_MTP与蒸馏背景/ICLR2027-SpeculativeRollbackCorrection",
+      "basis": "相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WaveFrontDecoding",
+      "title": "WaveFront Decoding: Parallelized Self-Speculative Decoding for Looped Language Models",
+      "primary_category": "自推测与计算裁剪",
+      "original_category": "自推测与计算裁剪",
+      "directory_path": "05_自推测与计算裁剪/ICLR2027-WaveFrontDecoding",
+      "basis": "主要问题是复用目标模型、跳层或自推测。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SPECULATIVECORRECTION",
+      "title": "SPECULATIVE CORRECTION: DRAFT-THEN-REFINE DECODING FOR DIFFUSION LANGUAGE MODELS",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-SPECULATIVECORRECTION",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-OneCallAhead",
+      "title": "One Call Ahead: Packed Self-Speculative Decoding with Diffusion Drafting",
+      "primary_category": "自推测与计算裁剪",
+      "original_category": "自推测与计算裁剪",
+      "directory_path": "05_自推测与计算裁剪/ICLR2027-OneCallAhead",
+      "basis": "主要问题是复用目标模型、跳层或自推测。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-S2D2",
+      "title": "S2D2: Fast Decoding for Diffusion LLMs via Training-Free Self-Speculation",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-S2D2",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-PARD-2",
+      "title": "PARD-2: Target-Aligned Parallel Draft Model for Dual-Mode Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-PARD-2",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-StrataSpec",
+      "title": "StrataSpec: Self-Speculative Decoding with Structured Routes for Efficient LLM Serving",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-StrataSpec",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-CurveK",
+      "title": "CurveK: Throughput-Curve Estimation for Batched Speculative Decoding",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-CurveK",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RELOAD",
+      "title": "RELOAD: Packed Future-State Re-Encoding for Low-Latency Exact Speculative Diffusion",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-RELOAD",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SCD",
+      "title": "SCD: Enabling Speculative Overlap for Target-Conditioned Draft Models",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-SCD",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecSplice",
+      "title": "SpecSplice: Dynamic Composition of Parametric and Retrieval-based Drafts for Agentic Speculative Decoding",
+      "primary_category": "检索与复用草稿",
+      "original_category": "检索与复用草稿",
+      "directory_path": "20_检索与复用草稿/ICLR2027-SpecSplice",
+      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecKV",
+      "title": "SpecKV: Lossless Speculative Decoding via Dynamic KV Selection for Efficient Inference of Large Vision-Language Models",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-SpecKV",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AsymmetricSpeculativeDecoding",
+      "title": "Asymmetric Speculative Decoding: Unlocking In-Context Learning in Draft Models",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-AsymmetricSpeculativeDecoding",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-PERSEUS",
+      "title": "PERSEUS: Non-Blocking Parallel Exploration with a Speculative Swarm",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-PERSEUS",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TrainingFreeDynamicVerificationBudgetfor",
+      "title": "Training-Free Dynamic Verification Budget for Parallel Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-TrainingFreeDynamicVerificationBudgetfor",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-MDSeq",
+      "title": "MDSeq: Sequence-Level Verification for Multi-Draft Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-MDSeq",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TrainingfreeDropoutSamplingforSemantic",
+      "title": "Training-free Dropout Sampling for Semantic Token Acceptance in Speculative Decoding",
+      "primary_category": "放宽验证与推理加速",
+      "original_category": "放宽验证与推理加速",
+      "directory_path": "08_放宽验证与推理加速/ICLR2027-TrainingfreeDropoutSamplingforSemantic",
+      "basis": "涉及语义接受、近似验证、修改目标或质量与速度权衡，不能直接视为分布保持。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SSP",
+      "title": "SSP: Self-Speculative Prefill",
+      "primary_category": "自推测与计算裁剪",
+      "original_category": "自推测与计算裁剪",
+      "directory_path": "05_自推测与计算裁剪/ICLR2027-SSP",
+      "basis": "主要问题是复用目标模型、跳层或自推测。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-FailFastWinBig",
+      "title": "Fail Fast, Win Big: Rethinking the Drafting Strategy in Speculative Decoding via Diffusion LLMs",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-FailFastWinBig",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-UBTree",
+      "title": "UBTree: Parallel Tree Drafting via Unigram and Bigram Models for Speculative Decoding",
+      "primary_category": "检索与复用草稿",
+      "original_category": "检索与复用草稿",
+      "directory_path": "20_检索与复用草稿/ICLR2027-UBTree",
+      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TraceDraft",
+      "title": "TraceDraft: Online Draft Adaptation During Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-TraceDraft",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-GivetheDrafteraSecondChancetoGuess",
+      "title": "Give the Drafter a Second Chance to Guess: Parallel Reconsideration for Speculative Decoding",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-GivetheDrafteraSecondChancetoGuess",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TreeBasedSpeculativeDecodingforWatermark",
+      "title": "Tree-Based Speculative Decoding for Watermark Generation via Vocabulary Partitioning",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-TreeBasedSpeculativeDecodingforWatermark",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpeculativeDiffusionisaTaleof",
+      "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-SpeculativeDiffusionisaTaleof",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WatermarkableMultiDraftSpeculativeSamplingvia",
+      "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-WatermarkableMultiDraftSpeculativeSamplingvia",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-BlockPilot",
+      "title": "BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-BlockPilot",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-FromChainstoTrees",
+      "title": "From Chains to Trees: Parent-Conditioned Drafting for Semi-Autoregressive Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-FromChainstoTrees",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-EchoSpec",
+      "title": "EchoSpec: Efficient Target-Integrated Speculative Decoding via Output-Projection Adaptation and Post-Target Refinement",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-EchoSpec",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ProVe",
+      "title": "ProVe: Proposer-Verifier Decoding",
+      "primary_category": "自推测与计算裁剪",
+      "original_category": "自推测与计算裁剪",
+      "directory_path": "05_自推测与计算裁剪/ICLR2027-ProVe",
+      "basis": "主要问题是复用目标模型、跳层或自推测。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecGrove",
+      "title": "SpecGrove: Reusable Tree Capacity for Concurrent Diffusion Speculation",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-SpecGrove",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SparseDFlash",
+      "title": "SparseDFlash: Dynamic Context Retrieval for Long-video Speculative Decoding",
+      "primary_category": "检索与复用草稿",
+      "original_category": "检索与复用草稿",
+      "directory_path": "20_检索与复用草稿/ICLR2027-SparseDFlash",
+      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-CalibrateBeforeYouBranch",
+      "title": "Calibrate Before You Branch: Feedback-Calibrated, Cost-Aware Trees for Block-Diffusion Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-CalibrateBeforeYouBranch",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DraftingAgentsNotJustTokens",
+      "title": "Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-DraftingAgentsNotJustTokens",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AgentTurnsAreNotChatTurns",
+      "title": "Agent Turns Are Not Chat Turns: Matching Draft Supply with Verification Cost",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-AgentTurnsAreNotChatTurns",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TamedFlow",
+      "title": "TamedFlow: Trajectory-Aware Distillation for Teacher-Assisted Diffusion Sampling",
+      "primary_category": "连续生成与熵解码",
+      "original_category": "连续生成与熵解码",
+      "directory_path": "21_连续生成与熵解码/ICLR2027-TamedFlow",
+      "basis": "相邻连续生成或熵解码；不能直接套用离散 SD 的定义和保证。",
+      "secondary_topics": [
+        "相邻背景／扩展，不计为标准 LLM token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-StarSD",
+      "title": "StarSD: One-for-Many Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-StarSD",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-HybridSpec",
+      "title": "HybridSpec: Throughput-Aware Speculative Decoding for Hybrid GDN-MoE Models",
+      "primary_category": "MoE与混合架构",
+      "original_category": "MoE与混合架构",
+      "directory_path": "18_MoE与混合架构/ICLR2027-HybridSpec",
+      "basis": "涉及 MoE 专家成本、专家路由或混合递归架构的验证状态。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LightMTP",
+      "title": "LightMTP: Lightweight Latent Multi-Token Prediction",
+      "primary_category": "MTP与蒸馏背景",
+      "original_category": "MTP与蒸馏背景",
+      "directory_path": "16_MTP与蒸馏背景/ICLR2027-LightMTP",
+      "basis": "相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Branch-Jacobi",
+      "title": "Branch-Jacobi: Prefix-Conditioned Multi-Pass Drafting for Speculative Decoding",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-Branch-Jacobi",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecSys",
+      "title": "SpecSys: Selective Speculative Decoding and Completion-Aware Scheduling for Efficient Agentic LLM Inference",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-SpecSys",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpeculativeDecodingforAutoregressiveVideoGeneration",
+      "title": "Speculative Decoding for Autoregressive Video Generation",
+      "primary_category": "图像与三维生成",
+      "original_category": "图像与三维生成",
+      "directory_path": "12_图像与三维生成/ICLR2027-SpeculativeDecodingforAutoregressiveVideoGeneration",
+      "basis": "用于图像／视频生成的推测解码。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-VFlash-FM",
+      "title": "VFlash-FM: Training for One-Pass Drafting in Video Language Models",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-VFlash-FM",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-QueueAwareCombinatorialBanditSchedulingfor",
+      "title": "Queue-Aware Combinatorial Bandit Scheduling for Speculative Decoding in Cloud–Edge LLM Serving",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-QueueAwareCombinatorialBanditSchedulingfor",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DFlow",
+      "title": "DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-DFlow",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-NebulaSD",
+      "title": "NebulaSD: Many-for-Many Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-NebulaSD",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-BVLoss",
+      "title": "BV Loss: Block Verification Aware Loss for Block Diffusion Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-BVLoss",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DraftinParallelConditionThroughDepth",
+      "title": "Draft in Parallel, Condition Through Depth: Adjacent Causal Injection for Speculative Decoding",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-DraftinParallelConditionThroughDepth",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RamoMark",
+      "title": "RamoMark: Multi-Bit Watermarking via Randomness-Modulated Speculative Sampling",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-RamoMark",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-CarryoverDrafting",
+      "title": "Carryover Drafting: Recycling Rejected States for Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-CarryoverDrafting",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Caduceus",
+      "title": "Caduceus: Parallel Speculative Decoding with Two Simple Drafters Intertwined",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-Caduceus",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TreeSpark",
+      "title": "TreeSpark: Learning to Draft the Trees You Verify for Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-TreeSpark",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TreesfromMarginals",
+      "title": "Trees from Marginals: Autoregressive drafting with factorized priors",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-TreesfromMarginals",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-XPress",
+      "title": "XPress: Parallel Refinement for Diffusion Drafters in Speculative Decoding",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-XPress",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TargetCorrectionforDiffusionSamplingand",
+      "title": "Target Correction for Diffusion Sampling and Speculative Decoding",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-TargetCorrectionforDiffusionSamplingand",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DEdit",
+      "title": "DEdit: Iterative Draft Editing for Speculative Decoding",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-DEdit",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TMOT",
+      "title": "TMOT: Geometric Optimal Transport over Target Representations for Speculative Verification",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-TMOT",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ReplaySSM",
+      "title": "ReplaySSM: Cache SSM Inputs, Not State",
+      "primary_category": "MoE与混合架构",
+      "original_category": "MoE与混合架构",
+      "directory_path": "18_MoE与混合架构/ICLR2027-ReplaySSM",
+      "basis": "涉及 MoE 专家成本、专家路由或混合递归架构的验证状态。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TapKV",
+      "title": "TapKV: Accelerating Long-Horizon Speculative Decoding with Target-Aware Draft KV Caches Optimization",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-TapKV",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-MultiDraftOnPolicyDistillationfor",
+      "title": "Multi-Draft On-Policy Distillation for Diffusion Drafters",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-MultiDraftOnPolicyDistillationfor",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-HARP",
+      "title": "HARP: Horizon-Aware Representation Preference for Parallel Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-HARP",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecPilot",
+      "title": "SpecPilot: Guiding Speculation with Online Adaptive Cost Prediction",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-SpecPilot",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SERVAL",
+      "title": "SERVAL: Efficient In-Flight Draft Adaptation for LLM Serving",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-SERVAL",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ContextualCorrectionofParallelDraftsfor",
+      "title": "Contextual Correction of Parallel Drafts for Speculative Decoding",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-ContextualCorrectionofParallelDraftsfor",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecRelay",
+      "title": "SpecRelay: Amortize or Avoid the Round Trip in Edge–Cloud Speculative Decoding",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-SpecRelay",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ACCORDION",
+      "title": "ACCORDION: Breaking Dependency Barriers in Multi-Agent LLM Workflows via Context Speculation",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-ACCORDION",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-HAWK",
+      "title": "HAWK: Rethinking Multimodal Drafting for Speculative Decoding",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-HAWK",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-GraphConstrainedHeterogeneousTreeAllocationfor",
+      "title": "Graph-Constrained Heterogeneous Tree Allocation for Workload-Adaptive Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-GraphConstrainedHeterogeneousTreeAllocationfor",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-EfficientMixtureofExpertswithSpeculative",
+      "title": "Efficient Mixture-of-Experts with Speculative Decoding via Expert Coactivation",
+      "primary_category": "MoE与混合架构",
+      "original_category": "MoE与混合架构",
+      "directory_path": "18_MoE与混合架构/ICLR2027-EfficientMixtureofExpertswithSpeculative",
+      "basis": "涉及 MoE 专家成本、专家路由或混合递归架构的验证状态。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ForeSift",
+      "title": "ForeSift: Speculative Reasoning for Small-to-Large Prompt Compression",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-ForeSift",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-APEX",
+      "title": "APEX: Speculate Smarter, Not Deeper",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-APEX",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-PredictiveSpeculativeCoupling",
+      "title": "Predictive Speculative Coupling: Distribution-Preserving Acceleration of Autoregressive Visual Generation",
+      "primary_category": "图像与三维生成",
+      "original_category": "图像与三维生成",
+      "directory_path": "12_图像与三维生成/ICLR2027-PredictiveSpeculativeCoupling",
+      "basis": "用于图像／视频生成的推测解码。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpeculativeDecodingHasDisparateImpacts",
+      "title": "Speculative Decoding Has Disparate Impacts",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-SpeculativeDecodingHasDisparateImpacts",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-UncommittedDraftsTrackWordsNotKnowledge",
+      "title": "Uncommitted Drafts Track Words, Not Knowledge: Evasion and Representation Monitoring in Diffusion LMs",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-UncommittedDraftsTrackWordsNotKnowledge",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-D3D",
+      "title": "D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-D3D",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-HIGAP",
+      "title": "HIGAP: Bridging the Overhead Gap in History-Based Speculative Rollout for MoE RL",
+      "primary_category": "MoE与混合架构",
+      "original_category": "MoE与混合架构",
+      "directory_path": "18_MoE与混合架构/ICLR2027-HIGAP",
+      "basis": "涉及 MoE 专家成本、专家路由或混合递归架构的验证状态。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-CAST",
+      "title": "CAST: Cost-Aware Speculative Trees from One-Pass Block Drafters",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-CAST",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-S3R",
+      "title": "S$^3$R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-S3R",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TreeSpark-Control",
+      "title": "TreeSpark: From Acceptance Scores to Useful Work in Conditional Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-TreeSpark-Control",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RevisitingLossyVerificationinSpeculativeDecoding",
+      "title": "Revisiting Lossy Verification in Speculative Decoding: Mechanisms, Trade-offs, and Failure Modes",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-RevisitingLossyVerificationinSpeculativeDecoding",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AgSpec",
+      "title": "AgSpec: Pushing the Limits of Retrieval-Based Speculative Decoding in Coding Agent Pipelines",
+      "primary_category": "检索与复用草稿",
+      "original_category": "检索与复用草稿",
+      "directory_path": "20_检索与复用草稿/ICLR2027-AgSpec",
+      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-CannotWaittoVerify",
+      "title": "Cannot Wait to Verify: Parallel Drafting to Eliminate Verifier Idle Time in Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-CannotWaittoVerify",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-NucleusSpeculativeDecoding",
+      "title": "Nucleus Speculative Decoding: Plausibility-Aware Verification Beyond Exact Distribution",
+      "primary_category": "放宽验证与推理加速",
+      "original_category": "放宽验证与推理加速",
+      "directory_path": "08_放宽验证与推理加速/ICLR2027-NucleusSpeculativeDecoding",
+      "basis": "涉及语义接受、近似验证、修改目标或质量与速度权衡，不能直接视为分布保持。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-CorrectWhileVerifying",
+      "title": "Correct While Verifying: Intermediate Target Predictions for Speculative Draft Correction",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-CorrectWhileVerifying",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DRelay",
+      "title": "DRelay: Global Draft Context for Prefix-Aware Parallel Speculative Decoding Repair",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-DRelay",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-D-cut",
+      "title": "D-cut: Adaptive Verification Depth Pruning for Batched Speculative Decoding",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-D-cut",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-D2-SD",
+      "title": "D2-SD: Accelerating Speculative Decoding with Dual Diffusion Draft Models",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-D2-SD",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecFit",
+      "title": "SpecFit: Not All Draft Tokens Cost the Same in Offloaded MoE Inference",
+      "primary_category": "MoE与混合架构",
+      "original_category": "MoE与混合架构",
+      "directory_path": "18_MoE与混合架构/ICLR2027-SpecFit",
+      "basis": "涉及 MoE 专家成本、专家路由或混合递归架构的验证状态。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ParallelParallelSpeculativeDecoding",
+      "title": "Parallel-Parallel Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-ParallelParallelSpeculativeDecoding",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RescuingRegrettableRejections",
+      "title": "Rescuing Regrettable Rejections: Relaxed Acceptance for Speculative Decoding",
+      "primary_category": "放宽验证与推理加速",
+      "original_category": "放宽验证与推理加速",
+      "directory_path": "08_放宽验证与推理加速/ICLR2027-RescuingRegrettableRejections",
+      "basis": "涉及语义接受、近似验证、修改目标或质量与速度权衡，不能直接视为分布保持。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RecoveringOffPolicySupervisionforSpeculative",
+      "title": "Recovering Off-Policy Supervision for Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-RecoveringOffPolicySupervisionforSpeculative",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WhyFreezetheTargetModelAligning",
+      "title": "Why Freeze the Target Model? Aligning the LLM Toward Its Small Drafter for Speculative Decoding",
+      "primary_category": "放宽验证与推理加速",
+      "original_category": "放宽验证与推理加速",
+      "directory_path": "08_放宽验证与推理加速/ICLR2027-WhyFreezetheTargetModelAligning",
+      "basis": "涉及语义接受、近似验证、修改目标或质量与速度权衡，不能直接视为分布保持。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WheretoSpeculate",
+      "title": "Where to Speculate: Cross-Request Survival-Value Allocation for Batched Speculative Decoding",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-WheretoSpeculate",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TheShapeofSpeculation",
+      "title": "The Shape of Speculation: Efficient Draft Topology for Speculative Jacobi Decoding in Autoregressive Image Generation",
+      "primary_category": "图像与三维生成",
+      "original_category": "图像与三维生成",
+      "directory_path": "12_图像与三维生成/ICLR2027-TheShapeofSpeculation",
+      "basis": "用于图像／视频生成的推测解码。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TheRightKindofDisagreement",
+      "title": "The Right Kind of Disagreement: Dynamic Collaborator Pruning for Speculative Token-Level Collaboration",
+      "primary_category": "放宽验证与推理加速",
+      "original_category": "放宽验证与推理加速",
+      "directory_path": "08_放宽验证与推理加速/ICLR2027-TheRightKindofDisagreement",
+      "basis": "涉及语义接受、近似验证、修改目标或质量与速度权衡，不能直接视为分布保持。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DualSpec",
+      "title": "DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-DualSpec",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-FairSpec",
+      "title": "FairSpec: Robust Expert Selection for Efficient MoE Speculative Decoding",
+      "primary_category": "MoE与混合架构",
+      "original_category": "MoE与混合架构",
+      "directory_path": "18_MoE与混合架构/ICLR2027-FairSpec",
+      "basis": "涉及 MoE 专家成本、专家路由或混合递归架构的验证状态。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ProSpect-MAS",
+      "title": "ProSpect: Proactive Speculation for Lossless Acceleration of Multi-Agent Systems",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-ProSpect-MAS",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ReTree",
+      "title": "ReTree: Budget-Efficient Tree Speculative Decoding via Path Guidance and Sibling Recovery",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-ReTree",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ProSpect-Self",
+      "title": "ProSpect: Efficient and Consistent Self-Speculative Decoding",
+      "primary_category": "自推测与计算裁剪",
+      "original_category": "自推测与计算裁剪",
+      "directory_path": "05_自推测与计算裁剪/ICLR2027-ProSpect-Self",
+      "basis": "主要问题是复用目标模型、跳层或自推测。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-MultiTokenPredictionandAlternativeTokenization",
+      "title": "Multi-Token Prediction and Alternative Tokenization Improve Learning Latent Multi-Hop Graph Search at Scale",
+      "primary_category": "MTP与蒸馏背景",
+      "original_category": "MTP与蒸馏背景",
+      "directory_path": "16_MTP与蒸馏背景/ICLR2027-MultiTokenPredictionandAlternativeTokenization",
+      "basis": "相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-PRESTO",
+      "title": "PRESTO: Prefix-Aligned Tree Drafting for Diffusion Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-PRESTO",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-REASONINGAWARESPECULATIVEDECODINGFOREFFICIENT",
+      "title": "REASONING-AWARE SPECULATIVE DECODING FOR EFFICIENT VISION-LANGUAGE-ACTION MODELS IN AUTONOMOUS DRIVING",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-REASONINGAWARESPECULATIVEDECODINGFOREFFICIENT",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-MatryoshkaLanguageModelSuites",
+      "title": "Matryoshka Language Model Suites",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-MatryoshkaLanguageModelSuites",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SelfSpeculationforFasterReasoningModels",
+      "title": "Self-Speculation for Faster Reasoning Models",
+      "primary_category": "自推测与计算裁剪",
+      "original_category": "自推测与计算裁剪",
+      "directory_path": "05_自推测与计算裁剪/ICLR2027-SelfSpeculationforFasterReasoningModels",
+      "basis": "主要问题是复用目标模型、跳层或自推测。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Cross-dLLM",
+      "title": "Cross-dLLM: Cross-Block Diffusion Decoding with Autoregressive Drafting for Complex Reasoning",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-Cross-dLLM",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AttainingandSurpassingtheIIDCeiling",
+      "title": "Attaining and Surpassing the IID Ceiling in Multi-Draft Speculative Decoding",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-AttainingandSurpassingtheIIDCeiling",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DiffusionDraftersCanPredictBeyondTheir",
+      "title": "Diffusion Drafters Can Predict Beyond Their Training Blocks",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-DiffusionDraftersCanPredictBeyondTheir",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DraftingWithoutHearing",
+      "title": "Drafting Without Hearing: Why Speculative Decoding Fails in Hierarchical Speech Generation",
+      "primary_category": "语音生成",
+      "original_category": "语音生成",
+      "directory_path": "14_语音生成/ICLR2027-DraftingWithoutHearing",
+      "basis": "用于语音／音频理解或生成。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-FACT",
+      "title": "FACT: Fixed-Budget Allocation and Cross-Step Training for Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-FACT",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WOSpec",
+      "title": "WOSpec: Watermarked Online Speculative Decoding",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-WOSpec",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ExtractiveSpeculativeDecoding",
+      "title": "Extractive Speculative Decoding: Lempel-Ziv Limits and How to Approach Them",
+      "primary_category": "检索与复用草稿",
+      "original_category": "检索与复用草稿",
+      "directory_path": "20_检索与复用草稿/ICLR2027-ExtractiveSpeculativeDecoding",
+      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Co-EvolvingTreesandControlPolicies",
+      "title": "Co-Evolving Trees and Control Policies: Bridging Posterior Optimality and Online Efficiency in Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-Co-EvolvingTreesandControlPolicies",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpeculatewithMemory",
+      "title": "Speculate with Memory: Lossless Acceleration for LLM Agents",
+      "primary_category": "检索与复用草稿",
+      "original_category": "检索与复用草稿",
+      "directory_path": "20_检索与复用草稿/ICLR2027-SpeculatewithMemory",
+      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LearningWhattoAttendto",
+      "title": "Learning What to Attend to: Training Dynamics of Multi-Token Prediction",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-LearningWhattoAttendto",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ObsSpec",
+      "title": "ObsSpec: Accelerating Agentic Reinforcement Learning with Observation Speculation",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-ObsSpec",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ARIGOR-MATCHEDAUDITOFPERIODIC-STEPLAYERSKIPPINGFOREFFICIENTLLMINFERENCE",
+      "title": "A RIGOR-MATCHED AUDIT OF PERIODIC-STEP LAYER SKIPPING FOR EFFICIENT LLM INFERENCE: CONFLAYERS VERSUS SWIFT, WITH A SUPPLEMENTAL ANALYSIS OF TRAINED ROUTING ALTERNATIVES",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-ARIGOR-MATCHEDAUDITOFPERIODIC-STEPLAYERSKIPPINGFOREFFICIENTLLMINFERENCE",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RankAwareSpeculativeSamplingforDiffusion",
+      "title": "Rank-Aware Speculative Sampling for Diffusion Draft Trees",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-RankAwareSpeculativeSamplingforDiffusion",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-BlockVerificationSCD",
+      "title": "Block Verification for Speculative Coupled Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-BlockVerificationSCD",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RFlash",
+      "title": "RFlash: Relaxed Speculative Decoding with Drift Constraint",
+      "primary_category": "放宽验证与推理加速",
+      "original_category": "放宽验证与推理加速",
+      "directory_path": "08_放宽验证与推理加速/ICLR2027-RFlash",
+      "basis": "涉及语义接受、近似验证、修改目标或质量与速度权衡，不能直接视为分布保持。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecFlow",
+      "title": "SpecFlow: Fast and Lossless Speculative Sampling for Flow Matching",
+      "primary_category": "连续生成与熵解码",
+      "original_category": "连续生成与熵解码",
+      "directory_path": "21_连续生成与熵解码/ICLR2027-SpecFlow",
+      "basis": "相邻连续生成或熵解码；不能直接套用离散 SD 的定义和保证。",
+      "secondary_topics": [
+        "相邻背景／扩展，不计为标准 LLM token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpeculativeFine-Tuning",
+      "title": "Speculative Fine-Tuning: Accelerated Supervised Fine-Tuning with Speculative Heads",
+      "primary_category": "MTP与蒸馏背景",
+      "original_category": "MTP与蒸馏背景",
+      "directory_path": "16_MTP与蒸馏背景/ICLR2027-SpeculativeFine-Tuning",
+      "basis": "相邻训练／蒸馏或 MTP 背景，应分别核查是否提出推测推理算法。",
+      "secondary_topics": [
+        "相邻背景／扩展，不计为标准 LLM token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-BeyondtheTipoftheIceberg",
+      "title": "Beyond the Tip of the Iceberg: Depth-Aware Top-$K$ Margin Distillation for Diffusion Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-BeyondtheTipoftheIceberg",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DraftGuidedConstrainedDiffusionforStructured",
+      "title": "Draft-Guided Constrained Diffusion for Structured Generation in LLMs",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-DraftGuidedConstrainedDiffusionforStructured",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SPEAR",
+      "title": "SPEAR: Exact Self-Speculative Sampling from the Autoregressive-Order Policy of Diffusion Language Models",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-SPEAR",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DisentanglingDiffusionDecoding",
+      "title": "Disentangling Diffusion Decoding: Selection, Pace, and Numerical Semantics",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-DisentanglingDiffusionDecoding",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SKIVE",
+      "title": "SKIVE: Sparse-KV Importance-scheduled Verification by Expected true positives",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-SKIVE",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-T2D",
+      "title": "T2D: Target-to-Draft Model Pruning & Adaptation for Efficient Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-T2D",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-EntropyDraftVerify",
+      "title": "Draft-and-Verify: Speculative Entropy Decoding for Autoregressive Learned Compression",
+      "primary_category": "连续生成与熵解码",
+      "original_category": "连续生成与熵解码",
+      "directory_path": "21_连续生成与熵解码/ICLR2027-EntropyDraftVerify",
+      "basis": "相邻连续生成或熵解码；不能直接套用离散 SD 的定义和保证。",
+      "secondary_topics": [
+        "相邻背景／扩展，不计为标准 LLM token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-HybridVerifiedDecoding",
+      "title": "Hybrid Verified Decoding: Learning to Allocate Verification in Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-HybridVerifiedDecoding",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecPF",
+      "title": "SpecPF: Speculative Permute-Flip Decoding with Improved Watermark",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-SpecPF",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-BeyondthePointMass",
+      "title": "Beyond the Point Mass: Acceptance-Derived Weights and Distributional Losses for Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-BeyondthePointMass",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ForkandRegenerate",
+      "title": "Fork and Regenerate: MTP-Guided Early Forking and Suffix Regeneration for Block Diffusion Speculative Decoding",
+      "primary_category": "检索与复用草稿",
+      "original_category": "检索与复用草稿",
+      "directory_path": "20_检索与复用草稿/ICLR2027-ForkandRegenerate",
+      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ReDraft",
+      "title": "ReDraft: Your Verifier Is Secretly a Depth Supervisor for Recurrent Speculative Decoding",
+      "primary_category": "跨块与多轮起草",
+      "original_category": "跨块与多轮起草",
+      "directory_path": "07_跨块与多轮起草/ICLR2027-ReDraft",
+      "basis": "主要问题是跨块起草或一次验证前的循环／多轮起草。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DoesaGrammarConstrainedSpeculativeVerifier",
+      "title": "Does a Grammar-Constrained Speculative Verifier Sample the Conditional Law? Fidelity Bounds, Numerical Paths and Exact Acquisition",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-DoesaGrammarConstrainedSpeculativeVerifier",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Spec-Spike",
+      "title": "Spec-Spike: Spiking Drafters for Vision-Language-Action Speculative Decoding",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-Spec-Spike",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Compass",
+      "title": "Compass: Repairing When Target-Model Guidance Hurts in Parallel Speculative Decoding",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-Compass",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DispersedAnyOrderSpeculativeDecodingfor",
+      "title": "Dispersed Any-Order Speculative Decoding for Exact Parallel Autoregressive Image Generation",
+      "primary_category": "图像与三维生成",
+      "original_category": "图像与三维生成",
+      "directory_path": "12_图像与三维生成/ICLR2027-DispersedAnyOrderSpeculativeDecodingfor",
+      "basis": "用于图像／视频生成的推测解码。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-GreedyMultiPathBlockVerificationfor",
+      "title": "Greedy Multi-Path Block Verification for Faster Decoding in Speculative Sampling",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-GreedyMultiPathBlockVerificationfor",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-JetSpec++",
+      "title": "JetSpec++: Foresight Parallel Drafting with Self Refinements",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-JetSpec++",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-FLASHLight",
+      "title": "FLASHLight: Preserving Accepted Prefixes in Low-Bit Speculative Decoding",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-FLASHLight",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WhenBetterDraftsCostMoreVerification",
+      "title": "When Better Drafts Cost More Verification: Safety Boundaries for Multi-Token Drafting",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-WhenBetterDraftsCostMoreVerification",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-APD-GR",
+      "title": "Accelerating Decoding via Autoregressive-to-Parallel Distillation for Architecture-Agnostic Generative Recommendation",
+      "primary_category": "生成式推荐",
+      "original_category": "生成式推荐",
+      "directory_path": "22_生成式推荐/ICLR2027-APD-GR",
+      "basis": "目标任务为生成式推荐，而非通用文本生成。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DStreamer",
+      "title": "DStreamer: Acceptance-Aligned Diffusion Streaming for High-Throughput Serving and Online RLVR",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-DStreamer",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Spec-WAM",
+      "title": "Spec-WAM: Feedback Grounded Speculative Inference for World–Action Models",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-Spec-WAM",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-StitchandRepairSpeculativeDecoding",
+      "title": "Stitch-and-Repair Speculative Decoding",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-StitchandRepairSpeculativeDecoding",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ConfidenceAdaptivePermutationTreeSelfSpeculative",
+      "title": "Confidence-Adaptive Permutation-Tree Self Speculative Decoding for Diffusion Large Language Models",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-ConfidenceAdaptivePermutationTreeSelfSpeculative",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ConjugateCompilation",
+      "title": "Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-ConjugateCompilation",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpecRouter",
+      "title": "SpecRouter: Reusable Payoff Prediction for Cost-Aware Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-SpecRouter",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-VerifyLocal",
+      "title": "VerifyLocal: Learning Expert-Residency-Conditioned Proposals for Exact MoE Speculative Decoding",
+      "primary_category": "MoE与混合架构",
+      "original_category": "MoE与混合架构",
+      "directory_path": "18_MoE与混合架构/ICLR2027-VerifyLocal",
+      "basis": "涉及 MoE 专家成本、专家路由或混合递归架构的验证状态。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-D-Loop",
+      "title": "D-Loop: Looped Diffusion Drafting for Speculative Decoding",
+      "primary_category": "跨块与多轮起草",
+      "original_category": "跨块与多轮起草",
+      "directory_path": "07_跨块与多轮起草/ICLR2027-D-Loop",
+      "basis": "主要问题是跨块起草或一次验证前的循环／多轮起草。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-DraftCalibrationforSpeculativeDecoding",
+      "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-DraftCalibrationforSpeculativeDecoding",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SharpDraft",
+      "title": "SharpDraft: Accelerating Long-Context Speculative Decoding with Cardinality-Aware Query Scaling",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-SharpDraft",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ShortContextDrafters",
+      "title": "Long-Context Drafting Does Not Require Long-Context Drafters",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-ShortContextDrafters",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-AdaSpec",
+      "title": "AdaSpec: Speculative Decoding with In-Engine Continual Learning",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-AdaSpec",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Separatingmarginalerrorfromrecoverabledependence",
+      "title": "Separating marginal error from recoverable dependence in parallel-head speculative decoding for large language models",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-Separatingmarginalerrorfromrecoverabledependence",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-PrePair",
+      "title": "PrePair: Speculative Drafter Training for Generative UI under Semantic Acceptance",
+      "primary_category": "放宽验证与推理加速",
+      "original_category": "放宽验证与推理加速",
+      "directory_path": "08_放宽验证与推理加速/ICLR2027-PrePair",
+      "basis": "涉及语义接受、近似验证、修改目标或质量与速度权衡，不能直接视为分布保持。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RequestForest",
+      "title": "Request Forest: Jointly Growing Verification Trees for Speculative Decoding",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-RequestForest",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-GhostToolCalls",
+      "title": "Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools",
+      "primary_category": "安全隐私与水印",
+      "original_category": "安全隐私与水印",
+      "directory_path": "19_安全隐私与水印/ICLR2027-GhostToolCalls",
+      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RelaySpec",
+      "title": "RelaySpec: Adapting Frozen Speculative Drafters with Linear Maps",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-RelaySpec",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-WhentoTrustthePast",
+      "title": "When to Trust the Past: Reliability-Calibrated Draft-Tree Orchestration for Speculative Decoding",
+      "primary_category": "自适应调度与执行重叠",
+      "original_category": "自适应调度与执行重叠",
+      "directory_path": "06_自适应调度与执行重叠/ICLR2027-WhentoTrustthePast",
+      "basis": "主要问题是起草长度、预算控制、执行重叠或回滚调度。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LEAP",
+      "title": "LEAP: Learning Efficient Action Proposals For LLM Agents",
+      "primary_category": "Agent与检索规划",
+      "original_category": "Agent与检索规划",
+      "directory_path": "15_Agent与检索规划/ICLR2027-LEAP",
+      "basis": "涉及动作、工具、轨迹、检索链或多 Agent 的推测执行；不保证属于 token SD。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TheGenerativeGapBetweenSpeculativeDrafter",
+      "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-TheGenerativeGapBetweenSpeculativeDrafter",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SQB-Spec",
+      "title": "SQB-Spec: Accelerating Large Multimodal Models through Task-Specific Speculative Decoding",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-SQB-Spec",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-TrainingReshapesWidthDependentAcceptancein",
+      "title": "Training Reshapes Width-Dependent Acceptance in Block-Diffusion Speculative Decoding",
+      "primary_category": "基准与机制分析",
+      "original_category": "基准与机制分析",
+      "directory_path": "10_基准与机制分析/ICLR2027-TrainingReshapesWidthDependentAcceptancein",
+      "basis": "主要贡献是理论、误差分析、基准或性能机理。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-LatentSpec",
+      "title": "LatentSpec: Two-Stage Thinker–Drafter Parallel Drafting with Shared Latent Reasoning for Speculative Decoding",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-LatentSpec",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ResiSpec",
+      "title": "ResiSpec: Enhancing Multi-Candidate Speculative Sampling via Residual Distribution Shaping",
+      "primary_category": "候选树与采样验证",
+      "original_category": "候选树与采样验证",
+      "directory_path": "04_候选树与采样验证/ICLR2027-ResiSpec",
+      "basis": "主要问题是候选树、多路径组织、采样耦合或验证机制。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-Specula",
+      "title": "Specula: Lossless KV-Cache Recovery via Precision-Dual Drafting",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-Specula",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SpeculativeMultiTrajectoryDecodingforEfficient",
+      "title": "Speculative Multi-Trajectory Decoding for Efficient Multimodal LLM Planning",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-SpeculativeMultiTrajectoryDecodingforEfficient",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-StreamBank",
+      "title": "StreamBank: Unified Generation–Memory Inference for Efficient Streaming Video Understanding",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-StreamBank",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-FrequenciesRankProbabilitiesAllocate",
+      "title": "Frequencies Rank, Probabilities Allocate: Calibrated Draft Trees for Drafter-Free Speculative Decoding",
+      "primary_category": "检索与复用草稿",
+      "original_category": "检索与复用草稿",
+      "directory_path": "20_检索与复用草稿/ICLR2027-FrequenciesRankProbabilitiesAllocate",
+      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SchemaFill",
+      "title": "SchemaFill: Efficient LLM Tool Calling via Slot-Parallel Speculative Decoding",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-SchemaFill",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SIPA",
+      "title": "SIPA: Test-Time Reinforcement Learning through Speculative Policy Adaptation",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-SIPA",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [
+        "Agentic"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-dSpec",
+      "title": "dSpec: Efficient Speculative Decoding for Block-Diffusion Language Models",
+      "primary_category": "扩散语言模型",
+      "original_category": "扩散语言模型",
+      "directory_path": "11_扩散语言模型/ICLR2027-dSpec",
+      "basis": "目标本身是扩散语言模型，应区别于用扩散模型起草自回归目标。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-ThePrefixIsAlreadyCached",
+      "title": "The Prefix Is Already Cached: Reusing Target KV for Speculative Decoding",
+      "primary_category": "长上下文与近似计算",
+      "original_category": "长上下文与近似计算",
+      "directory_path": "17_长上下文与近似计算/ICLR2027-ThePrefixIsAlreadyCached",
+      "basis": "主要问题是长上下文、KV 历史、缓存恢复或近似计算。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SuffixSpec",
+      "title": "SuffixSpec: Hierarchical Context-Aware Memory for Training-Free Speculative Decoding",
+      "primary_category": "检索与复用草稿",
+      "original_category": "检索与复用草稿",
+      "directory_path": "20_检索与复用草稿/ICLR2027-SuffixSpec",
+      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-RANA",
+      "title": "RANA: Accelerating Multi-Turn Agentic Reinforcement Learning with Speculative Decoding",
+      "primary_category": "服务系统与RL流程",
+      "original_category": "服务系统与RL流程",
+      "directory_path": "09_服务系统与RL流程/ICLR2027-RANA",
+      "basis": "主要问题是吞吐、请求调度、系统执行或 RL rollout。",
+      "secondary_topics": [
+        "Agentic",
+        "action/tool/trajectory-level speculation; distinguish from token SD"
+      ],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SemanticTree",
+      "title": "SemanticTree: Grammar-Aware Tree Allocation for Speculative Decoding",
+      "primary_category": "放宽验证与推理加速",
+      "original_category": "放宽验证与推理加速",
+      "directory_path": "08_放宽验证与推理加速/ICLR2027-SemanticTree",
+      "basis": "涉及语义接受、近似验证、修改目标或质量与速度权衡，不能直接视为分布保持。",
+      "secondary_topics": [],
+      "kind": "paper"
+    },
+    {
+      "folder": "ICLR2027-SearchIntoWeights",
+      "title": "Search Into Weights: Turning Test-Time Search into Capability per Parameter",
+      "primary_category": "草稿架构与训练",
+      "original_category": "草稿架构与训练",
+      "directory_path": "02_草稿架构与训练/ICLR2027-SearchIntoWeights",
+      "basis": "主要问题是草稿表征、训练目标、蒸馏或在线适配。",
+      "secondary_topics": [],
+      "kind": "paper"
     }
   ]
 }
