@@ -13,7 +13,7 @@ SPECIAL={
  'AgSpec':'利用代码 Agent 流程中的可复用片段构建检索草稿；属于 token 级加速，不是提前执行真实工具。',
  'SpecSys':'面向 Agentic 多轮 LLM 服务，结合选择性 SD 和完成感知调度；需区分模型调用与完整任务耗时。',
  'MoE-Spec':'验证时给专家加载设置预算；作者明确讨论速度与质量权衡，不能标为严格保留完整 MoE 目标分布。',
- 'GhostToolCallsIssueTimePrivacyfor':'关注推测工具调用在发出时已经泄露信息的问题；回滚本地状态无法撤回外部服务已经观察到的请求。',
+ 'GhostToolCalls':'关注推测工具调用在发出时已经泄露信息的问题；回滚本地状态无法撤回外部服务已经观察到的请求。',
  'D-Loop':'研究循环式扩散起草；与已有 DLoop: Looped Speculative Decoding 的 OpenReview ID、题名和预印本均不同，分别保留。',
  'SMC-SD':'以粒子重要性加权和重采样代替逐 token 首拒绝；作者将其定位为具有误差界的近似方案，并非精确 SD。',
 }
@@ -34,7 +34,7 @@ if __name__=='__main__':
   d=ROOT/p['directory_path'];d.mkdir(exist_ok=True,parents=True)
   record={'folder':p['folder'],'title':p['title'],'primary_category':p['primary_category'],'original_category':p['category'],'directory_path':p['directory_path'],'basis':p['classification_basis'],'secondary_topics':p['secondary_topics'],'kind':'paper'}
   # Existing DLoop notes are retained; only attach the new snapshot metadata.
-  if p['folder'] not in records or p['id']=='UwMYxYHQSG':
+  if p['id']!='NcnAlaUt76':
    text=f"# {p['title']}\n\n## 1. 来源与状态\n\n- OpenReview ID：`{p['id']}`，投稿编号：{p['number']}。\n- [投稿页面]({p['source_url']})；{p['venue_status']}。\n- 发现依据：[公开元数据镜像](https://github.com/yzc-666/iclr2027-explorer)，2026-10-07 快照；当前官方 API 返回 HTTP 403。\n- 快照状态：`{p['status_at_snapshot']}`；它不表示今天的实时状态。\n"
    if p.get('arxiv_id'):text+=f"- [作者预印本](https://arxiv.org/abs/{p['arxiv_id']})；arXiv 与投稿版本可能不同。\n"
    if p.get('status_observation'):text+=f"- 状态差异：{p['status_observation']} [观察来源]({p['status_observation_url']})。\n"
@@ -47,7 +47,7 @@ if __name__=='__main__':
    if p['id']=='UwMYxYHQSG':text+='\n## 4. 进一步阅读\n\n[定位与阅读笔记](定位与阅读笔记.md)：token 级与动作级区别、历史 KV、训练方式，以及 Agentic 评测的时间口径。\n'
    (d/'README.md').write_text(text)
   records[p['folder']]=record
-  if p['folder'] in merged:
+  if p['folder'] in merged and merged[p['folder']].get('id')!=p['id']:
    previous=merged[p['folder']];previous['iclr2027_submission']=p
   else:merged[p['folder']]=p
  layout.update(organized_at='2026-10-19',scope='原有分类文献与用户授权新增的 ICLR2027 公开投稿快照候选；所有投稿状态与下载状态分别记录。',basis='已有记录保持；新条目依据题名、关键词与摘要初筛，DLite 另核查公开 PDF 正文和评测附录。',categories=list(cats.values()),papers=list(records.values()))

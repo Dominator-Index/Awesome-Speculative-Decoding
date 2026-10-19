@@ -2845,10 +2845,10 @@
     {
       "folder": "ICLR2027-SparseDFlash",
       "title": "SparseDFlash: Dynamic Context Retrieval for Long-video Speculative Decoding",
-      "primary_category": "检索与复用草稿",
-      "original_category": "检索与复用草稿",
-      "directory_path": "20_检索与复用草稿/ICLR2027-SparseDFlash",
-      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "primary_category": "多模态与VLA",
+      "original_category": "多模态与VLA",
+      "directory_path": "13_多模态与VLA/ICLR2027-SparseDFlash",
+      "basis": "用于多模态理解、视觉语言动作或机器人模型。",
       "secondary_topics": [],
       "kind": "paper"
     },
@@ -3014,10 +3014,10 @@
     {
       "folder": "ICLR2027-DraftinParallelConditionThroughDepth",
       "title": "Draft in Parallel, Condition Through Depth: Adjacent Causal Injection for Speculative Decoding",
-      "primary_category": "安全隐私与水印",
-      "original_category": "安全隐私与水印",
-      "directory_path": "19_安全隐私与水印/ICLR2027-DraftinParallelConditionThroughDepth",
-      "basis": "主要问题是安全、隐私、公平性或水印。",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-DraftinParallelConditionThroughDepth",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
       "secondary_topics": [],
       "kind": "paper"
     },
@@ -3886,10 +3886,10 @@
     {
       "folder": "ICLR2027-ForkandRegenerate",
       "title": "Fork and Regenerate: MTP-Guided Early Forking and Suffix Regeneration for Block Diffusion Speculative Decoding",
-      "primary_category": "检索与复用草稿",
-      "original_category": "检索与复用草稿",
-      "directory_path": "20_检索与复用草稿/ICLR2027-ForkandRegenerate",
-      "basis": "主要问题是从上下文、历史或检索库复用候选。",
+      "primary_category": "并行与半自回归草稿",
+      "original_category": "并行与半自回归草稿",
+      "directory_path": "03_并行与半自回归草稿/ICLR2027-ForkandRegenerate",
+      "basis": "主要问题是块内并行预测、半自回归依赖或并行草稿结构。",
       "secondary_topics": [],
       "kind": "paper"
     },

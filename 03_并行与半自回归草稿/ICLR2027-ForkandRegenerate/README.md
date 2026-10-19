@@ -1,19 +1,19 @@
-# SparseDFlash: Dynamic Context Retrieval for Long-video Speculative Decoding
+# Fork and Regenerate: MTP-Guided Early Forking and Suffix Regeneration for Block Diffusion Speculative Decoding
 
 ## 1. 来源与状态
 
-- OpenReview ID：`XTxvmGn75Z`，投稿编号：28182。
-- [投稿页面](https://openreview.net/forum?id=XTxvmGn75Z)；ICLR 2027 投稿快照记录；非录用，当前状态未由官方 API 实时复核。
+- OpenReview ID：`mQO2CZs8Xq`，投稿编号：50931。
+- [投稿页面](https://openreview.net/forum?id=mQO2CZs8Xq)；ICLR 2027 投稿快照记录；非录用，当前状态未由官方 API 实时复核。
 - 发现依据：[公开元数据镜像](https://github.com/yzc-666/iclr2027-explorer)，2026-10-07 快照；当前官方 API 返回 HTTP 403。
 - 快照状态：`active`；它不表示今天的实时状态。
 
 ## 2. 分类与定位
 
-主分类：**检索与复用草稿**。
+主分类：**并行与半自回归草稿**。
 
-主要问题是从上下文、历史或检索库复用候选。
+主要问题是块内并行预测、半自回归依赖或并行草稿结构。
 
-分类依据：主要问题是从上下文、历史或检索库复用候选。
+分类依据：主要问题是块内并行预测、半自回归依赖或并行草稿结构。
 
 交叉主题：未单独标注。这是题名与摘要的初筛分类，尚未逐篇重新精读全文；目录采用主要贡献，其余主题交叉标记。描述性目录简称不一定是作者给定的方法缩写。
 

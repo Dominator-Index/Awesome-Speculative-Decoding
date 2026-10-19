@@ -19,12 +19,14 @@
 | [Give the Drafter a Second Chance to Guess: Parallel Reconsideration for Speculative Decoding](ICLR2027-GivetheDrafteraSecondChancetoGuess/README.md) | 待补 | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
 | [Branch-Jacobi: Prefix-Conditioned Multi-Pass Drafting for Speculative Decoding](ICLR2027-Branch-Jacobi/README.md) | 待补 | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
 | [DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding](ICLR2027-DFlow/README.md) | [PDF](ICLR2027-DFlow/DFlow.pdf) | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
+| [Draft in Parallel, Condition Through Depth: Adjacent Causal Injection for Speculative Decoding](ICLR2027-DraftinParallelConditionThroughDepth/README.md) | [PDF](ICLR2027-DraftinParallelConditionThroughDepth/DraftinParallelConditionThroughDepth.pdf) | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
 | [Caduceus: Parallel Speculative Decoding with Two Simple Drafters Intertwined](ICLR2027-Caduceus/README.md) | 待补 | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
 | [XPress: Parallel Refinement for Diffusion Drafters in Speculative Decoding](ICLR2027-XPress/README.md) | [PDF](ICLR2027-XPress/XPress.pdf) | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
 | [DEdit: Iterative Draft Editing for Speculative Decoding](ICLR2027-DEdit/README.md) | [PDF](ICLR2027-DEdit/DEdit.pdf) | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
 | [Contextual Correction of Parallel Drafts for Speculative Decoding](ICLR2027-ContextualCorrectionofParallelDraftsfor/README.md) | [PDF](ICLR2027-ContextualCorrectionofParallelDraftsfor/ContextualCorrectionofParallelDraftsfor.pdf) | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
 | [DRelay: Global Draft Context for Prefix-Aware Parallel Speculative Decoding Repair](ICLR2027-DRelay/README.md) | [PDF](ICLR2027-DRelay/DRelay.pdf) | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
 | [D2-SD: Accelerating Speculative Decoding with Dual Diffusion Draft Models](ICLR2027-D2-SD/README.md) | [PDF](ICLR2027-D2-SD/D2-SD.pdf) | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
+| [Fork and Regenerate: MTP-Guided Early Forking and Suffix Regeneration for Block Diffusion Speculative Decoding](ICLR2027-ForkandRegenerate/README.md) | 待补 | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
 | [Compass: Repairing When Target-Model Guidance Hurts in Parallel Speculative Decoding](ICLR2027-Compass/README.md) | 待补 | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
 | [JetSpec++: Foresight Parallel Drafting with Self Refinements](ICLR2027-JetSpec++/README.md) | [PDF](ICLR2027-JetSpec++/JetSpec++.pdf) | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |
 | [LatentSpec: Two-Stage Thinker–Drafter Parallel Drafting with Shared Latent Reasoning for Speculative Decoding](ICLR2027-LatentSpec/README.md) | 待补 | 主要问题是块内并行预测、半自回归依赖或并行草稿结构。 |

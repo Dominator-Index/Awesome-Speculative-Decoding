@@ -24,6 +24,7 @@
 | [Accelerating Agentic Multimodal LLMs via Asynchronous Tool-Trajectory Speculation](ICLR2027-AcceleratingAgenticMultimodalLLMsviaAsynchronous/README.md) | 待补 | 用于多模态理解、视觉语言动作或机器人模型。 |
 | [Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding](ICLR2027-DiffusionDraftsARVerifies/README.md) | [PDF](ICLR2027-DiffusionDraftsARVerifies/DiffusionDraftsARVerifies.pdf) | 用于多模态理解、视觉语言动作或机器人模型。 |
 | [SpecKV: Lossless Speculative Decoding via Dynamic KV Selection for Efficient Inference of Large Vision-Language Models](ICLR2027-SpecKV/README.md) | 待补 | 用于多模态理解、视觉语言动作或机器人模型。 |
+| [SparseDFlash: Dynamic Context Retrieval for Long-video Speculative Decoding](ICLR2027-SparseDFlash/README.md) | 待补 | 用于多模态理解、视觉语言动作或机器人模型。 |
 | [VFlash-FM: Training for One-Pass Drafting in Video Language Models](ICLR2027-VFlash-FM/README.md) | 待补 | 用于多模态理解、视觉语言动作或机器人模型。 |
 | [HAWK: Rethinking Multimodal Drafting for Speculative Decoding](ICLR2027-HAWK/README.md) | [PDF](ICLR2027-HAWK/HAWK.pdf) | 用于多模态理解、视觉语言动作或机器人模型。 |
 | [REASONING-AWARE SPECULATIVE DECODING FOR EFFICIENT VISION-LANGUAGE-ACTION MODELS IN AUTONOMOUS DRIVING](ICLR2027-REASONINGAWARESPECULATIVEDECODINGFOREFFICIENT/README.md) | [PDF](ICLR2027-REASONINGAWARESPECULATIVEDECODINGFOREFFICIENT/REASONINGAWARESPECULATIVEDECODINGFOREFFICIENT.pdf) | 用于多模态理解、视觉语言动作或机器人模型。 |
