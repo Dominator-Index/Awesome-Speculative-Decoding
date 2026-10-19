@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "source_directory": "/home/abc/awb/Speculative-Decoding",
+  "destination_directory": "/home/abc/awb/Awesome-Speculative-Decoding",
+  "original_files_moved_and_sha256_verified": 387,
+  "pdf_entries_sha256_verified": 106,
+  "old_directory_removed": true,
+  "absolute_path_updates": [
+    "01_基础与早期工作/ICML2023-SD/论文与核心代码讲解.md"
+  ],
+  "local_document_links": "all checked links resolve; third-party README excluded",
+  "teaching_checks": "3 passed",
+  "vendored_repository": {
+    "upstream": "https://github.com/romsto/Speculative-Decoding",
+    "commit": "db7db67604359d0380c330c240c276ec1f85ba65",
+    "git_history_local_backup": ".git/migration-backups/romsto-Speculative-Decoding.git"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-11T09:41:07.387755+00:00",
+  "manifest_unique_papers": 122,
+  "validated_pdf_entries": 106,
+  "pdf_files_including_original_DLoop": 107,
+  "sha256_mismatches": [],
+  "missing_pdf_entries": [
+    "NeurIPS2026-AdaTree",
+    "NeurIPS2026-BitMTP",
+    "NeurIPS2026-CATS",
+    "NeurIPS2026-EfficientTreeDraft",
+    "NeurIPS2026-Gumbo",
+    "NeurIPS2026-InSTeP",
+    "NeurIPS2026-KeepOrPreempt",
+    "NeurIPS2026-LADDERS",
+    "NeurIPS2026-MTPInformationLoss",
+    "NeurIPS2026-SP2ec",
+    "NeurIPS2026-SpecSpeak",
+    "NeurIPS2026-PerTokenNotPath",
+    "NeurIPS2026-SpeculativeSelfDistillation",
+    "NeurIPS2026-SPIRIT",
+    "NeurIPS2026-ValuSpec",
+    "NeurIPS2026-MoESDSpeedup"
+  ],
+  "local_markdown_links": "all resolved",
+  "low_title_scores_reviewed": [
+    "GlobalResolution",
+    "Not-a-Bandit",
+    "ScalingUpSpeedingUp",
+    "ASSD",
+    "SpeculativeVerdict",
+    "AttentionDrift"
+  ],
+  "title_version_notes": {
+    "GlobalResolution": "官方目录标题为 Convex Optimization；正式 PDF 首页为 Convex Minimization，作者和论文内容对应。",
+    "AttentionDrift": "官方目录 Auto-Regressive 与预印本 Autoregressive 的拼写不同。"
+  }
+}

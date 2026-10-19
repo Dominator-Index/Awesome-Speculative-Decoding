@@ -1,0 +1,130 @@
+{
+  "SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/abramovich26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/abramovich26a/abramovich26a.pdf"
+  },
+  "KnapSpec: Self-Speculative Decoding via Adaptive Layer Selection as a Knapsack Problem": {
+    "source_url": "https://proceedings.mlr.press/v306/cha26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/cha26a/cha26a.pdf"
+  },
+  "DFlash: Block Diffusion for Flash Speculative Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/chen26bv.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/chen26bv/chen26bv.pdf"
+  },
+  "XSpecMesh: Quality-Preserving Auto-Regressive Mesh Generation Acceleration via Multi-Head Speculative Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/chen26dn.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/chen26dn/chen26dn.pdf"
+  },
+  "NanoSpec: Accelerating Speculative Decoding using Minimalist In-Context Vocabularies": {
+    "source_url": "https://proceedings.mlr.press/v306/chen26fm.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/chen26fm/chen26fm.pdf"
+  },
+  "Efficient Training-Free Multi-Token Prediction via Embedding-Space Probing": {
+    "source_url": "https://proceedings.mlr.press/v306/goel26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/goel26a/goel26a.pdf"
+  },
+  "PipeSD: An Efficient Cloud-Edge Collaborative Pipeline Inference Framework with Speculative Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/han26k.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/han26k/han26k.pdf"
+  },
+  "DREAM-R: Multimodal Speculative Reasoning with RL-Based Refined Drafting, Precise Verification, and Fully Parallel Execution": {
+    "source_url": "https://proceedings.mlr.press/v306/hu26ai.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hu26ai/hu26ai.pdf"
+  },
+  "ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios": {
+    "source_url": "https://proceedings.mlr.press/v306/hu26ar.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hu26ar/hu26ar.pdf"
+  },
+  "DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/jiao26g.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/jiao26g/jiao26g.pdf"
+  },
+  "FAFO: Lossy KV Cache Compression for Lossless Inference Acceleration via Draftless Fumble Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/le26g.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/le26g/le26g.pdf"
+  },
+  "Dustin: Draft-Augmented Sparse Verification for Efficient Long-Context Generation with Speculative Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/lee26d.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/lee26d/lee26d.pdf"
+  },
+  "SpecForge: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/li26hf.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/li26hf/li26hf.pdf"
+  },
+  "Trajectory-Level Speculative Decoding for Diffusion Language Models": {
+    "source_url": "https://proceedings.mlr.press/v306/pan26e.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pan26e/pan26e.pdf"
+  },
+  "When Drafts Evolve: Speculative Decoding Meets Online Learning": {
+    "source_url": "https://proceedings.mlr.press/v306/qian26k.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qian26k/qian26k.pdf"
+  },
+  "ConFu: Contemplate the Future for Better Speculative Sampling": {
+    "source_url": "https://proceedings.mlr.press/v306/qin26c.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qin26c/qin26c.pdf"
+  },
+  "The Hidden Cost of Structured Generation in LLMs: Draft-Conditioned Constrained Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/reddy26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/reddy26a/reddy26a.pdf"
+  },
+  "LK Losses: Direct Acceptance Rate Optimization for Speculative Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/samarin26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/samarin26a/samarin26a.pdf"
+  },
+  "Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation": {
+    "source_url": "https://proceedings.mlr.press/v306/so26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/so26a/so26a.pdf"
+  },
+  "MineDraft: A Framework for Batch Parallel Speculative Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/tang26w.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tang26w/tang26w.pdf"
+  },
+  "When RL Meets Adaptive Speculative Training: A Unified Training-Serving System": {
+    "source_url": "https://proceedings.mlr.press/v306/wang26j.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26j/wang26j.pdf"
+  },
+  "CSD: Content-aware Speculative Decoding for Efficient Image Generation": {
+    "source_url": "https://proceedings.mlr.press/v306/wang26gi.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26gi/wang26gi.pdf"
+  },
+  "AdaHC: Accelerating Multi-Token Prediction with Adaptive Head Chunking with Pipeline Parallelism": {
+    "source_url": "https://proceedings.mlr.press/v306/wang26gy.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26gy/wang26gy.pdf"
+  },
+  "SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning": {
+    "source_url": "https://proceedings.mlr.press/v306/wang26jj.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26jj/wang26jj.pdf"
+  },
+  "VIA-SD: Verification via Intra-Model Routing for Speculative Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/xian26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xian26a/xian26a.pdf"
+  },
+  "BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning": {
+    "source_url": "https://proceedings.mlr.press/v306/xu26bc.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xu26bc/xu26bc.pdf"
+  },
+  "SpecExit: Accelerating Large Reasoning Model via Speculative Exit": {
+    "source_url": "https://proceedings.mlr.press/v306/yang26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yang26a/yang26a.pdf"
+  },
+  "SelfJudge: Faster Speculative Decoding via Self-Supervised Judge Verification": {
+    "source_url": "https://proceedings.mlr.press/v306/yoon26d.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yoon26d/yoon26d.pdf"
+  },
+  "Vegas: Self-Speculative Decoding with Verification-Guided Sparse Attention": {
+    "source_url": "https://proceedings.mlr.press/v306/yue26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yue26a/yue26a.pdf"
+  },
+  "SJD-SV: Speculative Jacobi Decoding with Semantics Verification for Autoregressive Image Generation": {
+    "source_url": "https://proceedings.mlr.press/v306/zhang26fd.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26fd/zhang26fd.pdf"
+  },
+  "LEAP: Zone-Aware MCTS for LLM Self-Speculative Decoding": {
+    "source_url": "https://proceedings.mlr.press/v306/zheng26k.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zheng26k/zheng26k.pdf"
+  },
+  "Variational Speculative Decoding: Rethinking Draft Training from Token Likelihood to Sequence Acceptance": {
+    "source_url": "https://proceedings.mlr.press/v306/zou26i.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zou26i/zou26i.pdf"
+  }
+}
